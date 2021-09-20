@@ -1,0 +1,2818 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  GigabitEthernet1: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: &id001 !!python/name:genie.libs.parser.iosxe.show_interface.ShowInterfaces ''
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0000
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0000
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet10: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      accounting: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          lldp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 162042
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: &id002 !!python/name:genie.libs.parser.iosxe.show_interface.ShowInterfacesAccounting ''
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          other: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 162042
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+        state:
+          leaf_dict: {}
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 162042
+          out_pkts: 478
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0009
+      mtu: 1500
+      oper_status: up
+      phys_address: 5006.0003.0009
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet11: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      accounting: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 360
+              chars_out: 420
+              pkts_in: 6
+              pkts_out: 7
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          cdp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 51948
+              chars_out: 101268
+              pkts_in: 234
+              pkts_out: 261
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          clns: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 48979710
+              chars_out: 15275288
+              pkts_in: 41871
+              pkts_out: 10250
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          ip: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 151672
+              chars_out: 180668
+              pkts_in: 1590
+              pkts_out: 1574
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          lldp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 82368
+              chars_out: 162042
+              pkts_in: 468
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          other: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 49109342
+              chars_out: 15537116
+              pkts_in: 42574
+              pkts_out: 10994
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+        state:
+          leaf_dict: {}
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 49264042
+          in_pkts: 44166
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 15717898
+          out_pkts: 12569
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          10.14.15.14/24: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ip: 10.14.15.14
+              prefix_length: '24'
+              secondary: false
+            state:
+              leaf_dict:
+                ip: &id003 !!python/name:genie.libs.parser.iosxe.show_interface.ShowIpInterface ''
+                prefix_length: *id003
+                secondary: *id003
+        state:
+          leaf_dict: {}
+      mac_address: 5006.0003.000a
+      mtu: 1500
+      oper_status: up
+      phys_address: 5006.0003.000a
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet12: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.000b
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.000b
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet13: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.000c
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.000c
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet14: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.000d
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.000d
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet15: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.000e
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.000e
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet16: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.000f
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.000f
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet17: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0010
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0010
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet18: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0011
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0011
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet19: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0012
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0012
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet2: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0001
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0001
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet20: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0013
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0013
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet21: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0014
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0014
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet22: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0015
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0015
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet23: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0016
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0016
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet24: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0017
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0017
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet3: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: false
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0002
+      mtu: 1500
+      oper_status: down
+      phys_address: 5006.0003.0002
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet4: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      accounting: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 360
+              chars_out: 420
+              pkts_in: 6
+              pkts_out: 7
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          cdp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 52156
+              chars_out: 102555
+              pkts_in: 236
+              pkts_out: 265
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          clns: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 48905055
+              chars_out: 15247524
+              pkts_in: 41802
+              pkts_out: 10197
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          ip: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 603835
+              chars_out: 180020
+              pkts_in: 8137
+              pkts_out: 1588
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          lldp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 83650
+              chars_out: 161086
+              pkts_in: 478
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          mpls: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 448269
+              pkts_in: 0
+              pkts_out: 6539
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          other: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 49041897
+              chars_out: 15509684
+              pkts_in: 42546
+              pkts_out: 10945
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+        state:
+          leaf_dict: {}
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 49647562
+          in_pkts: 50673
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 16137973
+          out_pkts: 19072
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          10.14.99.14/24: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ip: 10.14.99.14
+              prefix_length: '24'
+              secondary: false
+            state:
+              leaf_dict:
+                ip: *id003
+                prefix_length: *id003
+                secondary: *id003
+        state:
+          leaf_dict: {}
+      mac_address: 5006.0003.0003
+      mtu: 1500
+      oper_status: up
+      phys_address: 5006.0003.0003
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet5: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      accounting: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          lldp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          other: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+        state:
+          leaf_dict: {}
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: 1d00h
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 161086
+          out_pkts: 478
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 001e.bd48.20c5
+      mtu: 1500
+      oper_status: up
+      phys_address: 5006.0003.0004
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet6: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      accounting: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          lldp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          other: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+        state:
+          leaf_dict: {}
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 161086
+          out_pkts: 478
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0005
+      mtu: 1500
+      oper_status: up
+      phys_address: 5006.0003.0005
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet7: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      accounting: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          lldp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          other: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+        state:
+          leaf_dict: {}
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 161086
+          out_pkts: 478
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0006
+      mtu: 1500
+      oper_status: up
+      phys_address: 5006.0003.0006
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet8: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      accounting: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          lldp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          other: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+        state:
+          leaf_dict: {}
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 161086
+          out_pkts: 478
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      mac_address: 5006.0003.0007
+      mtu: 1500
+      oper_status: up
+      phys_address: 5006.0003.0007
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  GigabitEthernet9: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      accounting: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 60
+              pkts_in: 0
+              pkts_out: 1
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          cdp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 102555
+              pkts_in: 0
+              pkts_out: 265
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          ip: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 1407554
+              pkts_in: 0
+              pkts_out: 19021
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          lldp: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 161086
+              pkts_in: 0
+              pkts_out: 478
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+          other: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              chars_in: 0
+              chars_out: 263314
+              pkts_in: 0
+              pkts_out: 743
+            state:
+              leaf_dict:
+                chars_in: *id002
+                chars_out: *id002
+                pkts_in: *id002
+                pkts_out: *id002
+        state:
+          leaf_dict: {}
+      auto_negotiate: true
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 1670868
+          out_pkts: 19764
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      duplex_mode: full
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: arpa
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      flow_control: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          receive: false
+          send: false
+        state:
+          leaf_dict:
+            receive: *id001
+            send: *id001
+      ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          172.18.3.14/24: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ip: 172.18.3.14
+              prefix_length: '24'
+              secondary: false
+            state:
+              leaf_dict:
+                ip: *id003
+                prefix_length: *id003
+                secondary: *id003
+        state:
+          leaf_dict: {}
+      mac_address: 5006.0003.0008
+      mtu: 1500
+      oper_status: up
+      phys_address: 5006.0003.0008
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      port_speed: 1000mbps
+      switchport_enable: false
+      type: CSR vNIC
+      vrf: CustC
+    state:
+      leaf_dict:
+        auto_negotiate: *id001
+        bandwidth: *id001
+        delay: *id001
+        duplex_mode: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        port_speed: *id001
+        type: *id001
+  Loopback0: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      bandwidth: 8000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 5000
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: loopback
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          10.255.255.14/32: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ip: 10.255.255.14
+              prefix_length: '32'
+              secondary: false
+            state:
+              leaf_dict:
+                ip: *id003
+                prefix_length: *id003
+                secondary: *id003
+        state:
+          leaf_dict: {}
+      mtu: 1514
+      oper_status: up
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          port_channel_member: false
+        state:
+          leaf_dict:
+            port_channel_member: *id001
+      switchport_enable: false
+      type: Loopback
+    state:
+      leaf_dict:
+        bandwidth: *id001
+        delay: *id001
+        enabled: *id001
+        mtu: *id001
+        oper_status: *id001
+        type: *id001
+  Port-channel6: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      bandwidth: 1000000
+      counters: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          in_broadcast_pkts: 0
+          in_crc_errors: 0
+          in_errors: 0
+          in_mac_pause_frames: 0
+          in_multicast_pkts: 0
+          in_octets: 0
+          in_pkts: 0
+          last_clear: never
+          out_broadcast_pkts: 0
+          out_errors: 0
+          out_mac_pause_frames: 0
+          out_multicast_pkts: 0
+          out_octets: 0
+          out_pkts: 0
+          rate: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              in_rate: 0
+              in_rate_pkts: 0
+              load_interval: 300
+              out_rate: 0
+              out_rate_pkts: 0
+            state:
+              leaf_dict:
+                in_rate: *id001
+                in_rate_pkts: *id001
+                load_interval: *id001
+                out_rate: *id001
+                out_rate_pkts: *id001
+        state:
+          leaf_dict:
+            in_broadcast_pkts: *id001
+            in_crc_errors: *id001
+            in_errors: *id001
+            in_mac_pause_frames: *id001
+            in_multicast_pkts: *id001
+            in_octets: *id001
+            in_pkts: *id001
+            last_clear: *id001
+            out_broadcast_pkts: *id001
+            out_errors: *id001
+            out_mac_pause_frames: *id001
+            out_multicast_pkts: *id001
+            out_octets: *id001
+            out_pkts: *id001
+      delay: 10
+      enabled: true
+      encapsulation: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          encapsulation: mpls
+        state:
+          leaf_dict:
+            encapsulation: *id001
+      mac_address: 001e.bd48.20c5
+      mtu: 1500
+      oper_status: up
+      phys_address: 001e.bd48.20c5
+      port_channel: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          active_members: 1
+          num_of_pf_jumbo_supported_members: 1
+          port_channel_member: true
+          port_channel_member_intfs:
+          - GigabitEthernet5
+        state:
+          leaf_dict:
+            active_members: *id001
+            num_of_pf_jumbo_supported_members: *id001
+            port_channel_member: *id001
+            port_channel_member_intfs: *id001
+      switchport_enable: false
+      type: GEChannel
+    state:
+      leaf_dict:
+        bandwidth: *id001
+        delay: *id001
+        enabled: *id001
+        mac_address: *id001
+        mtu: *id001
+        oper_status: *id001
+        phys_address: *id001
+        type: *id001
+state:
+  leaf_dict: {}

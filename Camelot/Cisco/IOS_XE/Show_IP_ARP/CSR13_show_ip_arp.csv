@@ -1,0 +1,5 @@
+Interface,Neighbor IP Address,MAC Address,Type,Origin,Age,Protocol
+GigabitEthernet11,10.12.13.12,5006.0008.000c,ARPA,dynamic,103,Internet
+GigabitEthernet11,10.12.13.13,5006.0002.000a,ARPA,static,-,Internet
+GigabitEthernet3,10.13.99.13,5006.0002.0002,ARPA,static,-,Internet
+GigabitEthernet3,10.13.99.99,5006.0009.0004,ARPA,dynamic,72,Internet

@@ -1,0 +1,30 @@
+
+# Learn LLDP Interfaces
+| Interface | LLDP | Neighbor | Neighbor Port | Neighbor Port Description | Capabilities | Chassis ID | Management Address | System Description |
+| --------- | ---- | -------- | ------------- | ------------------------- | ------------ | ---------- | ------------------ | ------------------ |
+| GigabitEthernet6 | True | XRv99 | GigabitEthernet0/0/0/6 |  | router | 0232.06be.0c06 | 10.16.99.99 | Copyright (c) 2017 by Cisco Systems  Inc.  IOS XRv Series
+ |
+| GigabitEthernet14 | True | XRv15 | GigabitEthernet0/0/0/14 |  | router | 029b.6d58.a406 | 10.15.16.15 | Copyright (c) 2017 by Cisco Systems  Inc.  IOS XRv Series
+ |
+| GigabitEthernet24 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet23 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet22 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet21 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet20 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet19 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet18 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet17 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet16 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet15 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet13 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet12 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet11 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet10 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet9 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet8 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet7 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet5 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet4 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet3 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet2 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |
+| GigabitEthernet1 | True | No Neighbor | N/A | N/A | N/A | N/A | N/A | N/A |

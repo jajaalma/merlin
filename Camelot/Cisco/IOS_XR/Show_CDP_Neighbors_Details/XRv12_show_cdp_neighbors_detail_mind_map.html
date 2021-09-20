@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.6/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.6"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.6/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{"lines":[1,2]},"v":"Show CDP Neighbors Details","c":[{"t":"thead","d":3,"p":{"lines":[2,3]},"v":"","c":[{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Local Interface"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Device ID"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Remote Interface"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"IP Address"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Platform"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Native VLAN"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Hold Time"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Duplex"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Capaibilities"},{"t":"th","d":5,"p":{"lines":[2,3]},"v":"Software Version"}]},{"t":"tbody","d":3,"p":{"lines":[4,13]},"v":"","c":[{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/2"},{"t":"td","d":5,"p":{},"v":"XRv99"},{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/2"},{"t":"td","d":5,"p":{},"v":"10.12.99.99"},{"t":"td","d":5,"p":{},"v":"cisco IOS XRv Series"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"165"},{"t":"td","d":5,"p":{},"v":"full"},{"t":"td","d":5,"p":{},"v":"Router"},{"t":"td","d":5,"p":{},"v":"Cisco IOS XR Software  Version 6.1.3[Default] Copyright (c) 2017 by Cisco Systems  Inc."}]},{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/3"},{"t":"td","d":5,"p":{},"v":"CustA-R1"},{"t":"td","d":5,"p":{},"v":"Ethernet0/0"},{"t":"td","d":5,"p":{},"v":"172.16.1.1"},{"t":"td","d":5,"p":{},"v":"Linux Unix"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"176"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"Router Source-Route-Bridge"},{"t":"td","d":5,"p":{},"v":"Cisco IOS Software  Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M)  Version 15.7(3)M2  DEVELOPMENT TEST SOFTWARE Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2018 by Cisco Systems  Inc. Compiled Wed 28-Mar-18 11:18 by prod_rel_team"}]},{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/4"},{"t":"td","d":5,"p":{},"v":"CustA-R2"},{"t":"td","d":5,"p":{},"v":"Ethernet0/0"},{"t":"td","d":5,"p":{},"v":"172.16.2.2"},{"t":"td","d":5,"p":{},"v":"Linux Unix"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"135"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"Router Source-Route-Bridge"},{"t":"td","d":5,"p":{},"v":"Cisco IOS Software  Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M)  Version 15.7(3)M2  DEVELOPMENT TEST SOFTWARE Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2018 by Cisco Systems  Inc. Compiled Wed 28-Mar-18 11:18 by prod_rel_team"}]},{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/5"},{"t":"td","d":5,"p":{},"v":"CustB-R1"},{"t":"td","d":5,"p":{},"v":"Ethernet0/0"},{"t":"td","d":5,"p":{},"v":"172.17.1.1"},{"t":"td","d":5,"p":{},"v":"Linux Unix"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"141"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"Router Source-Route-Bridge"},{"t":"td","d":5,"p":{},"v":"Cisco IOS Software  Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M)  Version 15.7(3)M2  DEVELOPMENT TEST SOFTWARE Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2018 by Cisco Systems  Inc. Compiled Wed 28-Mar-18 11:18 by prod_rel_team"}]},{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/6"},{"t":"td","d":5,"p":{},"v":"CustB-R2"},{"t":"td","d":5,"p":{},"v":"Ethernet0/0"},{"t":"td","d":5,"p":{},"v":"172.17.2.2"},{"t":"td","d":5,"p":{},"v":"Linux Unix"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"161"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"Router Source-Route-Bridge"},{"t":"td","d":5,"p":{},"v":"Cisco IOS Software  Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M)  Version 15.7(3)M2  DEVELOPMENT TEST SOFTWARE Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2018 by Cisco Systems  Inc. Compiled Wed 28-Mar-18 11:18 by prod_rel_team"}]},{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/7"},{"t":"td","d":5,"p":{},"v":"CustC-R1"},{"t":"td","d":5,"p":{},"v":"Ethernet0/0"},{"t":"td","d":5,"p":{},"v":"172.18.1.1"},{"t":"td","d":5,"p":{},"v":"Linux Unix"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"136"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"Router Source-Route-Bridge"},{"t":"td","d":5,"p":{},"v":"Cisco IOS Software  Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M)  Version 15.7(3)M2  DEVELOPMENT TEST SOFTWARE Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2018 by Cisco Systems  Inc. Compiled Wed 28-Mar-18 11:18 by prod_rel_team"}]},{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/8"},{"t":"td","d":5,"p":{},"v":"CustC-R2"},{"t":"td","d":5,"p":{},"v":"Ethernet0/0"},{"t":"td","d":5,"p":{},"v":"172.18.2.2"},{"t":"td","d":5,"p":{},"v":"Linux Unix"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"142"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"Router Source-Route-Bridge"},{"t":"td","d":5,"p":{},"v":"Cisco IOS Software  Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M)  Version 15.7(3)M2  DEVELOPMENT TEST SOFTWARE Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2018 by Cisco Systems  Inc. Compiled Wed 28-Mar-18 11:18 by prod_rel_team"}]},{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/10"},{"t":"td","d":5,"p":{},"v":"CSR11"},{"t":"td","d":5,"p":{},"v":"GigabitEthernet10"},{"t":"td","d":5,"p":{},"v":"10.11.12.11"},{"t":"td","d":5,"p":{},"v":"cisco CSR1000V"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"158"},{"t":"td","d":5,"p":{},"v":"full"},{"t":"td","d":5,"p":{},"v":"Router IGMP"},{"t":"td","d":5,"p":{},"v":"Cisco IOS Software [Amsterdam]  Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M)  Version 17.2.1r  RELEASE SOFTWARE (fc2) Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2020 by Cisco Systems  Inc. Compiled Thu 09-Apr-20 23:22 by mcpre"}]},{"t":"tr","d":4,"p":{},"v":"","c":[{"t":"td","d":5,"p":{},"v":"GigabitEthernet0/0/0/11"},{"t":"td","d":5,"p":{},"v":"CSR13"},{"t":"td","d":5,"p":{},"v":"GigabitEthernet11"},{"t":"td","d":5,"p":{},"v":"10.12.13.13"},{"t":"td","d":5,"p":{},"v":"cisco CSR1000V"},{"t":"td","d":5,"p":{},"v":""},{"t":"td","d":5,"p":{},"v":"163"},{"t":"td","d":5,"p":{},"v":"full"},{"t":"td","d":5,"p":{},"v":"Router IGMP"},{"t":"td","d":5,"p":{},"v":"Cisco IOS Software [Amsterdam]  Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M)  Version 17.2.1r  RELEASE SOFTWARE (fc2) Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2020 by Cisco Systems  Inc. Compiled Thu 09-Apr-20 23:22 by mcpre"}]}]}]})</script>
+</body>
+</html>

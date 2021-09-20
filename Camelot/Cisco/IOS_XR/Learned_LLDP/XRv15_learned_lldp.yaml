@@ -1,0 +1,208 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  counters: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      entries_aged_out: 0
+      frame_discard: 0
+      frame_error_in: 0
+      frame_in: 2318
+      frame_out: 5411
+      tlv_discard: 0
+      tlv_unknown: 0
+    state:
+      leaf_dict:
+        entries_aged_out: &id001 !!python/name:genie.libs.parser.iosxr.show_lldp.ShowLldpTraffic ''
+        frame_discard: *id001
+        frame_error_in: *id001
+        frame_in: *id001
+        frame_out: *id001
+        tlv_discard: *id001
+        tlv_unknown: *id001
+  enabled: true
+  hello_timer: 30
+  hold_timer: 120
+  interfaces: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      GigabitEthernet0/0/0/11: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+          port_id: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              GigabitEthernet11: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      CSR14: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          capabilities: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  enabled: true
+                                state:
+                                  leaf_dict:
+                                    enabled: &id002 !!python/name:genie.libs.parser.iosxr.show_lldp.ShowLldpEntry ''
+                            state:
+                              leaf_dict: {}
+                          chassis_id: 001e.bd48.2000
+                          management_address: 10.14.15.14
+                          neighbor_id: CSR14
+                          port_description: GigabitEthernet11
+                          system_description: 'Cisco IOS Software [Amsterdam], Virtual
+                            XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version
+                            17.2.1r, RELEASE SOFTWARE (fc2)
+
+                            Technical Support: http://www.cisco.com/techsupport
+
+                            Copyright (c) 1986-2020 by Cisco Systems, Inc.
+
+                            Compiled Thu 09-Apr-20 23:22'
+                          system_name: CSR14
+                        state:
+                          leaf_dict:
+                            chassis_id: *id002
+                            management_address: *id002
+                            neighbor_id: *id002
+                            port_description: *id002
+                            system_description: *id002
+                            system_name: *id002
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict:
+            enabled: &id003 !!python/name:genie.libs.parser.iosxr.show_lldp.ShowLldpInterface ''
+      GigabitEthernet0/0/0/14: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+          port_id: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              GigabitEthernet14: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      CSR16: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          capabilities: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  enabled: true
+                                state:
+                                  leaf_dict:
+                                    enabled: *id002
+                            state:
+                              leaf_dict: {}
+                          chassis_id: 001e.bde0.6a00
+                          management_address: 10.15.16.16
+                          neighbor_id: CSR16
+                          port_description: GigabitEthernet14
+                          system_description: 'Cisco IOS Software [Amsterdam], Virtual
+                            XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version
+                            17.2.1r, RELEASE SOFTWARE (fc2)
+
+                            Technical Support: http://www.cisco.com/techsupport
+
+                            Copyright (c) 1986-2020 by Cisco Systems, Inc.
+
+                            Compiled Thu 09-Apr-20 23:22'
+                          system_name: CSR16
+                        state:
+                          leaf_dict:
+                            chassis_id: *id002
+                            management_address: *id002
+                            neighbor_id: *id002
+                            port_description: *id002
+                            system_description: *id002
+                            system_name: *id002
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict:
+            enabled: *id003
+      GigabitEthernet0/0/0/5: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+          port_id: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              GigabitEthernet0/0/0/5: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      XRv99: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          capabilities: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  enabled: true
+                                state:
+                                  leaf_dict:
+                                    enabled: *id002
+                            state:
+                              leaf_dict: {}
+                          chassis_id: 0232.06be.0c06
+                          management_address: 10.15.99.99
+                          neighbor_id: XRv99
+                          port_description: not advertised
+                          system_description: 'Cisco IOS XR Software, Version 6.1.3[Default]
+
+                            Copyright (c) 2017 by Cisco Systems, Inc., IOS XRv Series
+
+                            '
+                          system_name: XRv99
+                        state:
+                          leaf_dict:
+                            chassis_id: *id002
+                            management_address: *id002
+                            neighbor_id: *id002
+                            port_description: *id002
+                            system_description: *id002
+                            system_name: *id002
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict:
+            enabled: *id003
+      GigabitEthernet0/0/0/6: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id003
+      GigabitEthernet0/0/0/7: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id003
+      GigabitEthernet0/0/0/8: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id003
+      GigabitEthernet0/0/0/9: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id003
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict:
+    enabled: &id004 !!python/name:genie.libs.parser.iosxr.show_lldp.ShowLldp ''
+    hello_timer: *id004
+    hold_timer: *id004

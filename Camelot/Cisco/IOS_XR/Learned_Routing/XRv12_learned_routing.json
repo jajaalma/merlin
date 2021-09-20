@@ -1,0 +1,806 @@
+{
+    "vrf": {
+        "**nVSatellite": {
+            "address_family": {
+                "ipv4": {
+                    "routes": {
+                        "10.0.0.1/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "nV-Loopback0": {
+                                        "outgoing_interface": "nV-Loopback0"
+                                    }
+                                }
+                            },
+                            "route": "10.0.0.1/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "10.0.0.2/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "nV-Loopback1": {
+                                        "outgoing_interface": "nV-Loopback1"
+                                    }
+                                }
+                            },
+                            "route": "10.0.0.2/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        }
+                    }
+                }
+            }
+        },
+        "CustA": {
+            "address_family": {
+                "ipv4": {
+                    "routes": {
+                        "10.1.255.1/32": {
+                            "active": true,
+                            "metric": 0,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "172.16.1.1",
+                                        "updated": "10:11:21"
+                                    }
+                                }
+                            },
+                            "route": "10.1.255.1/32",
+                            "route_preference": 20,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "10.1.255.2/32": {
+                            "active": true,
+                            "metric": 0,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "172.16.1.1",
+                                        "updated": "10:11:21"
+                                    }
+                                }
+                            },
+                            "route": "10.1.255.2/32",
+                            "route_preference": 20,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "172.16.1.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/3": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/3"
+                                    }
+                                }
+                            },
+                            "route": "172.16.1.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "172.16.1.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/3": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/3"
+                                    }
+                                }
+                            },
+                            "route": "172.16.1.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "172.16.2.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/4": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/4"
+                                    }
+                                }
+                            },
+                            "route": "172.16.2.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "172.16.2.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/4": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/4"
+                                    }
+                                }
+                            },
+                            "route": "172.16.2.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        }
+                    }
+                }
+            }
+        },
+        "CustB": {
+            "address_family": {
+                "ipv4": {
+                    "routes": {
+                        "10.2.255.1/32": {
+                            "active": true,
+                            "metric": 2,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "172.17.1.1",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/5",
+                                        "updated": "10:12:51"
+                                    }
+                                }
+                            },
+                            "route": "10.2.255.1/32",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "10.2.255.2/32": {
+                            "active": true,
+                            "metric": 2,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "172.17.2.2",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/6",
+                                        "updated": "10:12:48"
+                                    }
+                                }
+                            },
+                            "route": "10.2.255.2/32",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "172.17.1.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/5": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/5"
+                                    }
+                                }
+                            },
+                            "route": "172.17.1.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "172.17.1.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/5": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/5"
+                                    }
+                                }
+                            },
+                            "route": "172.17.1.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "172.17.2.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/6": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/6"
+                                    }
+                                }
+                            },
+                            "route": "172.17.2.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "172.17.2.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/6": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/6"
+                                    }
+                                }
+                            },
+                            "route": "172.17.2.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        }
+                    }
+                }
+            }
+        },
+        "CustC": {
+            "address_family": {
+                "ipv4": {
+                    "routes": {
+                        "10.3.255.1/32": {
+                            "active": true,
+                            "metric": 10880,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "172.18.1.1",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/7",
+                                        "updated": "10:12:56"
+                                    }
+                                }
+                            },
+                            "route": "10.3.255.1/32",
+                            "route_preference": 90,
+                            "source_protocol": "eigrp",
+                            "source_protocol_codes": "D"
+                        },
+                        "10.3.255.2/32": {
+                            "active": true,
+                            "metric": 10880,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "172.18.2.2",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/8",
+                                        "updated": "10:12:54"
+                                    }
+                                }
+                            },
+                            "route": "10.3.255.2/32",
+                            "route_preference": 90,
+                            "source_protocol": "eigrp",
+                            "source_protocol_codes": "D"
+                        },
+                        "172.18.1.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/7": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/7"
+                                    }
+                                }
+                            },
+                            "route": "172.18.1.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "172.18.1.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/7": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/7"
+                                    }
+                                }
+                            },
+                            "route": "172.18.1.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "172.18.2.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/8": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/8"
+                                    }
+                                }
+                            },
+                            "route": "172.18.2.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "172.18.2.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/8": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/8"
+                                    }
+                                }
+                            },
+                            "route": "172.18.2.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "172.18.3.0/24": {
+                            "active": true,
+                            "metric": 0,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.14",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "172.18.3.0/24",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        }
+                    }
+                }
+            }
+        },
+        "CustD": {
+            "address_family": {
+                "ipv4": {
+                    "routes": {
+                        "10.4.255.1/32": {
+                            "active": true,
+                            "metric": 0,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "172.19.1.1",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/9",
+                                        "updated": "1d03h"
+                                    }
+                                }
+                            },
+                            "route": "10.4.255.1/32",
+                            "route_preference": 1,
+                            "source_protocol": "static",
+                            "source_protocol_codes": "S"
+                        },
+                        "10.4.255.2/32": {
+                            "active": true,
+                            "metric": 110,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.15",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "10.4.255.2/32",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "10.4.255.3/32": {
+                            "active": true,
+                            "metric": 110,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.15",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "10.4.255.3/32",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "172.19.1.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/9": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/9"
+                                    }
+                                }
+                            },
+                            "route": "172.19.1.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "172.19.1.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/9": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/9"
+                                    }
+                                }
+                            },
+                            "route": "172.19.1.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "172.19.2.0/24": {
+                            "active": true,
+                            "metric": 110,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.15",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "172.19.2.0/24",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "172.19.3.0/24": {
+                            "active": true,
+                            "metric": 110,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.15",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "172.19.3.0/24",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        }
+                    }
+                }
+            }
+        },
+        "default": {
+            "address_family": {
+                "ipv4": {
+                    "routes": {
+                        "10.11.12.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/10": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/10"
+                                    }
+                                }
+                            },
+                            "route": "10.11.12.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "10.11.12.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/10": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/10"
+                                    }
+                                }
+                            },
+                            "route": "10.11.12.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "10.11.99.0/24": {
+                            "active": true,
+                            "metric": 2,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "06:33:31"
+                                    },
+                                    "2": {
+                                        "index": 2,
+                                        "next_hop": "10.11.12.11",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/10",
+                                        "updated": "06:33:31"
+                                    }
+                                }
+                            },
+                            "route": "10.11.99.0/24",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "10.12.13.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/11": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/11"
+                                    }
+                                }
+                            },
+                            "route": "10.12.13.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "10.12.13.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/11": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/11"
+                                    }
+                                }
+                            },
+                            "route": "10.12.13.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "10.12.99.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/2": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2"
+                                    }
+                                }
+                            },
+                            "route": "10.12.99.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "10.12.99.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet0/0/0/2": {
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2"
+                                    }
+                                }
+                            },
+                            "route": "10.12.99.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "10.13.99.0/24": {
+                            "active": true,
+                            "metric": 2,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "06:33:31"
+                                    },
+                                    "2": {
+                                        "index": 2,
+                                        "next_hop": "10.12.13.13",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/11",
+                                        "updated": "06:33:31"
+                                    }
+                                }
+                            },
+                            "route": "10.13.99.0/24",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "10.14.15.0/24": {
+                            "active": true,
+                            "metric": 3,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "06:29:42"
+                                    }
+                                }
+                            },
+                            "route": "10.14.15.0/24",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "10.14.99.0/24": {
+                            "active": true,
+                            "metric": 2,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "06:33:31"
+                                    }
+                                }
+                            },
+                            "route": "10.14.99.0/24",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "10.15.16.0/24": {
+                            "active": true,
+                            "metric": 3,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "06:25:32"
+                                    }
+                                }
+                            },
+                            "route": "10.15.16.0/24",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "10.15.99.0/24": {
+                            "active": true,
+                            "metric": 2,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "06:33:31"
+                                    }
+                                }
+                            },
+                            "route": "10.15.99.0/24",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "10.16.99.0/24": {
+                            "active": true,
+                            "metric": 2,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "06:33:31"
+                                    }
+                                }
+                            },
+                            "route": "10.16.99.0/24",
+                            "route_preference": 110,
+                            "source_protocol": "ospf",
+                            "source_protocol_codes": "O"
+                        },
+                        "10.255.255.11/32": {
+                            "active": true,
+                            "metric": 10,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.11.12.11",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/10",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "10.255.255.11/32",
+                            "route_preference": 115,
+                            "source_protocol": "isis",
+                            "source_protocol_codes": "i L2"
+                        },
+                        "10.255.255.12/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "Loopback0": {
+                                        "outgoing_interface": "Loopback0"
+                                    }
+                                }
+                            },
+                            "route": "10.255.255.12/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        },
+                        "10.255.255.13/32": {
+                            "active": true,
+                            "metric": 10,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.13.13",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/11",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "10.255.255.13/32",
+                            "route_preference": 115,
+                            "source_protocol": "isis",
+                            "source_protocol_codes": "i L2"
+                        },
+                        "10.255.255.14/32": {
+                            "active": true,
+                            "metric": 20,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "10.255.255.14/32",
+                            "route_preference": 115,
+                            "source_protocol": "isis",
+                            "source_protocol_codes": "i L2"
+                        },
+                        "10.255.255.15/32": {
+                            "active": true,
+                            "metric": 20,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "06:23:24"
+                                    }
+                                }
+                            },
+                            "route": "10.255.255.15/32",
+                            "route_preference": 115,
+                            "source_protocol": "isis",
+                            "source_protocol_codes": "i L2"
+                        },
+                        "10.255.255.16/32": {
+                            "active": true,
+                            "metric": 20,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "10.255.255.16/32",
+                            "route_preference": 115,
+                            "source_protocol": "isis",
+                            "source_protocol_codes": "i L2"
+                        },
+                        "10.255.255.99/32": {
+                            "active": true,
+                            "metric": 10,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.12.99.99",
+                                        "outgoing_interface": "GigabitEthernet0/0/0/2",
+                                        "updated": "1d02h"
+                                    }
+                                }
+                            },
+                            "route": "10.255.255.99/32",
+                            "route_preference": 115,
+                            "source_protocol": "isis",
+                            "source_protocol_codes": "i L2"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

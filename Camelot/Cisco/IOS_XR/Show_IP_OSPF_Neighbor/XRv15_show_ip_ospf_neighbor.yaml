@@ -1,0 +1,21 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  process_name: '1'
+  vrfs:
+    default:
+      neighbors:
+        10.255.255.14:
+          address: 10.14.15.14
+          dead_time: 00:00:34
+          interface: GigabitEthernet0/0/0/11
+          priority: '1'
+          state: FULL/DR
+          up_time: 06:24:57
+        10.255.255.99:
+          address: 10.15.99.99
+          dead_time: 00:00:37
+          interface: GigabitEthernet0/0/0/5
+          priority: '1'
+          state: FULL/DR
+          up_time: 06:24:48
+      total_neighbor_count: 2

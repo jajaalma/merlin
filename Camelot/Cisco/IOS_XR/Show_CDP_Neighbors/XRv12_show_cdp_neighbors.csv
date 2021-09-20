@@ -1,0 +1,18 @@
+Neighbor,Platform,Local Interface,Remote Interface,Capability,Hold Time
+XRv99,,GigabitEthernet0/0/0/2,IOSXRvSGi0/0/0/2,R,166
+
+CustA-R1,,GigabitEthernet0/0/0/3,LinuxUniEt0/0,R B,177
+
+CustA-R2,,GigabitEthernet0/0/0/4,LinuxUniEt0/0,R B,136
+
+CustB-R1,,GigabitEthernet0/0/0/5,LinuxUniEt0/0,R B,142
+
+CustB-R2,,GigabitEthernet0/0/0/6,LinuxUniEt0/0,R B,162
+
+CustC-R1,,GigabitEthernet0/0/0/7,LinuxUniEt0/0,R B,137
+
+CustC-R2,,GigabitEthernet0/0/0/8,LinuxUniEt0/0,R B,143
+
+CSR11,CSR1000V,GigabitEthernet0/0/0/10,GigabitEthernet10,R I,159
+
+CSR13,CSR1000V,GigabitEthernet0/0/0/11,GigabitEthernet11,R I,164

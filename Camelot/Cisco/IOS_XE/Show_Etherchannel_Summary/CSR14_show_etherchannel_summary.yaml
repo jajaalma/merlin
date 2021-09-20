@@ -1,0 +1,22 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  interfaces:
+    Port-channel6:
+      bundle_id: 6
+      flags: RU
+      members:
+        GigabitEthernet5:
+          bundled: true
+          flags: P
+          interface: GigabitEthernet5
+          port_channel:
+            port_channel_int: Port-channel6
+            port_channel_member: true
+      name: Port-channel6
+      oper_status: up
+      port_channel:
+        port_channel_member: true
+        port_channel_member_intfs:
+        - GigabitEthernet5
+  number_of_aggregators: 1
+  number_of_lag_in_use: 1

@@ -1,0 +1,280 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  vrf: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      CustB: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          address_family: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  routes: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      10.2.255.1/32: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          active: true
+                          metric: 2
+                          next_hop: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              next_hop_list: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  1: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      index: 1
+                                      next_hop: 10.255.255.12
+                                      updated: 07:41:42
+                                    state:
+                                      leaf_dict:
+                                        index: &id001 !!python/name:genie.libs.parser.iosxe.show_routing.ShowIpRouteDistributor ''
+                                        next_hop: *id001
+                                        updated: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict: {}
+                          route: 10.2.255.1/32
+                          route_preference: 200
+                          source_protocol: bgp
+                          source_protocol_codes: B
+                        state:
+                          leaf_dict:
+                            active: *id001
+                            metric: *id001
+                            route: *id001
+                            route_preference: *id001
+                            source_protocol: *id001
+                            source_protocol_codes: *id001
+                      10.2.255.2/32: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          active: true
+                          metric: 2
+                          next_hop: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              next_hop_list: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  1: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      index: 1
+                                      next_hop: 10.255.255.12
+                                      updated: 07:41:40
+                                    state:
+                                      leaf_dict:
+                                        index: *id001
+                                        next_hop: *id001
+                                        updated: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict: {}
+                          route: 10.2.255.2/32
+                          route_preference: 200
+                          source_protocol: bgp
+                          source_protocol_codes: B
+                        state:
+                          leaf_dict:
+                            active: *id001
+                            metric: *id001
+                            route: *id001
+                            route_preference: *id001
+                            source_protocol: *id001
+                            source_protocol_codes: *id001
+                      10.4.255.2/32: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          active: true
+                          metric: 110
+                          next_hop: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              next_hop_list: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  1: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      index: 1
+                                      next_hop: 10.255.255.15
+                                      updated: 1d00h
+                                    state:
+                                      leaf_dict:
+                                        index: *id001
+                                        next_hop: *id001
+                                        updated: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict: {}
+                          route: 10.4.255.2/32
+                          route_preference: 200
+                          source_protocol: bgp
+                          source_protocol_codes: B
+                        state:
+                          leaf_dict:
+                            active: *id001
+                            metric: *id001
+                            route: *id001
+                            route_preference: *id001
+                            source_protocol: *id001
+                            source_protocol_codes: *id001
+                      10.4.255.3/32: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          active: true
+                          metric: 110
+                          next_hop: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              next_hop_list: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  1: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      index: 1
+                                      next_hop: 10.255.255.15
+                                      updated: 1d00h
+                                    state:
+                                      leaf_dict:
+                                        index: *id001
+                                        next_hop: *id001
+                                        updated: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict: {}
+                          route: 10.4.255.3/32
+                          route_preference: 200
+                          source_protocol: bgp
+                          source_protocol_codes: B
+                        state:
+                          leaf_dict:
+                            active: *id001
+                            metric: *id001
+                            route: *id001
+                            route_preference: *id001
+                            source_protocol: *id001
+                            source_protocol_codes: *id001
+                      172.17.1.0/24: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          active: true
+                          metric: 0
+                          next_hop: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              next_hop_list: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  1: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      index: 1
+                                      next_hop: 10.255.255.12
+                                      updated: 1d00h
+                                    state:
+                                      leaf_dict:
+                                        index: *id001
+                                        next_hop: *id001
+                                        updated: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict: {}
+                          route: 172.17.1.0/24
+                          route_preference: 200
+                          source_protocol: bgp
+                          source_protocol_codes: B
+                        state:
+                          leaf_dict:
+                            active: *id001
+                            metric: *id001
+                            route: *id001
+                            route_preference: *id001
+                            source_protocol: *id001
+                            source_protocol_codes: *id001
+                      172.17.2.0/24: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          active: true
+                          metric: 0
+                          next_hop: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              next_hop_list: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  1: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      index: 1
+                                      next_hop: 10.255.255.12
+                                      updated: 1d00h
+                                    state:
+                                      leaf_dict:
+                                        index: *id001
+                                        next_hop: *id001
+                                        updated: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict: {}
+                          route: 172.17.2.0/24
+                          route_preference: 200
+                          source_protocol: bgp
+                          source_protocol_codes: B
+                        state:
+                          leaf_dict:
+                            active: *id001
+                            metric: *id001
+                            route: *id001
+                            route_preference: *id001
+                            source_protocol: *id001
+                            source_protocol_codes: *id001
+                      172.17.3.0/24: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          active: true
+                          next_hop: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              outgoing_interface: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  GigabitEthernet8: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      outgoing_interface: GigabitEthernet8
+                                    state:
+                                      leaf_dict:
+                                        outgoing_interface: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict: {}
+                          route: 172.17.3.0/24
+                          source_protocol: connected
+                          source_protocol_codes: C
+                        state:
+                          leaf_dict:
+                            active: *id001
+                            route: *id001
+                            source_protocol: *id001
+                            source_protocol_codes: *id001
+                      172.17.3.16/32: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          active: true
+                          next_hop: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              outgoing_interface: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  GigabitEthernet8: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      outgoing_interface: GigabitEthernet8
+                                    state:
+                                      leaf_dict:
+                                        outgoing_interface: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict: {}
+                          route: 172.17.3.16/32
+                          source_protocol: local
+                          source_protocol_codes: L
+                        state:
+                          leaf_dict:
+                            active: *id001
+                            route: *id001
+                            source_protocol: *id001
+                            source_protocol_codes: *id001
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict: {}
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict: {}

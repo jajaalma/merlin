@@ -1,0 +1,118 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  interfaces: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      GigabitEthernet0/0/0/10: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: &id001 !!python/name:genie.libs.parser.iosxr.show_interface.ShowIpv4VrfAllInterface ''
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/11: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/2: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/3: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/4: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/5: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/6: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/7: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/8: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      GigabitEthernet0/0/0/9: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+      Loopback0: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              proxy_enable: false
+            state:
+              leaf_dict:
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict: {}

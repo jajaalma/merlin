@@ -1,0 +1,4 @@
+Neighbor,Platform,Local Interface,Remote Interface,Capability,Hold Time
+XRv99,,GigabitEthernet3,IOSXRvSGig0/0/0/3,R,136
+
+XRv12,,GigabitEthernet11,IOSXRvSGig0/0/0/11,R,119

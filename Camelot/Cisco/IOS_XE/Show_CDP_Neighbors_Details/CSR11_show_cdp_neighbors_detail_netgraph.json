@@ -1,0 +1,31 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show CDP Neighbor Details",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "158.140.135.61"
+        },
+        
+        {
+            "id": "10.11.99.99"
+        },
+        {
+            "id": "10.11.12.12"
+        }
+    ],
+    "links": [
+        {
+            "source": "158.140.135.61",
+            "target": "10.11.99.99",
+            "cost": 1
+        },
+        {
+            "source": "158.140.135.61",
+            "target": "10.11.12.12",
+            "cost": 1
+        }     
+    ]
+}

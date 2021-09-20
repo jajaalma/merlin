@@ -1,0 +1,286 @@
+{
+    "type": "NetworkGraph",
+    "label": "Learn LLDP Interfaces",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR14"
+        },
+        { 
+            "id": "GigabitEthernet4"
+        },
+        { 
+            "id": "Neighbor: XRv99"
+        },
+        { 
+            "id": "Port: GigabitEthernet0/0/0/4"
+        },
+        { 
+            "id": "Description: "
+        },
+        { 
+            "id": "Capability: router"
+        },   
+        { 
+            "id": "Management Address: 10.14.99.99"
+        },
+        { 
+            "id": "GigabitEthernet11"
+        },
+        { 
+            "id": "Neighbor: XRv15"
+        },
+        { 
+            "id": "Port: GigabitEthernet0/0/0/11"
+        },
+        { 
+            "id": "Description: "
+        },
+        { 
+            "id": "Capability: router"
+        },   
+        { 
+            "id": "Management Address: 10.14.15.15"
+        },
+        { 
+            "id": "GigabitEthernet24"
+        },
+        { 
+            "id": "GigabitEthernet23"
+        },
+        { 
+            "id": "GigabitEthernet22"
+        },
+        { 
+            "id": "GigabitEthernet21"
+        },
+        { 
+            "id": "GigabitEthernet20"
+        },
+        { 
+            "id": "GigabitEthernet19"
+        },
+        { 
+            "id": "GigabitEthernet18"
+        },
+        { 
+            "id": "GigabitEthernet17"
+        },
+        { 
+            "id": "GigabitEthernet16"
+        },
+        { 
+            "id": "GigabitEthernet15"
+        },
+        { 
+            "id": "GigabitEthernet14"
+        },
+        { 
+            "id": "GigabitEthernet13"
+        },
+        { 
+            "id": "GigabitEthernet12"
+        },
+        { 
+            "id": "GigabitEthernet10"
+        },
+        { 
+            "id": "GigabitEthernet9"
+        },
+        { 
+            "id": "GigabitEthernet8"
+        },
+        { 
+            "id": "GigabitEthernet7"
+        },
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "GigabitEthernet5"
+        },
+        { 
+            "id": "GigabitEthernet3"
+        },
+        { 
+            "id": "GigabitEthernet2"
+        },
+        { 
+            "id": "GigabitEthernet1"
+        }     
+    ],
+    "links": [
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet4",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet4",
+            "target": "Neighbor: XRv99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: XRv99",
+            "target": "Port: GigabitEthernet0/0/0/4",
+            "cost": 1
+        },
+        { 
+            "source": "Port: GigabitEthernet0/0/0/4",
+            "target": "Description: ",
+            "cost": 2
+        },
+        { 
+            "source": "Port: GigabitEthernet0/0/0/4",
+            "target": "Capability: router",
+            "cost": 2
+        },   
+        { 
+            "source": "Neighbor: XRv99",
+            "target": "Management Address: 10.14.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet11",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet11",
+            "target": "Neighbor: XRv15",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: XRv15",
+            "target": "Port: GigabitEthernet0/0/0/11",
+            "cost": 1
+        },
+        { 
+            "source": "Port: GigabitEthernet0/0/0/11",
+            "target": "Description: ",
+            "cost": 2
+        },
+        { 
+            "source": "Port: GigabitEthernet0/0/0/11",
+            "target": "Capability: router",
+            "cost": 2
+        },   
+        { 
+            "source": "Neighbor: XRv15",
+            "target": "Management Address: 10.14.15.15",
+            "cost": 2
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet24",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet23",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet22",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet21",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet20",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet19",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet18",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet17",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet16",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet15",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet14",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet13",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet12",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet10",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet9",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet8",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet7",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet5",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet3",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet2",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet1",
+            "cost": 1
+        }   
+    ]
+}

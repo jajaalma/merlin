@@ -1,0 +1,74 @@
+{
+    "interfaces": {
+        "GigabitEthernet14": {
+            "arp_dynamic_learning": {
+                "local_proxy_enable": false,
+                "proxy_enable": true
+            },
+            "ipv4": {
+                "neighbors": {
+                    "10.15.16.15": {
+                        "ip": "10.15.16.15",
+                        "link_layer_address": "5006.0007.000f",
+                        "origin": "dynamic"
+                    },
+                    "10.15.16.16": {
+                        "ip": "10.15.16.16",
+                        "link_layer_address": "5006.0004.000d",
+                        "origin": "static"
+                    }
+                }
+            }
+        },
+        "GigabitEthernet6": {
+            "arp_dynamic_learning": {
+                "local_proxy_enable": false,
+                "proxy_enable": true
+            },
+            "ipv4": {
+                "neighbors": {
+                    "10.16.99.16": {
+                        "ip": "10.16.99.16",
+                        "link_layer_address": "5006.0004.0005",
+                        "origin": "static"
+                    },
+                    "10.16.99.99": {
+                        "ip": "10.16.99.99",
+                        "link_layer_address": "5006.0009.0007",
+                        "origin": "dynamic"
+                    }
+                }
+            }
+        },
+        "GigabitEthernet8": {
+            "arp_dynamic_learning": {
+                "local_proxy_enable": false,
+                "proxy_enable": true
+            },
+            "ipv4": {
+                "neighbors": {
+                    "172.17.3.16": {
+                        "ip": "172.17.3.16",
+                        "link_layer_address": "5006.0004.0007",
+                        "origin": "static"
+                    }
+                }
+            }
+        },
+        "Loopback0": {
+            "arp_dynamic_learning": {
+                "local_proxy_enable": false,
+                "proxy_enable": true
+            }
+        }
+    },
+    "statistics": {
+        "entries_total": 5,
+        "in_drops": 0,
+        "in_replies_pkts": 5,
+        "in_requests_pkts": 10,
+        "incomplete_total": 0,
+        "out_replies_pkts": 18,
+        "out_requests_pkts": 3
+    }
+}

@@ -1,0 +1,775 @@
+{
+    "vrf": {
+        "default": {
+            "address_family": {
+                "ipv4": {
+                    "instance": {
+                        "1": {
+                            "adjacency_stagger": {
+                                "disable": false,
+                                "initial_number": 2,
+                                "maximum_number": 64
+                            },
+                            "areas": {
+                                "0.0.0.0": {
+                                    "area_id": "0.0.0.0",
+                                    "area_type": "normal",
+                                    "database": {
+                                        "lsa_types": {
+                                            "1": {
+                                                "lsa_type": 1,
+                                                "lsas": {
+                                                    "10.255.255.11 10.255.255.11": {
+                                                        "adv_router": "10.255.255.11",
+                                                        "lsa_id": "10.255.255.11",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "router": {
+                                                                    "links": {
+                                                                        "10.11.12.11": {
+                                                                            "link_data": "10.11.12.11",
+                                                                            "link_id": "10.11.12.11",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.11.99.11": {
+                                                                            "link_data": "10.11.99.11",
+                                                                            "link_id": "10.11.99.11",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        }
+                                                                    },
+                                                                    "num_of_links": 2
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.11",
+                                                                "age": 1546,
+                                                                "checksum": "0xc5bf",
+                                                                "length": 48,
+                                                                "lsa_id": "10.255.255.11",
+                                                                "option": "None",
+                                                                "seq_num": "80000015",
+                                                                "type": 1
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.255.255.12 10.255.255.12": {
+                                                        "adv_router": "10.255.255.12",
+                                                        "lsa_id": "10.255.255.12",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "router": {
+                                                                    "links": {
+                                                                        "10.11.12.11": {
+                                                                            "link_data": "10.11.12.12",
+                                                                            "link_id": "10.11.12.11",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.12.13.12": {
+                                                                            "link_data": "10.12.13.12",
+                                                                            "link_id": "10.12.13.12",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.12.99.12": {
+                                                                            "link_data": "10.12.99.12",
+                                                                            "link_id": "10.12.99.12",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        }
+                                                                    },
+                                                                    "num_of_links": 3
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.12",
+                                                                "age": 1580,
+                                                                "checksum": "0x2de8",
+                                                                "length": 60,
+                                                                "lsa_id": "10.255.255.12",
+                                                                "option": "None",
+                                                                "seq_num": "8000000f",
+                                                                "type": 1
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.255.255.13 10.255.255.13": {
+                                                        "adv_router": "10.255.255.13",
+                                                        "lsa_id": "10.255.255.13",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "router": {
+                                                                    "links": {
+                                                                        "10.12.13.12": {
+                                                                            "link_data": "10.12.13.13",
+                                                                            "link_id": "10.12.13.12",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.13.99.13": {
+                                                                            "link_data": "10.13.99.13",
+                                                                            "link_id": "10.13.99.13",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        }
+                                                                    },
+                                                                    "num_of_links": 2
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.13",
+                                                                "age": 1520,
+                                                                "checksum": "0xb4c0",
+                                                                "length": 48,
+                                                                "lsa_id": "10.255.255.13",
+                                                                "option": "None",
+                                                                "seq_num": "80000012",
+                                                                "type": 1
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.255.255.14 10.255.255.14": {
+                                                        "adv_router": "10.255.255.14",
+                                                        "lsa_id": "10.255.255.14",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "router": {
+                                                                    "links": {
+                                                                        "10.14.15.14": {
+                                                                            "link_data": "10.14.15.14",
+                                                                            "link_id": "10.14.15.14",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.14.99.99": {
+                                                                            "link_data": "10.14.99.14",
+                                                                            "link_id": "10.14.99.99",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        }
+                                                                    },
+                                                                    "num_of_links": 2
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.14",
+                                                                "age": 1085,
+                                                                "checksum": "0xcc42",
+                                                                "length": 48,
+                                                                "lsa_id": "10.255.255.14",
+                                                                "option": "None",
+                                                                "seq_num": "80000012",
+                                                                "type": 1
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.255.255.15 10.255.255.15": {
+                                                        "adv_router": "10.255.255.15",
+                                                        "lsa_id": "10.255.255.15",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "router": {
+                                                                    "links": {
+                                                                        "10.14.15.14": {
+                                                                            "link_data": "10.14.15.15",
+                                                                            "link_id": "10.14.15.14",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.15.16.0": {
+                                                                            "link_data": "255.255.255.0",
+                                                                            "link_id": "10.15.16.0",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "stub network"
+                                                                        },
+                                                                        "10.15.99.99": {
+                                                                            "link_data": "10.15.99.15",
+                                                                            "link_id": "10.15.99.99",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        }
+                                                                    },
+                                                                    "num_of_links": 3
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.15",
+                                                                "age": 913,
+                                                                "checksum": "0x2d0",
+                                                                "length": 60,
+                                                                "lsa_id": "10.255.255.15",
+                                                                "option": "None",
+                                                                "seq_num": "8000000e",
+                                                                "type": 1
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.255.255.16 10.255.255.16": {
+                                                        "adv_router": "10.255.255.16",
+                                                        "lsa_id": "10.255.255.16",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "router": {
+                                                                    "links": {
+                                                                        "10.16.99.99": {
+                                                                            "link_data": "10.16.99.16",
+                                                                            "link_id": "10.16.99.99",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        }
+                                                                    },
+                                                                    "num_of_links": 1
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.16",
+                                                                "age": 1398,
+                                                                "checksum": "0x374c",
+                                                                "length": 36,
+                                                                "lsa_id": "10.255.255.16",
+                                                                "option": "None",
+                                                                "seq_num": "8000000e",
+                                                                "type": 1
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.255.255.99 10.255.255.99": {
+                                                        "adv_router": "10.255.255.99",
+                                                        "lsa_id": "10.255.255.99",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "router": {
+                                                                    "links": {
+                                                                        "10.11.99.11": {
+                                                                            "link_data": "10.11.99.99",
+                                                                            "link_id": "10.11.99.11",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.12.99.12": {
+                                                                            "link_data": "10.12.99.99",
+                                                                            "link_id": "10.12.99.12",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.13.99.13": {
+                                                                            "link_data": "10.13.99.99",
+                                                                            "link_id": "10.13.99.13",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.14.99.99": {
+                                                                            "link_data": "10.14.99.99",
+                                                                            "link_id": "10.14.99.99",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.15.99.99": {
+                                                                            "link_data": "10.15.99.99",
+                                                                            "link_id": "10.15.99.99",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        },
+                                                                        "10.16.99.99": {
+                                                                            "link_data": "10.16.99.99",
+                                                                            "link_id": "10.16.99.99",
+                                                                            "topologies": {
+                                                                                "0": {
+                                                                                    "metric": 1,
+                                                                                    "mt_id": 0
+                                                                                }
+                                                                            },
+                                                                            "type": "transit network"
+                                                                        }
+                                                                    },
+                                                                    "num_of_links": 6
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.99",
+                                                                "age": 925,
+                                                                "checksum": "0xa87",
+                                                                "length": 96,
+                                                                "lsa_id": "10.255.255.99",
+                                                                "option": "None",
+                                                                "seq_num": "80000011",
+                                                                "type": 1
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "2": {
+                                                "lsa_type": 2,
+                                                "lsas": {
+                                                    "10.11.12.11 10.255.255.11": {
+                                                        "adv_router": "10.255.255.11",
+                                                        "lsa_id": "10.11.12.11",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.11": {},
+                                                                        "10.255.255.12": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.11",
+                                                                "age": 1803,
+                                                                "checksum": "0xbe04",
+                                                                "length": 32,
+                                                                "lsa_id": "10.11.12.11",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.11.99.11 10.255.255.11": {
+                                                        "adv_router": "10.255.255.11",
+                                                        "lsa_id": "10.11.99.11",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.11": {},
+                                                                        "10.255.255.99": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.11",
+                                                                "age": 1547,
+                                                                "checksum": "0xc44f",
+                                                                "length": 32,
+                                                                "lsa_id": "10.11.99.11",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.12.13.12 10.255.255.12": {
+                                                        "adv_router": "10.255.255.12",
+                                                        "lsa_id": "10.12.13.12",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.12": {},
+                                                                        "10.255.255.13": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.12",
+                                                                "age": 1823,
+                                                                "checksum": "0xaf0d",
+                                                                "length": 32,
+                                                                "lsa_id": "10.12.13.12",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.12.99.12 10.255.255.12": {
+                                                        "adv_router": "10.255.255.12",
+                                                        "lsa_id": "10.12.99.12",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.12": {},
+                                                                        "10.255.255.99": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.12",
+                                                                "age": 1581,
+                                                                "checksum": "0xb25d",
+                                                                "length": 32,
+                                                                "lsa_id": "10.12.99.12",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.13.99.13 10.255.255.13": {
+                                                        "adv_router": "10.255.255.13",
+                                                        "lsa_id": "10.13.99.13",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.13": {},
+                                                                        "10.255.255.99": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.13",
+                                                                "age": 1521,
+                                                                "checksum": "0xa06b",
+                                                                "length": 32,
+                                                                "lsa_id": "10.13.99.13",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.14.15.14 10.255.255.14": {
+                                                        "adv_router": "10.255.255.14",
+                                                        "lsa_id": "10.14.15.14",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.14": {},
+                                                                        "10.255.255.15": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.14",
+                                                                "age": 1086,
+                                                                "checksum": "0x911f",
+                                                                "length": 32,
+                                                                "lsa_id": "10.14.15.14",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.14.99.99 10.255.255.99": {
+                                                        "adv_router": "10.255.255.99",
+                                                        "lsa_id": "10.14.99.99",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.14": {},
+                                                                        "10.255.255.99": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.99",
+                                                                "age": 1697,
+                                                                "checksum": "0x3924",
+                                                                "length": 32,
+                                                                "lsa_id": "10.14.99.99",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.15.99.99 10.255.255.99": {
+                                                        "adv_router": "10.255.255.99",
+                                                        "lsa_id": "10.15.99.99",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.15": {},
+                                                                        "10.255.255.99": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.99",
+                                                                "age": 926,
+                                                                "checksum": "0x3724",
+                                                                "length": 32,
+                                                                "lsa_id": "10.15.99.99",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    },
+                                                    "10.16.99.99 10.255.255.99": {
+                                                        "adv_router": "10.255.255.99",
+                                                        "lsa_id": "10.16.99.99",
+                                                        "ospfv2": {
+                                                            "body": {
+                                                                "network": {
+                                                                    "attached_routers": {
+                                                                        "10.255.255.16": {},
+                                                                        "10.255.255.99": {}
+                                                                    },
+                                                                    "network_mask": "255.255.255.0"
+                                                                }
+                                                            },
+                                                            "header": {
+                                                                "adv_router": "10.255.255.99",
+                                                                "age": 1697,
+                                                                "checksum": "0x3524",
+                                                                "length": 32,
+                                                                "lsa_id": "10.16.99.99",
+                                                                "option": "None",
+                                                                "seq_num": "8000000c",
+                                                                "type": 2
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "interfaces": {
+                                        "GigabitEthernet0/0/0/11": {
+                                            "bdr_ip_addr": "10.14.15.15",
+                                            "bdr_router_id": "10.255.255.15",
+                                            "bfd": {
+                                                "enable": false
+                                            },
+                                            "cost": 1,
+                                            "dead_interval": 40,
+                                            "demand_circuit": false,
+                                            "dr_ip_addr": "10.14.15.14",
+                                            "dr_router_id": "10.255.255.14",
+                                            "enable": true,
+                                            "hello_interval": 10,
+                                            "hello_timer": "00:00:03:775",
+                                            "interface_type": "broadcast",
+                                            "name": "GigabitEthernet0/0/0/11",
+                                            "neighbors": {
+                                                "10.255.255.14": {
+                                                    "address": "10.14.15.14",
+                                                    "bdr_ip_addr": "10.14.15.15",
+                                                    "dead_timer": "00:00:39",
+                                                    "dr_ip_addr": "10.14.15.14",
+                                                    "neighbor_router_id": "10.255.255.14",
+                                                    "state": "full",
+                                                    "statistics": {
+                                                        "nbr_event_count": 6,
+                                                        "nbr_retrans_qlen": 0
+                                                    }
+                                                }
+                                            },
+                                            "passive": false,
+                                            "priority": 1,
+                                            "retransmit_interval": 5,
+                                            "state": "bdr",
+                                            "transmit_delay": 1
+                                        },
+                                        "GigabitEthernet0/0/0/14": {
+                                            "bfd": {
+                                                "enable": false
+                                            },
+                                            "cost": 1,
+                                            "dead_interval": 40,
+                                            "demand_circuit": false,
+                                            "dr_ip_addr": "10.15.16.15",
+                                            "dr_router_id": "10.255.255.15",
+                                            "enable": true,
+                                            "hello_interval": 10,
+                                            "hello_timer": "00:00:00:636",
+                                            "interface_type": "broadcast",
+                                            "name": "GigabitEthernet0/0/0/14",
+                                            "passive": false,
+                                            "priority": 1,
+                                            "retransmit_interval": 5,
+                                            "state": "dr",
+                                            "transmit_delay": 1
+                                        },
+                                        "GigabitEthernet0/0/0/5": {
+                                            "bdr_ip_addr": "10.15.99.15",
+                                            "bdr_router_id": "10.255.255.15",
+                                            "bfd": {
+                                                "enable": false
+                                            },
+                                            "cost": 1,
+                                            "dead_interval": 40,
+                                            "demand_circuit": false,
+                                            "dr_ip_addr": "10.15.99.99",
+                                            "dr_router_id": "10.255.255.99",
+                                            "enable": true,
+                                            "hello_interval": 10,
+                                            "hello_timer": "00:00:04:751",
+                                            "interface_type": "broadcast",
+                                            "name": "GigabitEthernet0/0/0/5",
+                                            "neighbors": {
+                                                "10.255.255.99": {
+                                                    "address": "10.15.99.99",
+                                                    "bdr_ip_addr": "10.15.99.15",
+                                                    "dead_timer": "00:00:33",
+                                                    "dr_ip_addr": "10.15.99.99",
+                                                    "neighbor_router_id": "10.255.255.99",
+                                                    "state": "full",
+                                                    "statistics": {
+                                                        "nbr_event_count": 6,
+                                                        "nbr_retrans_qlen": 0
+                                                    }
+                                                }
+                                            },
+                                            "passive": false,
+                                            "priority": 1,
+                                            "retransmit_interval": 5,
+                                            "state": "bdr",
+                                            "transmit_delay": 1
+                                        }
+                                    },
+                                    "mpls": {
+                                        "te": {
+                                            "enable": false
+                                        }
+                                    },
+                                    "statistics": {
+                                        "area_scope_lsa_cksum_sum": "0x06066e",
+                                        "area_scope_lsa_count": 16,
+                                        "spf_runs_count": 5
+                                    }
+                                }
+                            },
+                            "maximum_interfaces": 1024,
+                            "mpls": {
+                                "te": {
+                                    "router_id": "10.255.255.15"
+                                }
+                            },
+                            "nsr": {
+                                "enable": true
+                            },
+                            "preference": {
+                                "single_value": {
+                                    "all": 110
+                                }
+                            },
+                            "router_id": "10.255.255.15",
+                            "spf_control": {
+                                "throttle": {
+                                    "lsa": {
+                                        "hold": 200,
+                                        "maximum": 5000,
+                                        "start": 50
+                                    },
+                                    "spf": {
+                                        "hold": 200,
+                                        "maximum": 5000,
+                                        "start": 50
+                                    }
+                                }
+                            },
+                            "stub_router": {
+                                "always": {
+                                    "always": false,
+                                    "external_lsa": false,
+                                    "include_stub": false,
+                                    "summary_lsa": false
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

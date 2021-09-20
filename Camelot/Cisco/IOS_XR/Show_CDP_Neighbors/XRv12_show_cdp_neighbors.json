@@ -1,0 +1,78 @@
+{
+    "cdp": {
+        "index": {
+            "1": {
+                "capability": "R",
+                "device_id": "XRv99",
+                "hold_time": 166,
+                "local_interface": "GigabitEthernet0/0/0/2",
+                "platform": "",
+                "port_id": "IOSXRvSGi0/0/0/2"
+            },
+            "2": {
+                "capability": "R B",
+                "device_id": "CustA-R1",
+                "hold_time": 177,
+                "local_interface": "GigabitEthernet0/0/0/3",
+                "platform": "",
+                "port_id": "LinuxUniEt0/0"
+            },
+            "3": {
+                "capability": "R B",
+                "device_id": "CustA-R2",
+                "hold_time": 136,
+                "local_interface": "GigabitEthernet0/0/0/4",
+                "platform": "",
+                "port_id": "LinuxUniEt0/0"
+            },
+            "4": {
+                "capability": "R B",
+                "device_id": "CustB-R1",
+                "hold_time": 142,
+                "local_interface": "GigabitEthernet0/0/0/5",
+                "platform": "",
+                "port_id": "LinuxUniEt0/0"
+            },
+            "5": {
+                "capability": "R B",
+                "device_id": "CustB-R2",
+                "hold_time": 162,
+                "local_interface": "GigabitEthernet0/0/0/6",
+                "platform": "",
+                "port_id": "LinuxUniEt0/0"
+            },
+            "6": {
+                "capability": "R B",
+                "device_id": "CustC-R1",
+                "hold_time": 137,
+                "local_interface": "GigabitEthernet0/0/0/7",
+                "platform": "",
+                "port_id": "LinuxUniEt0/0"
+            },
+            "7": {
+                "capability": "R B",
+                "device_id": "CustC-R2",
+                "hold_time": 143,
+                "local_interface": "GigabitEthernet0/0/0/8",
+                "platform": "",
+                "port_id": "LinuxUniEt0/0"
+            },
+            "8": {
+                "capability": "R I",
+                "device_id": "CSR11",
+                "hold_time": 159,
+                "local_interface": "GigabitEthernet0/0/0/10",
+                "platform": "CSR1000V",
+                "port_id": "GigabitEthernet10"
+            },
+            "9": {
+                "capability": "R I",
+                "device_id": "CSR13",
+                "hold_time": 164,
+                "local_interface": "GigabitEthernet0/0/0/11",
+                "platform": "CSR1000V",
+                "port_id": "GigabitEthernet11"
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "NetworkGraph",
+    "label": "Learn Dot1X Sessions",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR11"
+        },
+        { 
+            "id": "System Auth Control: False"
+        },
+        { 
+            "id": "Authorized Clients: 0"
+        },
+        { 
+            "id": "Unauthorized Clients: 0"
+        },
+        { 
+            "id": "Total Clients: 0"
+        }
+    ],
+    "links": [
+        { 
+            "source": "CSR11",
+            "target": "System Auth Control: False",
+            "cost": 1
+        },
+        { 
+            "source": "CSR11",
+            "target": "Authorized Clients: 0",
+            "cost": 1            
+        },
+        { 
+            "source": "CSR11",
+            "target": "Unauthorized Clients: 0",
+            "cost": 1
+        },
+        { 
+            "source": "CSR11",
+            "target": "Total Clients: 0",
+            "cost": 1            
+        }        
+    ]
+}

@@ -1,0 +1,188 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  index:
+    1:
+      advertisement_ver: 2
+      capabilities: Router
+      device_id: XRv99
+      duplex_mode: full
+      entry_addresses:
+        10.12.99.99: {}
+      hold_time: 165
+      local_interface: GigabitEthernet0/0/0/2
+      native_vlan: ''
+      platform: cisco IOS XRv Series
+      port_id: GigabitEthernet0/0/0/2
+      software_version: 'Cisco IOS XR Software, Version 6.1.3[Default]
+
+        Copyright (c) 2017 by Cisco Systems, Inc.'
+      system_name: XRv99
+    2:
+      advertisement_ver: 2
+      capabilities: Router Source-Route-Bridge
+      device_id: CustA-R1
+      duplex_mode: ''
+      entry_addresses:
+        172.16.1.1: {}
+      hold_time: 176
+      local_interface: GigabitEthernet0/0/0/3
+      native_vlan: ''
+      platform: Linux Unix
+      port_id: Ethernet0/0
+      software_version: 'Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M),
+        Version 15.7(3)M2, DEVELOPMENT TEST SOFTWARE
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2018 by Cisco Systems, Inc.
+
+        Compiled Wed 28-Mar-18 11:18 by prod_rel_team'
+      system_name: ''
+    3:
+      advertisement_ver: 2
+      capabilities: Router Source-Route-Bridge
+      device_id: CustA-R2
+      duplex_mode: ''
+      entry_addresses:
+        172.16.2.2: {}
+      hold_time: 135
+      local_interface: GigabitEthernet0/0/0/4
+      native_vlan: ''
+      platform: Linux Unix
+      port_id: Ethernet0/0
+      software_version: 'Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M),
+        Version 15.7(3)M2, DEVELOPMENT TEST SOFTWARE
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2018 by Cisco Systems, Inc.
+
+        Compiled Wed 28-Mar-18 11:18 by prod_rel_team'
+      system_name: ''
+    4:
+      advertisement_ver: 2
+      capabilities: Router Source-Route-Bridge
+      device_id: CustB-R1
+      duplex_mode: ''
+      entry_addresses:
+        172.17.1.1: {}
+      hold_time: 141
+      local_interface: GigabitEthernet0/0/0/5
+      native_vlan: ''
+      platform: Linux Unix
+      port_id: Ethernet0/0
+      software_version: 'Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M),
+        Version 15.7(3)M2, DEVELOPMENT TEST SOFTWARE
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2018 by Cisco Systems, Inc.
+
+        Compiled Wed 28-Mar-18 11:18 by prod_rel_team'
+      system_name: ''
+    5:
+      advertisement_ver: 2
+      capabilities: Router Source-Route-Bridge
+      device_id: CustB-R2
+      duplex_mode: ''
+      entry_addresses:
+        172.17.2.2: {}
+      hold_time: 161
+      local_interface: GigabitEthernet0/0/0/6
+      native_vlan: ''
+      platform: Linux Unix
+      port_id: Ethernet0/0
+      software_version: 'Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M),
+        Version 15.7(3)M2, DEVELOPMENT TEST SOFTWARE
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2018 by Cisco Systems, Inc.
+
+        Compiled Wed 28-Mar-18 11:18 by prod_rel_team'
+      system_name: ''
+    6:
+      advertisement_ver: 2
+      capabilities: Router Source-Route-Bridge
+      device_id: CustC-R1
+      duplex_mode: ''
+      entry_addresses:
+        172.18.1.1: {}
+      hold_time: 136
+      local_interface: GigabitEthernet0/0/0/7
+      native_vlan: ''
+      platform: Linux Unix
+      port_id: Ethernet0/0
+      software_version: 'Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M),
+        Version 15.7(3)M2, DEVELOPMENT TEST SOFTWARE
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2018 by Cisco Systems, Inc.
+
+        Compiled Wed 28-Mar-18 11:18 by prod_rel_team'
+      system_name: ''
+    7:
+      advertisement_ver: 2
+      capabilities: Router Source-Route-Bridge
+      device_id: CustC-R2
+      duplex_mode: ''
+      entry_addresses:
+        172.18.2.2: {}
+      hold_time: 142
+      local_interface: GigabitEthernet0/0/0/8
+      native_vlan: ''
+      platform: Linux Unix
+      port_id: Ethernet0/0
+      software_version: 'Cisco IOS Software, Linux Software (I86BI_LINUX-ADVENTERPRISEK9-M),
+        Version 15.7(3)M2, DEVELOPMENT TEST SOFTWARE
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2018 by Cisco Systems, Inc.
+
+        Compiled Wed 28-Mar-18 11:18 by prod_rel_team'
+      system_name: ''
+    8:
+      advertisement_ver: 2
+      capabilities: Router IGMP
+      device_id: CSR11
+      duplex_mode: full
+      entry_addresses:
+        10.11.12.11: {}
+      hold_time: 158
+      local_interface: GigabitEthernet0/0/0/10
+      native_vlan: ''
+      platform: cisco CSR1000V
+      port_id: GigabitEthernet10
+      software_version: 'Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),
+        Version 17.2.1r, RELEASE SOFTWARE (fc2)
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2020 by Cisco Systems, Inc.
+
+        Compiled Thu 09-Apr-20 23:22 by mcpre'
+      system_name: ''
+    9:
+      advertisement_ver: 2
+      capabilities: Router IGMP
+      device_id: CSR13
+      duplex_mode: full
+      entry_addresses:
+        10.12.13.13: {}
+      hold_time: 163
+      local_interface: GigabitEthernet0/0/0/11
+      native_vlan: ''
+      platform: cisco CSR1000V
+      port_id: GigabitEthernet11
+      software_version: 'Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),
+        Version 17.2.1r, RELEASE SOFTWARE (fc2)
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2020 by Cisco Systems, Inc.
+
+        Compiled Thu 09-Apr-20 23:22 by mcpre'
+      system_name: ''
+  total_entries_displayed: 9

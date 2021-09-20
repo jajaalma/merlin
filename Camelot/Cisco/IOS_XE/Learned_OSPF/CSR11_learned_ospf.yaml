@@ -1,0 +1,1565 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  vrf: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      default: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          address_family: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  instance: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      '1': !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          adjacency_stagger: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              initial_number: 300
+                              maximum_number: 300
+                            state:
+                              leaf_dict:
+                                initial_number: &id001 !!python/name:genie.libs.parser.iosxe.show_ospf.ShowIpOspf ''
+                                maximum_number: *id001
+                          areas: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              0.0.0.0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  area_id: 0.0.0.0
+                                  area_type: normal
+                                  database: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      lsa_types: !!python/object/new:genie.ops.base.maker.CmdDict
+                                        dictitems:
+                                          1: !!python/object/new:genie.ops.base.maker.CmdDict
+                                            dictitems:
+                                              lsa_type: 1
+                                              lsas: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                dictitems:
+                                                  10.255.255.11 10.255.255.11: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.11
+                                                      lsa_id: 10.255.255.11
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  links: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.11.12.11: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.11.12.11
+                                                                          link_id: 10.11.12.11
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: &id002 !!python/name:genie.libs.parser.iosxe.show_ospf.ShowIpOspfDatabaseRouter ''
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.11.99.11: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.11.99.11
+                                                                          link_id: 10.11.99.11
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  num_of_links: 2
+                                                                state:
+                                                                  leaf_dict:
+                                                                    num_of_links: *id002
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.11
+                                                              age: 1044
+                                                              checksum: '0xCDBB'
+                                                              length: 48
+                                                              lsa_id: 10.255.255.11
+                                                              option: None
+                                                              seq_num: '80000011'
+                                                              type: 1
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id002
+                                                                age: *id002
+                                                                checksum: *id002
+                                                                length: *id002
+                                                                lsa_id: *id002
+                                                                option: *id002
+                                                                seq_num: *id002
+                                                                type: *id002
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id002
+                                                        lsa_id: *id002
+                                                  10.255.255.12 10.255.255.12: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.12
+                                                      lsa_id: 10.255.255.12
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  links: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.11.12.11: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.11.12.12
+                                                                          link_id: 10.11.12.11
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.12.13.12: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.12.13.12
+                                                                          link_id: 10.12.13.12
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.12.99.12: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.12.99.12
+                                                                          link_id: 10.12.99.12
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  num_of_links: 3
+                                                                state:
+                                                                  leaf_dict:
+                                                                    num_of_links: *id002
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.12
+                                                              age: 1054
+                                                              checksum: '0x35E4'
+                                                              length: 60
+                                                              lsa_id: 10.255.255.12
+                                                              option: None
+                                                              seq_num: 8000000B
+                                                              type: 1
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id002
+                                                                age: *id002
+                                                                checksum: *id002
+                                                                length: *id002
+                                                                lsa_id: *id002
+                                                                option: *id002
+                                                                seq_num: *id002
+                                                                type: *id002
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id002
+                                                        lsa_id: *id002
+                                                  10.255.255.13 10.255.255.13: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.13
+                                                      lsa_id: 10.255.255.13
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  links: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.12.13.12: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.12.13.13
+                                                                          link_id: 10.12.13.12
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.13.99.13: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.13.99.13
+                                                                          link_id: 10.13.99.13
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  num_of_links: 2
+                                                                state:
+                                                                  leaf_dict:
+                                                                    num_of_links: *id002
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.13
+                                                              age: 988
+                                                              checksum: '0xBCBC'
+                                                              length: 48
+                                                              lsa_id: 10.255.255.13
+                                                              option: None
+                                                              seq_num: 8000000E
+                                                              type: 1
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id002
+                                                                age: *id002
+                                                                checksum: *id002
+                                                                length: *id002
+                                                                lsa_id: *id002
+                                                                option: *id002
+                                                                seq_num: *id002
+                                                                type: *id002
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id002
+                                                        lsa_id: *id002
+                                                  10.255.255.14 10.255.255.14: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.14
+                                                      lsa_id: 10.255.255.14
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  links: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.14.15.14: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.14.15.14
+                                                                          link_id: 10.14.15.14
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.14.99.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.14.99.14
+                                                                          link_id: 10.14.99.99
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  num_of_links: 2
+                                                                state:
+                                                                  leaf_dict:
+                                                                    num_of_links: *id002
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.14
+                                                              age: 358
+                                                              checksum: '0xD43E'
+                                                              length: 48
+                                                              lsa_id: 10.255.255.14
+                                                              option: None
+                                                              seq_num: 8000000E
+                                                              type: 1
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id002
+                                                                age: *id002
+                                                                checksum: *id002
+                                                                length: *id002
+                                                                lsa_id: *id002
+                                                                option: *id002
+                                                                seq_num: *id002
+                                                                type: *id002
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id002
+                                                        lsa_id: *id002
+                                                  10.255.255.15 10.255.255.15: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.15
+                                                      lsa_id: 10.255.255.15
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  links: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.14.15.14: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.14.15.15
+                                                                          link_id: 10.14.15.14
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.15.16.0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 255.255.255.0
+                                                                          link_id: 10.15.16.0
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: stub
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.15.99.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.15.99.15
+                                                                          link_id: 10.15.99.99
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  num_of_links: 3
+                                                                state:
+                                                                  leaf_dict:
+                                                                    num_of_links: *id002
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.15
+                                                              age: 409
+                                                              checksum: '0xACC'
+                                                              length: 60
+                                                              lsa_id: 10.255.255.15
+                                                              option: None
+                                                              seq_num: 8000000A
+                                                              type: 1
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id002
+                                                                age: *id002
+                                                                checksum: *id002
+                                                                length: *id002
+                                                                lsa_id: *id002
+                                                                option: *id002
+                                                                seq_num: *id002
+                                                                type: *id002
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id002
+                                                        lsa_id: *id002
+                                                  10.255.255.16 10.255.255.16: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.16
+                                                      lsa_id: 10.255.255.16
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  links: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.16.99.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.16.99.16
+                                                                          link_id: 10.16.99.99
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  num_of_links: 1
+                                                                state:
+                                                                  leaf_dict:
+                                                                    num_of_links: *id002
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.16
+                                                              age: 874
+                                                              checksum: '0x3F48'
+                                                              length: 36
+                                                              lsa_id: 10.255.255.16
+                                                              option: None
+                                                              seq_num: 8000000A
+                                                              type: 1
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id002
+                                                                age: *id002
+                                                                checksum: *id002
+                                                                length: *id002
+                                                                lsa_id: *id002
+                                                                option: *id002
+                                                                seq_num: *id002
+                                                                type: *id002
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id002
+                                                        lsa_id: *id002
+                                                  10.255.255.99 10.255.255.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.99
+                                                      lsa_id: 10.255.255.99
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  links: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.11.99.11: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.11.99.99
+                                                                          link_id: 10.11.99.11
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.12.99.12: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.12.99.99
+                                                                          link_id: 10.12.99.12
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.13.99.13: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.13.99.99
+                                                                          link_id: 10.13.99.13
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.14.99.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.14.99.99
+                                                                          link_id: 10.14.99.99
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.15.99.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.15.99.99
+                                                                          link_id: 10.15.99.99
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                      10.16.99.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                        dictitems:
+                                                                          link_data: 10.16.99.99
+                                                                          link_id: 10.16.99.99
+                                                                          topologies: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                            dictitems:
+                                                                              0: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                                dictitems:
+                                                                                  metric: 1
+                                                                                  mt_id: 0
+                                                                                state:
+                                                                                  leaf_dict:
+                                                                                    metric: *id002
+                                                                                    mt_id: *id002
+                                                                            state:
+                                                                              leaf_dict: {}
+                                                                          type: transit
+                                                                            network
+                                                                        state:
+                                                                          leaf_dict:
+                                                                            link_data: *id002
+                                                                            link_id: *id002
+                                                                            type: *id002
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  num_of_links: 6
+                                                                state:
+                                                                  leaf_dict:
+                                                                    num_of_links: *id002
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.99
+                                                              age: 405
+                                                              checksum: '0x1283'
+                                                              length: 96
+                                                              lsa_id: 10.255.255.99
+                                                              option: None
+                                                              seq_num: 8000000D
+                                                              type: 1
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id002
+                                                                age: *id002
+                                                                checksum: *id002
+                                                                length: *id002
+                                                                lsa_id: *id002
+                                                                option: *id002
+                                                                seq_num: *id002
+                                                                type: *id002
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id002
+                                                        lsa_id: *id002
+                                                state:
+                                                  leaf_dict: {}
+                                            state:
+                                              leaf_dict:
+                                                lsa_type: *id002
+                                          2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                            dictitems:
+                                              lsa_type: 2
+                                              lsas: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                dictitems:
+                                                  10.11.12.11 10.255.255.11: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.11
+                                                      lsa_id: 10.11.12.11
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.11: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.12: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: &id003 !!python/name:genie.libs.parser.iosxe.show_ospf.ShowIpOspfDatabaseNetwork ''
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.11
+                                                              age: 1299
+                                                              checksum: '0xC6FF'
+                                                              length: 32
+                                                              lsa_id: 10.11.12.11
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                  10.11.99.11 10.255.255.11: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.11
+                                                      lsa_id: 10.11.99.11
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.11: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.99: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: *id003
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.11
+                                                              age: 1045
+                                                              checksum: '0xCC4B'
+                                                              length: 32
+                                                              lsa_id: 10.11.99.11
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                  10.12.13.12 10.255.255.12: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.12
+                                                      lsa_id: 10.12.13.12
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.12: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.13: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: *id003
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.12
+                                                              age: 1296
+                                                              checksum: '0xB709'
+                                                              length: 32
+                                                              lsa_id: 10.12.13.12
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                  10.12.99.12 10.255.255.12: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.12
+                                                      lsa_id: 10.12.99.12
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.12: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.99: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: *id003
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.12
+                                                              age: 1055
+                                                              checksum: '0xBA59'
+                                                              length: 32
+                                                              lsa_id: 10.12.99.12
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                  10.13.99.13 10.255.255.13: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.13
+                                                      lsa_id: 10.13.99.13
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.13: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.99: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: *id003
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.13
+                                                              age: 989
+                                                              checksum: '0xA867'
+                                                              length: 32
+                                                              lsa_id: 10.13.99.13
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                  10.14.15.14 10.255.255.14: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.14
+                                                      lsa_id: 10.14.15.14
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.14: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.15: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: *id003
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.14
+                                                              age: 360
+                                                              checksum: '0x991B'
+                                                              length: 32
+                                                              lsa_id: 10.14.15.14
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                  10.14.99.99 10.255.255.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.99
+                                                      lsa_id: 10.14.99.99
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.14: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.99: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: *id003
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.99
+                                                              age: 1172
+                                                              checksum: '0x4120'
+                                                              length: 32
+                                                              lsa_id: 10.14.99.99
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                  10.15.99.99 10.255.255.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.99
+                                                      lsa_id: 10.15.99.99
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.15: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.99: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: *id003
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.99
+                                                              age: 407
+                                                              checksum: '0x3F20'
+                                                              length: 32
+                                                              lsa_id: 10.15.99.99
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                  10.16.99.99 10.255.255.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      adv_router: 10.255.255.99
+                                                      lsa_id: 10.16.99.99
+                                                      ospfv2: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                        dictitems:
+                                                          body: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              network: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                dictitems:
+                                                                  attached_routers: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                                    dictitems:
+                                                                      10.255.255.16: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                      10.255.255.99: !!python/object:genie.ops.base.maker.CmdDict
+                                                                        leaf_dict: {}
+                                                                    state:
+                                                                      leaf_dict: {}
+                                                                  network_mask: 255.255.255.0
+                                                                state:
+                                                                  leaf_dict:
+                                                                    network_mask: *id003
+                                                            state:
+                                                              leaf_dict: {}
+                                                          header: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                            dictitems:
+                                                              adv_router: 10.255.255.99
+                                                              age: 1172
+                                                              checksum: '0x3D20'
+                                                              length: 32
+                                                              lsa_id: 10.16.99.99
+                                                              option: None
+                                                              seq_num: '80000008'
+                                                              type: 2
+                                                            state:
+                                                              leaf_dict:
+                                                                adv_router: *id003
+                                                                age: *id003
+                                                                checksum: *id003
+                                                                length: *id003
+                                                                lsa_id: *id003
+                                                                option: *id003
+                                                                seq_num: *id003
+                                                                type: *id003
+                                                        state:
+                                                          leaf_dict: {}
+                                                    state:
+                                                      leaf_dict:
+                                                        adv_router: *id003
+                                                        lsa_id: *id003
+                                                state:
+                                                  leaf_dict: {}
+                                            state:
+                                              leaf_dict:
+                                                lsa_type: *id003
+                                        state:
+                                          leaf_dict: {}
+                                    state:
+                                      leaf_dict: {}
+                                  interfaces: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      GigabitEthernet1: !!python/object/new:genie.ops.base.maker.CmdDict
+                                        dictitems:
+                                          bdr_ip_addr: 10.11.99.99
+                                          bdr_router_id: 10.255.255.99
+                                          bfd: !!python/object/new:genie.ops.base.maker.CmdDict
+                                            dictitems:
+                                              enable: false
+                                            state:
+                                              leaf_dict:
+                                                enable: &id005 !!python/name:genie.libs.parser.iosxe.show_ospf.ShowIpOspfInterface ''
+                                          cost: 1
+                                          dead_interval: 40
+                                          demand_circuit: false
+                                          dr_ip_addr: 10.11.99.11
+                                          dr_router_id: 10.255.255.11
+                                          enable: true
+                                          hello_interval: 10
+                                          hello_timer: 00:00:07
+                                          interface_type: broadcast
+                                          lls: true
+                                          name: GigabitEthernet1
+                                          neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                                            dictitems:
+                                              10.255.255.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                dictitems:
+                                                  address: 10.11.99.99
+                                                  bdr_ip_addr: 10.11.99.99
+                                                  dead_timer: 00:00:32
+                                                  dr_ip_addr: 10.11.99.11
+                                                  neighbor_router_id: 10.255.255.99
+                                                  state: full
+                                                  statistics: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      nbr_event_count: 6
+                                                      nbr_retrans_qlen: 0
+                                                    state:
+                                                      leaf_dict:
+                                                        nbr_event_count: &id004 !!python/name:genie.libs.parser.iosxe.show_ospf.ShowIpOspfNeighborDetail ''
+                                                        nbr_retrans_qlen: *id004
+                                                state:
+                                                  leaf_dict:
+                                                    address: *id004
+                                                    bdr_ip_addr: *id004
+                                                    dead_timer: *id004
+                                                    dr_ip_addr: *id004
+                                                    neighbor_router_id: *id004
+                                                    state: *id004
+                                            state:
+                                              leaf_dict: {}
+                                          passive: false
+                                          priority: 1
+                                          retransmit_interval: 5
+                                          state: dr
+                                          transmit_delay: 1
+                                        state:
+                                          leaf_dict:
+                                            bdr_ip_addr: *id005
+                                            bdr_router_id: *id005
+                                            cost: *id005
+                                            dead_interval: *id005
+                                            demand_circuit: *id005
+                                            dr_ip_addr: *id005
+                                            dr_router_id: *id005
+                                            enable: *id005
+                                            hello_interval: *id005
+                                            hello_timer: *id005
+                                            interface_type: *id005
+                                            lls: *id005
+                                            name: *id005
+                                            passive: *id005
+                                            priority: *id005
+                                            retransmit_interval: *id005
+                                            state: *id005
+                                            transmit_delay: *id005
+                                      GigabitEthernet10: !!python/object/new:genie.ops.base.maker.CmdDict
+                                        dictitems:
+                                          bdr_ip_addr: 10.11.12.12
+                                          bdr_router_id: 10.255.255.12
+                                          bfd: !!python/object/new:genie.ops.base.maker.CmdDict
+                                            dictitems:
+                                              enable: false
+                                            state:
+                                              leaf_dict:
+                                                enable: *id005
+                                          cost: 1
+                                          dead_interval: 40
+                                          demand_circuit: false
+                                          dr_ip_addr: 10.11.12.11
+                                          dr_router_id: 10.255.255.11
+                                          enable: true
+                                          hello_interval: 10
+                                          hello_timer: 00:00:04
+                                          interface_type: broadcast
+                                          lls: true
+                                          name: GigabitEthernet10
+                                          neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                                            dictitems:
+                                              10.255.255.12: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                dictitems:
+                                                  address: 10.11.12.12
+                                                  bdr_ip_addr: 10.11.12.12
+                                                  dead_timer: 00:00:39
+                                                  dr_ip_addr: 10.11.12.11
+                                                  neighbor_router_id: 10.255.255.12
+                                                  state: full
+                                                  statistics: !!python/object/new:genie.ops.base.maker.CmdDict
+                                                    dictitems:
+                                                      nbr_event_count: 6
+                                                      nbr_retrans_qlen: 0
+                                                    state:
+                                                      leaf_dict:
+                                                        nbr_event_count: *id004
+                                                        nbr_retrans_qlen: *id004
+                                                state:
+                                                  leaf_dict:
+                                                    address: *id004
+                                                    bdr_ip_addr: *id004
+                                                    dead_timer: *id004
+                                                    dr_ip_addr: *id004
+                                                    neighbor_router_id: *id004
+                                                    state: *id004
+                                            state:
+                                              leaf_dict: {}
+                                          passive: false
+                                          priority: 1
+                                          retransmit_interval: 5
+                                          state: dr
+                                          transmit_delay: 1
+                                        state:
+                                          leaf_dict:
+                                            bdr_ip_addr: *id005
+                                            bdr_router_id: *id005
+                                            cost: *id005
+                                            dead_interval: *id005
+                                            demand_circuit: *id005
+                                            dr_ip_addr: *id005
+                                            dr_router_id: *id005
+                                            enable: *id005
+                                            hello_interval: *id005
+                                            hello_timer: *id005
+                                            interface_type: *id005
+                                            lls: *id005
+                                            name: *id005
+                                            passive: *id005
+                                            priority: *id005
+                                            retransmit_interval: *id005
+                                            state: *id005
+                                            transmit_delay: *id005
+                                    state:
+                                      leaf_dict: {}
+                                  mpls: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      te: !!python/object/new:genie.ops.base.maker.CmdDict
+                                        dictitems:
+                                          enable: false
+                                        state:
+                                          leaf_dict:
+                                            enable: !!python/name:genie.libs.parser.iosxe.show_ospf.ShowIpOspfMplsTrafficEngLink ''
+                                    state:
+                                      leaf_dict: {}
+                                  statistics: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      area_scope_lsa_cksum_sum: '0x07F4BE'
+                                      area_scope_lsa_count: 16
+                                      spf_runs_count: 27
+                                    state:
+                                      leaf_dict:
+                                        area_scope_lsa_cksum_sum: *id001
+                                        area_scope_lsa_count: *id001
+                                        spf_runs_count: *id001
+                                state:
+                                  leaf_dict:
+                                    area_id: *id001
+                                    area_type: *id001
+                            state:
+                              leaf_dict: {}
+                          auto_cost: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              enable: false
+                            state:
+                              leaf_dict:
+                                enable: *id001
+                          bfd: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              enable: false
+                            state:
+                              leaf_dict:
+                                enable: *id001
+                          graceful_restart: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              cisco: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  enable: false
+                                  type: cisco
+                                state:
+                                  leaf_dict:
+                                    enable: *id001
+                                    type: *id001
+                              ietf: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  enable: false
+                                  type: ietf
+                                state:
+                                  leaf_dict:
+                                    enable: *id001
+                                    type: *id001
+                            state:
+                              leaf_dict: {}
+                          mpls: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              ldp: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  autoconfig: false
+                                  autoconfig_area_id: 0.0.0.0
+                                state:
+                                  leaf_dict:
+                                    autoconfig: &id006 !!python/name:genie.libs.parser.iosxe.show_ospf.ShowIpOspfMplsLdpInterface ''
+                                    autoconfig_area_id: *id006
+                            state:
+                              leaf_dict: {}
+                          nsr: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              enable: false
+                            state:
+                              leaf_dict:
+                                enable: *id001
+                          preference: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              single_value: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  all: 110
+                                state:
+                                  leaf_dict:
+                                    all: &id007 !!python/name:genie.libs.parser.iosxe.show_protocols.ShowIpProtocols ''
+                            state:
+                              leaf_dict: {}
+                          router_id: 10.255.255.11
+                          spf_control: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              paths: 4
+                              throttle: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  lsa: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      hold: 200
+                                      maximum: 5000
+                                      start: 50
+                                    state:
+                                      leaf_dict:
+                                        hold: *id001
+                                        maximum: *id001
+                                        start: *id001
+                                  spf: !!python/object/new:genie.ops.base.maker.CmdDict
+                                    dictitems:
+                                      hold: 200
+                                      maximum: 5000
+                                      start: 50
+                                    state:
+                                      leaf_dict:
+                                        hold: *id001
+                                        maximum: *id001
+                                        start: *id001
+                                state:
+                                  leaf_dict: {}
+                            state:
+                              leaf_dict:
+                                paths: *id007
+                          stub_router: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              always: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  always: false
+                                  external_lsa: false
+                                  include_stub: false
+                                  summary_lsa: false
+                                state:
+                                  leaf_dict:
+                                    always: *id001
+                                    external_lsa: *id001
+                                    include_stub: *id001
+                                    summary_lsa: *id001
+                            state:
+                              leaf_dict: {}
+                        state:
+                          leaf_dict:
+                            router_id: *id001
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict: {}
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict: {}

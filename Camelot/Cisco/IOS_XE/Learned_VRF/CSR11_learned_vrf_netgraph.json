@@ -1,0 +1,38 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show VRF",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR11"
+        },
+        { 
+            "id": "VRF: red"
+        },  
+        { 
+            "id": "Address Family: ipv4 unicast"
+        },
+        { 
+            "id": "RD: "
+        }              
+    ],
+    "links": [ 
+        { 
+            "source": "CSR11",
+            "target": "VRF: red",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: red",
+            "target": "Address Family: ipv4 unicast",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: red",
+            "target": "RD: ",
+            "cost": 1
+        }                     
+    ]
+}

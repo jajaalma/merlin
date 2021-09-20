@@ -1,0 +1,14 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  chassis_detail: IOS XRv Chassis
+  config_register: '0x2102'
+  device_family: IOS XRv Series
+  image: bootflash:disk0/xrvr-os-mbi-6.1.3/mbixrvr-rp.vm
+  main_mem: cisco IOS XRv Series (Pentium Celeron Stepping 3) processor with 3145215K
+    bytes of memory.
+  operating_system: IOSXR
+  processor: Pentium Celeron Stepping 3
+  processor_memory_bytes: 3145215K
+  rp_config_register: '0x2102'
+  software_version: 6.1.3
+  uptime: 1 day, 3 hours, 4 minutes

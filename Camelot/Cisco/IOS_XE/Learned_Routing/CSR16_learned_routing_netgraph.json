@@ -1,0 +1,606 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show Routing",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR16"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "Address Family: ipv4"
+        },
+        { 
+            "id": "Route: 172.17.3.16/32"
+        },
+        { 
+            "id": "Active: True"
+        },
+        { 
+            "id": "Outgoing Interface: GigabitEthernet8"
+        },
+        { 
+            "id": "Source Protocol: local"
+        },
+        { 
+            "id": "Code: L"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "Address Family: ipv4"
+        },
+        { 
+            "id": "Route: 172.17.3.0/24"
+        },
+        { 
+            "id": "Active: True"
+        },
+        { 
+            "id": "Outgoing Interface: GigabitEthernet8"
+        },
+        { 
+            "id": "Source Protocol: connected"
+        },
+        { 
+            "id": "Code: C"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "Address Family: ipv4"
+        },
+        { 
+            "id": "Route: 172.17.2.0/24"
+        },
+        { 
+            "id": "Active: True"
+        },
+        { 
+            "id": "Metric: 0"
+        },
+        { 
+            "id": "Preference: 200"
+        },
+        { 
+            "id": "Source Protocol: bgp"
+        },        
+        { 
+            "id": "Code: B"
+        },        
+        { 
+            "id": "Hop: 1"
+        },
+        { 
+            "id": "Next Hop: 10.255.255.12"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "Address Family: ipv4"
+        },
+        { 
+            "id": "Route: 172.17.1.0/24"
+        },
+        { 
+            "id": "Active: True"
+        },
+        { 
+            "id": "Metric: 0"
+        },
+        { 
+            "id": "Preference: 200"
+        },
+        { 
+            "id": "Source Protocol: bgp"
+        },        
+        { 
+            "id": "Code: B"
+        },        
+        { 
+            "id": "Hop: 1"
+        },
+        { 
+            "id": "Next Hop: 10.255.255.12"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "Address Family: ipv4"
+        },
+        { 
+            "id": "Route: 10.4.255.3/32"
+        },
+        { 
+            "id": "Active: True"
+        },
+        { 
+            "id": "Metric: 110"
+        },
+        { 
+            "id": "Preference: 200"
+        },
+        { 
+            "id": "Source Protocol: bgp"
+        },        
+        { 
+            "id": "Code: B"
+        },        
+        { 
+            "id": "Hop: 1"
+        },
+        { 
+            "id": "Next Hop: 10.255.255.15"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "Address Family: ipv4"
+        },
+        { 
+            "id": "Route: 10.4.255.2/32"
+        },
+        { 
+            "id": "Active: True"
+        },
+        { 
+            "id": "Metric: 110"
+        },
+        { 
+            "id": "Preference: 200"
+        },
+        { 
+            "id": "Source Protocol: bgp"
+        },        
+        { 
+            "id": "Code: B"
+        },        
+        { 
+            "id": "Hop: 1"
+        },
+        { 
+            "id": "Next Hop: 10.255.255.15"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "Address Family: ipv4"
+        },
+        { 
+            "id": "Route: 10.2.255.2/32"
+        },
+        { 
+            "id": "Active: True"
+        },
+        { 
+            "id": "Metric: 2"
+        },
+        { 
+            "id": "Preference: 200"
+        },
+        { 
+            "id": "Source Protocol: bgp"
+        },        
+        { 
+            "id": "Code: B"
+        },        
+        { 
+            "id": "Hop: 1"
+        },
+        { 
+            "id": "Next Hop: 10.255.255.12"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "Address Family: ipv4"
+        },
+        { 
+            "id": "Route: 10.2.255.1/32"
+        },
+        { 
+            "id": "Active: True"
+        },
+        { 
+            "id": "Metric: 2"
+        },
+        { 
+            "id": "Preference: 200"
+        },
+        { 
+            "id": "Source Protocol: bgp"
+        },        
+        { 
+            "id": "Code: B"
+        },        
+        { 
+            "id": "Hop: 1"
+        },
+        { 
+            "id": "Next Hop: 10.255.255.12"
+        }
+    ],
+    "links": [
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1
+        },    
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "Address Family: ipv4",
+            "target": "Route: 172.17.3.16/32",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 172.17.3.16/32",
+            "target": "Active: True",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 172.17.3.16/32",
+            "target": "Outgoing Interface: GigabitEthernet8",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 172.17.3.16/32",
+            "target": "Source Protocol: local",
+            "cost": 2
+        },          
+        { 
+            "source": "Route: 172.17.3.16/32",
+            "target": "Code: L",
+            "cost": 2
+        },
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1
+        },    
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "Address Family: ipv4",
+            "target": "Route: 172.17.3.0/24",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 172.17.3.0/24",
+            "target": "Active: True",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 172.17.3.0/24",
+            "target": "Outgoing Interface: GigabitEthernet8",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 172.17.3.0/24",
+            "target": "Source Protocol: connected",
+            "cost": 2
+        },          
+        { 
+            "source": "Route: 172.17.3.0/24",
+            "target": "Code: C",
+            "cost": 2
+        },
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1
+        },    
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "Address Family: ipv4",
+            "target": "Route: 172.17.2.0/24",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 172.17.2.0/24",
+            "target": "Active: True",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 172.17.2.0/24",
+            "target": "Metric: 0",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 172.17.2.0/24",
+            "target": "Preference: 200",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 172.17.2.0/24",
+            "target": "Source Protocol: bgp",
+            "cost": 2
+        },          
+        { 
+            "source": "Route: 172.17.2.0/24",
+            "target": "Code: B",
+            "cost": 2
+        },        
+        { 
+            "source": "Route: 172.17.2.0/24",
+            "target": "Hop: 1",
+            "cost": 1
+        },
+        { 
+            "source": "Hop: 1",
+            "target": "Next Hop: 10.255.255.12",
+            "cost": 1
+        },
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1
+        },    
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "Address Family: ipv4",
+            "target": "Route: 172.17.1.0/24",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 172.17.1.0/24",
+            "target": "Active: True",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 172.17.1.0/24",
+            "target": "Metric: 0",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 172.17.1.0/24",
+            "target": "Preference: 200",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 172.17.1.0/24",
+            "target": "Source Protocol: bgp",
+            "cost": 2
+        },          
+        { 
+            "source": "Route: 172.17.1.0/24",
+            "target": "Code: B",
+            "cost": 2
+        },        
+        { 
+            "source": "Route: 172.17.1.0/24",
+            "target": "Hop: 1",
+            "cost": 1
+        },
+        { 
+            "source": "Hop: 1",
+            "target": "Next Hop: 10.255.255.12",
+            "cost": 1
+        },
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1
+        },    
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "Address Family: ipv4",
+            "target": "Route: 10.4.255.3/32",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 10.4.255.3/32",
+            "target": "Active: True",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.4.255.3/32",
+            "target": "Metric: 110",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.4.255.3/32",
+            "target": "Preference: 200",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.4.255.3/32",
+            "target": "Source Protocol: bgp",
+            "cost": 2
+        },          
+        { 
+            "source": "Route: 10.4.255.3/32",
+            "target": "Code: B",
+            "cost": 2
+        },        
+        { 
+            "source": "Route: 10.4.255.3/32",
+            "target": "Hop: 1",
+            "cost": 1
+        },
+        { 
+            "source": "Hop: 1",
+            "target": "Next Hop: 10.255.255.15",
+            "cost": 1
+        },
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1
+        },    
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "Address Family: ipv4",
+            "target": "Route: 10.4.255.2/32",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 10.4.255.2/32",
+            "target": "Active: True",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.4.255.2/32",
+            "target": "Metric: 110",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.4.255.2/32",
+            "target": "Preference: 200",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.4.255.2/32",
+            "target": "Source Protocol: bgp",
+            "cost": 2
+        },          
+        { 
+            "source": "Route: 10.4.255.2/32",
+            "target": "Code: B",
+            "cost": 2
+        },        
+        { 
+            "source": "Route: 10.4.255.2/32",
+            "target": "Hop: 1",
+            "cost": 1
+        },
+        { 
+            "source": "Hop: 1",
+            "target": "Next Hop: 10.255.255.15",
+            "cost": 1
+        },
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1
+        },    
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "Address Family: ipv4",
+            "target": "Route: 10.2.255.2/32",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 10.2.255.2/32",
+            "target": "Active: True",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.2.255.2/32",
+            "target": "Metric: 2",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.2.255.2/32",
+            "target": "Preference: 200",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.2.255.2/32",
+            "target": "Source Protocol: bgp",
+            "cost": 2
+        },          
+        { 
+            "source": "Route: 10.2.255.2/32",
+            "target": "Code: B",
+            "cost": 2
+        },        
+        { 
+            "source": "Route: 10.2.255.2/32",
+            "target": "Hop: 1",
+            "cost": 1
+        },
+        { 
+            "source": "Hop: 1",
+            "target": "Next Hop: 10.255.255.12",
+            "cost": 1
+        },
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1
+        },    
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "Address Family: ipv4",
+            "target": "Route: 10.2.255.1/32",
+            "cost": 1
+        },
+        { 
+            "source": "Route: 10.2.255.1/32",
+            "target": "Active: True",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.2.255.1/32",
+            "target": "Metric: 2",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.2.255.1/32",
+            "target": "Preference: 200",
+            "cost": 2
+        },
+        { 
+            "source": "Route: 10.2.255.1/32",
+            "target": "Source Protocol: bgp",
+            "cost": 2
+        },          
+        { 
+            "source": "Route: 10.2.255.1/32",
+            "target": "Code: B",
+            "cost": 2
+        },        
+        { 
+            "source": "Route: 10.2.255.1/32",
+            "target": "Hop: 1",
+            "cost": 1
+        },
+        { 
+            "source": "Hop: 1",
+            "target": "Next Hop: 10.255.255.12",
+            "cost": 1
+        }   
+    ]
+}

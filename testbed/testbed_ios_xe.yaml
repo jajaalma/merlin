@@ -1,46 +1,57 @@
 devices:
-    4500:
-      alias: '4500'
+    CSR11:
+      alias: 'CSR11'
       type: 'router'
       os: 'iosxe'
-      platform: cat4500
-      credentials:
-        default:
-          username: {{ your username }}
-          password: {{ your password }}
-      connections:        
+      platform: IOS-XE
+      connections:  
+        defaults:
+          class: unicon.Unicon      
         cli:
-          protocol: ssh
-          ip: {{ your device IP }}
+          protocol: telnet
+          ip: ccie.selfip.com
+          port: 33537
           arguments:
             connection_timeout: 360  
-    3850:
-      alias: '3850'
-      type: 'switch'
+    CSR13:
+      alias: 'CSR13'
+      type: 'router'
       os: 'iosxe'
-      platform: cat3850
-      credentials:
-        default:
-          username: {{ your username }}
-          password: {{ your password }}
-      connections:        
+      platform: IOS-XE
+      connections:   
+        defaults:
+          class: unicon.Unicon       
         cli:
-          protocol: ssh
-          ip: {{ your device IP }}
+          protocol: telnet
+          ip: ccie.selfip.com
+          port: 33538
           arguments:
-            connection_timeout: 360
-    9300:
-      alias: '9300'
-      type: 'switch'
+            connection_timeout: 360  
+    CSR14:
+      alias: 'CSR14'
+      type: 'router'
       os: 'iosxe'
-      platform: c9300
-      credentials:
-        default:
-          username: {{ your username }}
-          password: {{ your password }}
-      connections:        
+      platform: IOS-XE
+      connections:   
+        defaults:
+          class: unicon.Unicon       
         cli:
-          protocol: ssh
-          ip: {{ your device IP }}
+          protocol: telnet
+          ip: ccie.selfip.com
+          port: 33539
           arguments:
-            connection_timeout: 360              
+            connection_timeout: 360           
+    CSR16:
+      alias: 'CSR16'
+      type: 'router'
+      os: 'iosxe'
+      platform: IOS-XE
+      connections:     
+        defaults:
+          class: unicon.Unicon     
+        cli:
+          protocol: telnet
+          ip: ccie.selfip.com
+          port: 33540
+          arguments:
+            connection_timeout: 360     

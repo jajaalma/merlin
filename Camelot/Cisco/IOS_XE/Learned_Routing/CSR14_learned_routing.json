@@ -1,0 +1,106 @@
+{
+    "vrf": {
+        "CustC": {
+            "address_family": {
+                "ipv4": {
+                    "routes": {
+                        "10.3.255.1/32": {
+                            "active": true,
+                            "metric": 10880,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.12",
+                                        "updated": "07:40:10"
+                                    }
+                                }
+                            },
+                            "route": "10.3.255.1/32",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "10.3.255.2/32": {
+                            "active": true,
+                            "metric": 10880,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.12",
+                                        "updated": "07:40:08"
+                                    }
+                                }
+                            },
+                            "route": "10.3.255.2/32",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "172.18.1.0/24": {
+                            "active": true,
+                            "metric": 0,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.12",
+                                        "updated": "1d00h"
+                                    }
+                                }
+                            },
+                            "route": "172.18.1.0/24",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "172.18.2.0/24": {
+                            "active": true,
+                            "metric": 0,
+                            "next_hop": {
+                                "next_hop_list": {
+                                    "1": {
+                                        "index": 1,
+                                        "next_hop": "10.255.255.12",
+                                        "updated": "1d00h"
+                                    }
+                                }
+                            },
+                            "route": "172.18.2.0/24",
+                            "route_preference": 200,
+                            "source_protocol": "bgp",
+                            "source_protocol_codes": "B"
+                        },
+                        "172.18.3.0/24": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet9": {
+                                        "outgoing_interface": "GigabitEthernet9"
+                                    }
+                                }
+                            },
+                            "route": "172.18.3.0/24",
+                            "source_protocol": "connected",
+                            "source_protocol_codes": "C"
+                        },
+                        "172.18.3.14/32": {
+                            "active": true,
+                            "next_hop": {
+                                "outgoing_interface": {
+                                    "GigabitEthernet9": {
+                                        "outgoing_interface": "GigabitEthernet9"
+                                    }
+                                }
+                            },
+                            "route": "172.18.3.14/32",
+                            "source_protocol": "local",
+                            "source_protocol_codes": "L"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

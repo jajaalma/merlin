@@ -1,0 +1,102 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show Interface Status",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR11"
+        },
+        {
+            "id": "Total Entries: 4"
+        },
+        {
+            "id": "Input Drops: 0"
+        },
+        {
+            "id": "Input Replies: 2"
+        },
+        { 
+            "id": "Input Requests: 14"
+        },
+        {
+            "id": "Input Total: "
+        },
+        {
+            "id": "Incomplete Total: 0"
+        },
+        {
+            "id": "Output Drops: "
+        },
+        { 
+            "id": "Output Gratuitous: "
+        },
+        {
+            "id": "Output Replies: 20"
+        },
+        {
+            "id": "Output Requests: 4"
+        },
+        {
+            "id": "Output Total: "
+        }       
+    ],
+    "links": [
+        {
+            "source": "CSR11",
+            "target": "Total Entries: 4",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Input Drops: 0",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Input Replies: 2",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Input Requests: 14",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Input Total: ",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Incomplete Total: 0",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Output Drops: ",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Output Gratuitous: ",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Output Replies: 20",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Output Requests: 4",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "Output Total: ",
+            "cost": 1
+        }      
+    ]
+}

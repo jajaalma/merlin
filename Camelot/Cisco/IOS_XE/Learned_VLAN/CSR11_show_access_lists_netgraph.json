@@ -1,0 +1,24 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show Access Lists",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR11"
+        },
+        
+        {
+            "id": "Access Control List: meraki-fqdn-dns"
+        }
+    ],
+    "links": [
+        
+        {
+            "source": "CSR11",
+            "target": "Access Control List: meraki-fqdn-dns",
+            "cost": 1
+        }
+    ]
+}

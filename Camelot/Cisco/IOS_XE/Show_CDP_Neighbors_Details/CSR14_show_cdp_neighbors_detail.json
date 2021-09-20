@@ -1,0 +1,39 @@
+{
+    "index": {
+        "1": {
+            "advertisement_ver": 2,
+            "capabilities": "Router",
+            "device_id": "XRv15",
+            "duplex_mode": "full",
+            "entry_addresses": {
+                "10.14.15.15": {}
+            },
+            "hold_time": 148,
+            "local_interface": "GigabitEthernet11",
+            "management_addresses": {},
+            "native_vlan": "",
+            "platform": "cisco IOS XRv Series",
+            "port_id": "GigabitEthernet0/0/0/11",
+            "software_version": "Cisco IOS XR Software, Version 6.1.3[Default]\nCopyright (c) 2017 by Cisco Systems, Inc.",
+            "vtp_management_domain": ""
+        },
+        "2": {
+            "advertisement_ver": 2,
+            "capabilities": "Router",
+            "device_id": "XRv99",
+            "duplex_mode": "full",
+            "entry_addresses": {
+                "10.14.99.99": {}
+            },
+            "hold_time": 162,
+            "local_interface": "GigabitEthernet4",
+            "management_addresses": {},
+            "native_vlan": "",
+            "platform": "cisco IOS XRv Series",
+            "port_id": "GigabitEthernet0/0/0/4",
+            "software_version": "Cisco IOS XR Software, Version 6.1.3[Default]\nCopyright (c) 2017 by Cisco Systems, Inc.",
+            "vtp_management_domain": ""
+        }
+    },
+    "total_entries_displayed": 2
+}

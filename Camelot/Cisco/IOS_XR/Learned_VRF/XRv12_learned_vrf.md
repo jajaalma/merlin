@@ -1,0 +1,8 @@
+
+# Learn VRF
+| VRF | Address Family | Route Distinguisher |
+| --- | -------------- | ------------------- |
+| CustD | ipv4 unicast | 20000:4 |
+| CustC | ipv4 unicast | 20000:3 |
+| CustB | ipv4 unicast | 20000:2 |
+| CustA | ipv4 unicast | 20000:1 |

@@ -1,0 +1,8 @@
+
+# Show IP ARP (Global Routing Table)
+| Interface | Neighbor IP Address | MAC Address | Type | Origin | Age | Protocol |
+| --------- | ------------------- | ----------- | ---- | ------ | --- | -------- |
+| GigabitEthernet11 | 10.14.15.14 | 5006.0003.000a | ARPA | static | - | Internet |
+| GigabitEthernet11 | 10.14.15.15 | 5006.0007.000c | ARPA | dynamic | 128 | Internet |
+| GigabitEthernet4 | 10.14.99.14 | 5006.0003.0003 | ARPA | static | - | Internet |
+| GigabitEthernet4 | 10.14.99.99 | 5006.0009.0005 | ARPA | dynamic | 104 | Internet |

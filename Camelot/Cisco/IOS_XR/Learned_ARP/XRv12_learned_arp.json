@@ -1,0 +1,59 @@
+{
+    "interfaces": {
+        "GigabitEthernet0/0/0/10": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/11": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/2": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/3": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/4": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/5": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/6": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/7": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/8": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/9": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "Loopback0": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+
+# Show IP OPSF 
+| VRF | Address Family | Instance | Router ID | Area | Area Transit | Area Type | Summary | NSSA | Enabled | Interface Count | SPF Last Executed | Total SPF | Area LSA Count | Auto Cost Enable | Reference Bandwidth | BFD Enabled | Elapsed Time | Event Log Enabled | Graceful Restart Type | Graceful Restart Enabled | LLS | NSR Enable | External LSA | Total Areas | Total Normal Areas | Total NSSA Areas | Total Stub Areas |
+| --- | -------------- | -------- | --------- | ---- | ------------ | --------- | ------- | ---- | ------- | --------------- | ----------------- | --------- | -------------- | ---------------- | ------------------- | ----------- | ------------ | ----------------- | --------------------- | ------------------------ | --- | ---------- | ------------ | ----------- | ------------------ | ---------------- | ---------------- |
+| default | ipv4 | 1 | 10.255.255.16 | 0.0.0.0 | True | normal |  | True | True | 1 | 03:54:43.237 | 12 | 16 | False | 100 | False | 04:01:27.511 | YES | ietf | False | True | False | 0 | 1 | 1 | 0 | 0 |
+| default | ipv4 | 1 | 10.255.255.16 | 0.0.0.0 | True | normal |  | True | True | 1 | 03:54:43.237 | 12 | 16 | False | 100 | False | 04:01:27.511 | YES | cisco | False | True | False | 0 | 1 | 1 | 0 | 0 |
+| default | ipv4 | 2 | 10.2.255.16 | 0.0.0.0 | True | normal |  | True | True | 1 | 04:01:01.520 | 4 | 5 | False | 100 | False | 1d00h | NO | ietf | False | True | False | 2 | 1 | 1 | 0 | 0 |
+| default | ipv4 | 2 | 10.2.255.16 | 0.0.0.0 | True | normal |  | True | True | 1 | 04:01:01.520 | 4 | 5 | False | 100 | False | 1d00h | NO | cisco | False | True | False | 2 | 1 | 1 | 0 | 0 |

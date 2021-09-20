@@ -1,0 +1,5 @@
+
+# Learn STP Global
+| BPDU Filter | BPDU Guard | BPDU Guard Recovery Timeout | EtherChannel Misconfig Guard | Loop Guard |
+| ----------- | ---------- | --------------------------- | ---------------------------- | ---------- |
+| False | False |  | True | False |

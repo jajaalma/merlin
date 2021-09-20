@@ -1,0 +1,20 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  clock_state: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      system_status: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          actual_freq: 100.0069
+          clock_precision: 2**10
+          reference_time: 00000000.00000000 (00:00:00.000 UTC Thu Jan  1 1970)
+          root_dispersion: 1430.1
+        state:
+          leaf_dict:
+            actual_freq: &id001 !!python/name:genie.libs.parser.iosxr.show_ntp.ShowNtpStatus ''
+            clock_precision: *id001
+            reference_time: *id001
+            root_dispersion: *id001
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict: {}

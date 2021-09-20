@@ -1,0 +1,38 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show VRF",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR16"
+        },
+        { 
+            "id": "VRF: CustB"
+        },  
+        { 
+            "id": "Address Family: ipv4 unicast"
+        },
+        { 
+            "id": "RD: 20000:2"
+        }              
+    ],
+    "links": [ 
+        { 
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4 unicast",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustB",
+            "target": "RD: 20000:2",
+            "cost": 1
+        }                     
+    ]
+}

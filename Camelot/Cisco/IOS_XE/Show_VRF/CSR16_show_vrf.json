@@ -1,0 +1,13 @@
+{
+    "vrf": {
+        "CustB": {
+            "interfaces": [
+                "GigabitEthernet8"
+            ],
+            "protocols": [
+                "ipv4"
+            ],
+            "route_distinguisher": "20000:2"
+        }
+    }
+}

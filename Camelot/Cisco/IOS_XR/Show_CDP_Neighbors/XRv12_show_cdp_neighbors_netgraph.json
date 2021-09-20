@@ -1,0 +1,87 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show CDP Neighbor",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "XRv12"
+        },
+        
+        {
+            "id": "XRv99"
+        },
+        {
+            "id": "CustA-R1"
+        },
+        {
+            "id": "CustA-R2"
+        },
+        {
+            "id": "CustB-R1"
+        },
+        {
+            "id": "CustB-R2"
+        },
+        {
+            "id": "CustC-R1"
+        },
+        {
+            "id": "CustC-R2"
+        },
+        {
+            "id": "CSR11"
+        },
+        {
+            "id": "CSR13"
+        }
+    ],
+    "links": [
+        {
+            "source": "XRv12",
+            "target": "XRv99",
+            "cost": 1
+        },
+        {
+            "source": "XRv12",
+            "target": "CustA-R1",
+            "cost": 1
+        },
+        {
+            "source": "XRv12",
+            "target": "CustA-R2",
+            "cost": 1
+        },
+        {
+            "source": "XRv12",
+            "target": "CustB-R1",
+            "cost": 1
+        },
+        {
+            "source": "XRv12",
+            "target": "CustB-R2",
+            "cost": 1
+        },
+        {
+            "source": "XRv12",
+            "target": "CustC-R1",
+            "cost": 1
+        },
+        {
+            "source": "XRv12",
+            "target": "CustC-R2",
+            "cost": 1
+        },
+        {
+            "source": "XRv12",
+            "target": "CSR11",
+            "cost": 1
+        },
+        {
+            "source": "XRv12",
+            "target": "CSR13",
+            "cost": 1
+        }
+    ]
+}

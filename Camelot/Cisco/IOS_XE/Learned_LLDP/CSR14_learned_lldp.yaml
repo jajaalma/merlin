@@ -1,0 +1,266 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  counters: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      entries_aged_out: 0
+      frame_discard: 0
+      frame_error_in: 0
+      frame_in: 946
+      frame_out: 3824
+      tlv_discard: 0
+      tlv_unknown: 0
+    state:
+      leaf_dict:
+        entries_aged_out: &id001 !!python/name:genie.libs.parser.iosxe.show_lldp.ShowLldpTraffic ''
+        frame_discard: *id001
+        frame_error_in: *id001
+        frame_in: *id001
+        frame_out: *id001
+        tlv_discard: *id001
+        tlv_unknown: *id001
+  enabled: true
+  hello_timer: 30
+  hold_timer: 120
+  interfaces: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      GigabitEthernet1: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: &id002 !!python/name:genie.libs.parser.iosxe.show_lldp.ShowLldpInterface ''
+      GigabitEthernet10: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet11: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+          if_name: GigabitEthernet11
+          port_id: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              GigabitEthernet0/0/0/11: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      XRv15: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          capabilities: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  enabled: true
+                                  name: router
+                                state:
+                                  leaf_dict:
+                                    enabled: &id003 !!python/name:genie.libs.parser.iosxe.show_lldp.ShowLldpEntry ''
+                                    name: *id003
+                            state:
+                              leaf_dict: {}
+                          chassis_id: 029b.6d58.a406
+                          management_address: 10.14.15.15
+                          neighbor_id: XRv15
+                          port_id: GigabitEthernet0/0/0/11
+                          system_description: 'Copyright (c) 2017 by Cisco Systems,
+                            Inc., IOS XRv Series
+
+                            '
+                          system_name: XRv15
+                        state:
+                          leaf_dict:
+                            chassis_id: *id003
+                            management_address: *id003
+                            neighbor_id: *id003
+                            port_id: *id003
+                            system_description: *id003
+                            system_name: *id003
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict:
+            enabled: *id002
+            if_name: *id003
+      GigabitEthernet12: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet13: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet14: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet15: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet16: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet17: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet18: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet19: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet2: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet20: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet21: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet22: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet23: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet24: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet3: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet4: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+          if_name: GigabitEthernet4
+          port_id: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              GigabitEthernet0/0/0/4: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      XRv99: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          capabilities: !!python/object/new:genie.ops.base.maker.CmdDict
+                            dictitems:
+                              router: !!python/object/new:genie.ops.base.maker.CmdDict
+                                dictitems:
+                                  enabled: true
+                                  name: router
+                                state:
+                                  leaf_dict:
+                                    enabled: *id003
+                                    name: *id003
+                            state:
+                              leaf_dict: {}
+                          chassis_id: 0232.06be.0c06
+                          management_address: 10.14.99.99
+                          neighbor_id: XRv99
+                          port_id: GigabitEthernet0/0/0/4
+                          system_description: 'Copyright (c) 2017 by Cisco Systems,
+                            Inc., IOS XRv Series
+
+                            '
+                          system_name: XRv99
+                        state:
+                          leaf_dict:
+                            chassis_id: *id003
+                            management_address: *id003
+                            neighbor_id: *id003
+                            port_id: *id003
+                            system_description: *id003
+                            system_name: *id003
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict:
+            enabled: *id002
+            if_name: *id003
+      GigabitEthernet5: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet6: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet7: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet8: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+      GigabitEthernet9: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          enabled: true
+        state:
+          leaf_dict:
+            enabled: *id002
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict:
+    enabled: &id004 !!python/name:genie.libs.parser.iosxe.show_lldp.ShowLldp ''
+    hello_timer: *id004
+    hold_timer: *id004

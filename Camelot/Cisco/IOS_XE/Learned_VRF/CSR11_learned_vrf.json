@@ -1,0 +1,11 @@
+{
+    "vrfs": {
+        "red": {
+            "address_family": {
+                "ipv4 unicast": {
+                    "table_id": "0x1"
+                }
+            }
+        }
+    }
+}

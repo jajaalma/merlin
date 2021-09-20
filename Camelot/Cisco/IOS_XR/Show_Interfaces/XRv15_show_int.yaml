@@ -1,0 +1,1686 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  Bundle-Ether1:
+    bandwidth: 0
+    counters:
+      last_clear: Unknown
+    duplex_mode: full
+    enabled: true
+    encapsulations:
+      encapsulation: arpa
+    interface_state_transitions: 0
+    last_input: Unknown
+    last_output: Unknown
+    line_protocol: down
+    loopback: not set
+    mac_address: 029b.6d58.a403
+    mtu: 1514
+    oper_status: down
+    port_channel:
+      member_count: 0
+    port_speed: 0Kb/s
+    reliability: Unknown
+    rxload: Unknown
+    txload: Unknown
+    type: Aggregated Ethernet interface(s)
+  GigabitEthernet0/0/0/0:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0001
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0001
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/1:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0002
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0002
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/10:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.000b
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.000b
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/11:
+    arp_timeout: 04:00:00
+    arp_type: arpa
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 1
+      in_abort: 0
+      in_broadcast_pkts: 1
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 15106
+      in_octets: 17590695
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 15121
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 1
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 49994
+      out_octets: 54549905
+      out_pkts: 50009
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 1000
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 4000
+        out_rate_pkts: 1
+    duplex_mode: full
+    enabled: true
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 1
+    ipv4:
+      10.14.15.15/24:
+        ip: 10.14.15.15
+        prefix_length: '24'
+    last_input: 00:00:00
+    last_link_flapped: 1d02h
+    last_output: 00:00:00
+    line_protocol: up
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.000c
+    media_type: unknown
+    mtu: 1514
+    oper_status: up
+    phys_address: 5006.0007.000c
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/12:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.000d
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.000d
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/13:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.000e
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.000e
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/14:
+    arp_timeout: 04:00:00
+    arp_type: arpa
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 1
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 12546
+      in_octets: 17281424
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 12553
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 1
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 49761
+      out_octets: 54456981
+      out_pkts: 49769
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 1000
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 4000
+        out_rate_pkts: 1
+    duplex_mode: full
+    enabled: true
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 1
+    ipv4:
+      10.15.16.15/24:
+        ip: 10.15.16.15
+        prefix_length: '24'
+    last_input: 00:00:00
+    last_link_flapped: 1d02h
+    last_output: 00:00:00
+    line_protocol: up
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.000f
+    media_type: unknown
+    mtu: 1514
+    oper_status: up
+    phys_address: 5006.0007.000f
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/15:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0010
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0010
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/16:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0011
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0011
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/17:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0012
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0012
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/18:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0013
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0013
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/19:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0014
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0014
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/2:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0003
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0003
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/20:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0015
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0015
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/21:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0016
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0016
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/22:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0017
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0017
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/3:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0004
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0004
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/4:
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0005
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0005
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/5:
+    arp_timeout: 04:00:00
+    arp_type: arpa
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 1
+      in_abort: 0
+      in_broadcast_pkts: 2
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 49681
+      in_octets: 54930998
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 56511
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 1
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 15334
+      out_octets: 17756358
+      out_pkts: 22173
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 4000
+        in_rate_pkts: 1
+        load_interval: 300
+        out_rate: 1000
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: true
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 1
+    ipv4:
+      10.15.99.15/24:
+        ip: 10.15.99.15
+        prefix_length: '24'
+    last_input: 00:00:00
+    last_link_flapped: 1d02h
+    last_output: 00:00:00
+    line_protocol: up
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0006
+    media_type: unknown
+    mtu: 1514
+    oper_status: up
+    phys_address: 5006.0007.0006
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/6:
+    arp_timeout: 04:00:00
+    arp_type: arpa
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 1
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 17937
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 1160
+      out_octets: 974110
+      out_pkts: 19097
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: true
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 1
+    ipv4:
+      172.16.4.15/24:
+        ip: 172.16.4.15
+        prefix_length: '24'
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: 00:00:00
+    line_protocol: up
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0007
+    media_type: unknown
+    mtu: 1514
+    oper_status: up
+    phys_address: 5006.0007.0007
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/7:
+    arp_timeout: 04:00:00
+    arp_type: arpa
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 1
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 17941
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 1160
+      out_octets: 974278
+      out_pkts: 19101
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: true
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 1
+    ipv4:
+      172.16.3.15/24:
+        ip: 172.16.3.15
+        prefix_length: '24'
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: 00:00:10
+    line_protocol: up
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0008
+    media_type: unknown
+    mtu: 1514
+    oper_status: up
+    phys_address: 5006.0007.0008
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/8:
+    arp_timeout: 04:00:00
+    arp_type: arpa
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 1
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 1
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 1160
+      out_octets: 220798
+      out_pkts: 1161
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: true
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 1
+    ipv4:
+      172.19.3.15/24:
+        ip: 172.19.3.15
+        prefix_length: '24'
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: 00:00:00
+    line_protocol: up
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.0009
+    media_type: unknown
+    mtu: 1514
+    oper_status: up
+    phys_address: 5006.0007.0009
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  GigabitEthernet0/0/0/9:
+    arp_timeout: 04:00:00
+    arp_type: arpa
+    auto_negotiate: false
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 1
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 1
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 1160
+      out_octets: 220798
+      out_pkts: 1161
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: full
+    enabled: true
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 1
+    ipv4:
+      172.19.2.15/24:
+        ip: 172.19.2.15
+        prefix_length: '24'
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: 00:00:00
+    line_protocol: up
+    link_type: force-up
+    loopback: not set
+    mac_address: 5006.0007.000a
+    media_type: unknown
+    mtu: 1514
+    oper_status: up
+    phys_address: 5006.0007.000a
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: GigabitEthernet
+  Loopback0:
+    bandwidth: 0
+    counters:
+      last_clear: Unknown
+    enabled: true
+    encapsulations:
+      encapsulation: loopback
+    interface_state_transitions: 1
+    ipv4:
+      10.255.255.15/32:
+        ip: 10.255.255.15
+        prefix_length: '32'
+    last_input: Unknown
+    last_link_flapped: 1d02h
+    last_output: Unknown
+    line_protocol: up
+    loopback: not set
+    mtu: 1500
+    oper_status: up
+    reliability: Unknown
+    rxload: Unknown
+    txload: Unknown
+    type: Loopback interface(s)
+  MgmtEth0/0/CPU0/0:
+    auto_negotiate: true
+    bandwidth: 1000000
+    bandwidth_max: 1000000
+    carrier_delay_up: 10
+    counters:
+      carrier_transitions: 2
+      in_abort: 0
+      in_broadcast_pkts: 0
+      in_crc_errors: 0
+      in_errors: 0
+      in_frame: 0
+      in_giants: 0
+      in_ignored: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_overrun: 0
+      in_parity: 0
+      in_pkts: 0
+      in_runts: 0
+      in_throttles: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_applique: 0
+      out_broadcast_pkts: 0
+      out_buffer_failure: 0
+      out_buffers_swapped: 0
+      out_errors: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_resets: 0
+      out_total_drops: 0
+      out_underruns: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    duplex_mode: unknown
+    enabled: false
+    encapsulations:
+      encapsulation: arpa
+    flow_control:
+      receive: false
+      send: false
+    interface_state_transitions: 2
+    last_input: never
+    last_link_flapped: 1d02h
+    last_output: never
+    line_protocol: administratively down
+    link_type: autonegotiation
+    loopback: not set
+    mac_address: 5006.0007.0000
+    media_type: unknown
+    mtu: 1514
+    oper_status: administratively down
+    phys_address: 5006.0007.0000
+    port_speed: 1000Mb/s
+    reliability: 255/255
+    rxload: 0/255
+    txload: 0/255
+    type: Management Ethernet
+  Null0:
+    bandwidth: 0
+    counters:
+      in_broadcast_pkts: 0
+      in_multicast_pkts: 0
+      in_octets: 0
+      in_pkts: 0
+      in_total_drops: 0
+      in_unknown_protos: 0
+      last_clear: never
+      out_broadcast_pkts: 0
+      out_multicast_pkts: 0
+      out_octets: 0
+      out_pkts: 0
+      out_total_drops: 0
+      rate:
+        in_rate: 0
+        in_rate_pkts: 0
+        load_interval: 300
+        out_rate: 0
+        out_rate_pkts: 0
+    enabled: true
+    encapsulations:
+      encapsulation: 'null'
+    interface_state_transitions: 1
+    last_input: never
+    last_link_flapped: 1d03h
+    last_output: never
+    line_protocol: up
+    loopback: not set
+    mtu: 1500
+    oper_status: up
+    reliability: 255/255
+    rxload: Unknown
+    txload: Unknown
+    type: Null interface

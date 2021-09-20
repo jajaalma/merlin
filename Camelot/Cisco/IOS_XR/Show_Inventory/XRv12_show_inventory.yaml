@@ -1,0 +1,8 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  module_name:
+    0/0/CPU0:
+      descr: Route Processor type (16, 0)
+      pid: IOSXRV
+      sn: N/A
+      vid: V01

@@ -1,0 +1,63 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show CDP Neighbor",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "XRv99"
+        },
+        
+        {
+            "id": "CSR11"
+        },
+        {
+            "id": "XRv12"
+        },
+        {
+            "id": "CSR13"
+        },
+        {
+            "id": "CSR14"
+        },
+        {
+            "id": "XRv15"
+        },
+        {
+            "id": "CSR16"
+        }
+    ],
+    "links": [
+        {
+            "source": "XRv99",
+            "target": "CSR11",
+            "cost": 1
+        },
+        {
+            "source": "XRv99",
+            "target": "XRv12",
+            "cost": 1
+        },
+        {
+            "source": "XRv99",
+            "target": "CSR13",
+            "cost": 1
+        },
+        {
+            "source": "XRv99",
+            "target": "CSR14",
+            "cost": 1
+        },
+        {
+            "source": "XRv99",
+            "target": "XRv15",
+            "cost": 1
+        },
+        {
+            "source": "XRv99",
+            "target": "CSR16",
+            "cost": 1
+        }
+    ]
+}

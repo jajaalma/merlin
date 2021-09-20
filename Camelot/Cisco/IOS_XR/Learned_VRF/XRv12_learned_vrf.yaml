@@ -1,0 +1,152 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  vrfs: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      CustA: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          address_family: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ipv4 unicast: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  route_targets: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      10.255.255.12:1: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.12:1
+                          rt_type: export
+                        state:
+                          leaf_dict:
+                            route_target: &id001 !!python/name:genie.libs.parser.iosxr.show_vrf.ShowVrfAllDetail ''
+                            rt_type: *id001
+                      10.255.255.15:1: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.15:1
+                          rt_type: import
+                        state:
+                          leaf_dict:
+                            route_target: *id001
+                            rt_type: *id001
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+          description: not set
+          route_distinguisher: '20000:1'
+        state:
+          leaf_dict:
+            description: *id001
+            route_distinguisher: *id001
+      CustB: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          address_family: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ipv4 unicast: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  route_targets: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      10.255.255.12:2: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.12:2
+                          rt_type: export
+                        state:
+                          leaf_dict:
+                            route_target: *id001
+                            rt_type: *id001
+                      10.255.255.16:2: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.16:2
+                          rt_type: import
+                        state:
+                          leaf_dict:
+                            route_target: *id001
+                            rt_type: *id001
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+          description: not set
+          route_distinguisher: '20000:2'
+        state:
+          leaf_dict:
+            description: *id001
+            route_distinguisher: *id001
+      CustC: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          address_family: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ipv4 unicast: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  route_targets: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      10.255.255.12:3: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.12:3
+                          rt_type: export
+                        state:
+                          leaf_dict:
+                            route_target: *id001
+                            rt_type: *id001
+                      10.255.255.14:3: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.14:3
+                          rt_type: import
+                        state:
+                          leaf_dict:
+                            route_target: *id001
+                            rt_type: *id001
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+          description: not set
+          route_distinguisher: '20000:3'
+        state:
+          leaf_dict:
+            description: *id001
+            route_distinguisher: *id001
+      CustD: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          address_family: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ipv4 unicast: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  route_targets: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      10.255.255.12:4: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.12:4
+                          rt_type: export
+                        state:
+                          leaf_dict:
+                            route_target: *id001
+                            rt_type: *id001
+                      10.255.255.15:4: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.15:4
+                          rt_type: import
+                        state:
+                          leaf_dict:
+                            route_target: *id001
+                            rt_type: *id001
+                    state:
+                      leaf_dict: {}
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+          description: not set
+          route_distinguisher: '20000:4'
+        state:
+          leaf_dict:
+            description: *id001
+            route_distinguisher: *id001
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict: {}

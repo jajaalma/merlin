@@ -22,7 +22,8 @@ from pyats import aetest
 from pyats import topology
 from pyats.log.utils import banner
 from jinja2 import Environment, FileSystemLoader
-from ascii_art import GREETING, LEARN, RUNNING, WRITING, FINISHED
+#from ascii_art import GREETING, LEARN, RUNNING, WRITING, FINISHED
+from ascii_art_sphinx import GREETING, LEARN, RUNNING, WRITING, FINISHED
 from general_functionalities import ParseShowCommandFunction, ParseLearnFunction
 from tinydb import TinyDB, Query
 
@@ -217,270 +218,284 @@ class Collect_Information(aetest.Testcase):
 
                 # Learned ACL
                 if self.learned_acl is not None:
-                    learned_acl_template = env.get_template('learned_acl.j2')
-                    learned_acl_netjson_json_template = env.get_template('learned_acl_netjson_json.j2')
-                    learned_acl_netjson_html_template = env.get_template('learned_acl_netjson_html.j2')
-                    directory_names = "Learned_ACL"
-                    file_names = "learned_acl" 
+                    try:
+                        learned_acl_template = env.get_template('learned_acl.j2')
+                        learned_acl_netjson_json_template = env.get_template('learned_acl_netjson_json.j2')
+                        learned_acl_netjson_html_template = env.get_template('learned_acl_netjson_html.j2')
+                        directory_names = "Learned_ACL"
+                        file_names = "learned_acl" 
 
-                    self.save_to_json_file(device, directory_names, file_names, self.learned_acl)
-                    self.save_to_yaml_file(device, directory_names, file_names, self.learned_acl)
+                        self.save_to_json_file(device, directory_names, file_names, self.learned_acl)
+                        self.save_to_yaml_file(device, directory_names, file_names, self.learned_acl)
 
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_acl_template.render(to_parse_access_list=self.learned_acl['acls'],filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_acl_template.render(to_parse_access_list=self.learned_acl['acls'],filetype_loop_jinja2=filetype)
 
-                        self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
-                    
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl.md --output Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl_mind_map.html" % (device.alias,device.alias))
+                            self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
+                        
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl.md --output Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl_mind_map.html" % (device.alias,device.alias))
 
-                    parsed_output_netjson_json = learned_acl_netjson_json_template.render(to_parse_access_list=self.learned_acl['acls'],device_alias = device.alias)
-                    parsed_output_netjson_html = learned_acl_netjson_html_template.render(device_alias = device.alias)
+                        parsed_output_netjson_json = learned_acl_netjson_json_template.render(to_parse_access_list=self.learned_acl['acls'],device_alias = device.alias)
+                        parsed_output_netjson_html = learned_acl_netjson_html_template.render(device_alias = device.alias)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)               
-                        fh.close()
-
-                    with open("Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
-
-                    # ----------------
-                    # Store ACLs in Device Table in Database
-                    # ----------------
-
-                    table.insert(self.learned_acl)
-
-                # Learned ARP
-                if self.learned_arp is not None:
-                    learned_arp_template = env.get_template('learned_arp.j2')
-                    learned_arp_statistics_template = env.get_template('learned_arp_statistics.j2')
-                    learned_arp_netjson_json_template = env.get_template('learned_arp_netjson_json.j2')
-                    learned_arp_netjson_html_template = env.get_template('learned_arp_netjson_html.j2')
-                    learned_arp_statistics_netjson_json_template = env.get_template('learned_arp_statistics_netjson_json.j2')
-                    learned_arp_statistics_netjson_html_template = env.get_template('learned_arp_statistics_netjson_html.j2')
-                    directory_names = "Learned_ARP"
-                    file_names = "learned_arp" 
-
-                    self.save_to_json_file(device, directory_names, file_names, self.learned_arp)
-                    self.save_to_yaml_file(device, directory_names, file_names, self.learned_arp)  
-
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_arp_template.render(to_parse_arp=self.learned_arp['interfaces'],filetype_loop_jinja2=filetype)
-
-                        self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
-
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_arp_statistics_template.render(to_parse_arp=self.learned_arp['statistics'],filetype_loop_jinja2=filetype)
-
-                        with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics.%s" % (device.alias,filetype), "w") as fh:
-                            fh.write(parsed_output_type) 
+                        with open("Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)               
                             fh.close()
 
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp.md --output Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_mind_map.html" % (device.alias,device.alias))
+                        with open("Camelot/Cisco/IOS_XE/Learned_ACL/%s_learned_acl_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
 
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics.md --output Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics_mind_map.html" % (device.alias,device.alias))
+                        # ----------------
+                        # Store ACLs in Device Table in Database
+                        # ----------------
 
-                    parsed_output_netjson_json = learned_arp_netjson_json_template.render(to_parse_arp=self.learned_arp['interfaces'],device_alias = device.alias)
-                    parsed_output_netjson_html = learned_arp_netjson_html_template.render(device_alias = device.alias)
+                        table.insert(self.learned_acl)
+                    except:
+                        pass
+                # Learned ARP
+                if self.learned_arp is not None:
+                    try:
+                        learned_arp_template = env.get_template('learned_arp.j2')
+                        learned_arp_statistics_template = env.get_template('learned_arp_statistics.j2')
+                        learned_arp_netjson_json_template = env.get_template('learned_arp_netjson_json.j2')
+                        learned_arp_netjson_html_template = env.get_template('learned_arp_netjson_html.j2')
+                        learned_arp_statistics_netjson_json_template = env.get_template('learned_arp_statistics_netjson_json.j2')
+                        learned_arp_statistics_netjson_html_template = env.get_template('learned_arp_statistics_netjson_html.j2')
+                        directory_names = "Learned_ARP"
+                        file_names = "learned_arp" 
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)               
-                        fh.close()
+                        self.save_to_json_file(device, directory_names, file_names, self.learned_arp)
+                        self.save_to_yaml_file(device, directory_names, file_names, self.learned_arp)  
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_arp_template.render(to_parse_arp=self.learned_arp['interfaces'],filetype_loop_jinja2=filetype)
 
-                    parsed_output_netjson_json = learned_arp_statistics_netjson_json_template.render(to_parse_arp=self.learned_arp['statistics'],device_alias = device.alias)
-                    parsed_output_netjson_html = learned_arp_statistics_netjson_html_template.render(device_alias = device.alias)
+                            self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_arp_statistics_template.render(to_parse_arp=self.learned_arp['statistics'],filetype_loop_jinja2=filetype)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
+                            with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics.%s" % (device.alias,filetype), "w") as fh:
+                                fh.write(parsed_output_type) 
+                                fh.close()
 
-                    # ----------------
-                    # Store ARP in Device Table in Database
-                    # ----------------
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp.md --output Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_mind_map.html" % (device.alias,device.alias))
 
-                    table.insert(self.learned_arp)
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics.md --output Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics_mind_map.html" % (device.alias,device.alias))
+
+                        parsed_output_netjson_json = learned_arp_netjson_json_template.render(to_parse_arp=self.learned_arp['interfaces'],device_alias = device.alias)
+                        parsed_output_netjson_html = learned_arp_netjson_html_template.render(device_alias = device.alias)
+
+                        with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)               
+                            fh.close()
+
+                        with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
+
+                        parsed_output_netjson_json = learned_arp_statistics_netjson_json_template.render(to_parse_arp=self.learned_arp['statistics'],device_alias = device.alias)
+                        parsed_output_netjson_html = learned_arp_statistics_netjson_html_template.render(device_alias = device.alias)
+
+                        with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()
+
+                        with open("Camelot/Cisco/IOS_XE/Learned_ARP/%s_learned_arp_statistics_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
+
+                        # ----------------
+                        # Store ARP in Device Table in Database
+                        # ----------------
+
+                        table.insert(self.learned_arp)
+                    except:
+                        pass
 
                 # Learned Dot1X
                 if self.learned_dot1x is not None:
-                    learned_dot1x_template = env.get_template('learned_dot1x.j2')
-                    learned_dot1x_netjson_json_template = env.get_template('learned_dot1x_netjson_json.j2')
-                    learned_dot1x_netjson_html_template = env.get_template('learned_dot1x_netjson_html.j2')
-                    learned_dot1x_sessions_template = env.get_template('learned_dot1x_sessions.j2')
-                    learned_dot1x_sessions_netjson_json_template = env.get_template('learned_dot1x_sessions_netjson_json.j2')
-                    learned_dot1x_sessions_netjson_html_template = env.get_template('learned_dot1x_sessions_netjson_html.j2')
-                    directory_names = "Learned_Dot1X"
-                    file_names = "learned_dot1x" 
+                    try:
+                        learned_dot1x_template = env.get_template('learned_dot1x.j2')
+                        learned_dot1x_netjson_json_template = env.get_template('learned_dot1x_netjson_json.j2')
+                        learned_dot1x_netjson_html_template = env.get_template('learned_dot1x_netjson_html.j2')
+                        learned_dot1x_sessions_template = env.get_template('learned_dot1x_sessions.j2')
+                        learned_dot1x_sessions_netjson_json_template = env.get_template('learned_dot1x_sessions_netjson_json.j2')
+                        learned_dot1x_sessions_netjson_html_template = env.get_template('learned_dot1x_sessions_netjson_html.j2')
+                        directory_names = "Learned_Dot1X"
+                        file_names = "learned_dot1x" 
 
-                    self.save_to_json_file(device, directory_names, file_names, self.learned_dot1x)
-                    self.save_to_yaml_file(device, directory_names, file_names, self.learned_dot1x)              
+                        self.save_to_json_file(device, directory_names, file_names, self.learned_dot1x)
+                        self.save_to_yaml_file(device, directory_names, file_names, self.learned_dot1x)              
 
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_dot1x_template.render(to_parse_dot1x=self.learned_dot1x,filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_dot1x_template.render(to_parse_dot1x=self.learned_dot1x,filetype_loop_jinja2=filetype)
 
-                        self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
-                    
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x.md --output Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_mind_map.html" % (device.alias,device.alias))
+                            self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
+                        
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x.md --output Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_mind_map.html" % (device.alias,device.alias))
 
-                    parsed_output_netjson_json = learned_dot1x_netjson_json_template.render(to_parse_dot1x=self.learned_dot1x,device_alias = device.alias)
-                    parsed_output_netjson_html = learned_dot1x_netjson_html_template.render(device_alias = device.alias)
+                        parsed_output_netjson_json = learned_dot1x_netjson_json_template.render(to_parse_dot1x=self.learned_dot1x,device_alias = device.alias)
+                        parsed_output_netjson_html = learned_dot1x_netjson_html_template.render(device_alias = device.alias)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()             
+                        with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()             
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
-
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_dot1x_sessions_template.render(to_parse_dot1x=self.learned_dot1x,filetype_loop_jinja2=filetype)
-
-                        with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions.%s" % (device.alias,filetype), "w") as fh:
-                            fh.write(parsed_output_type)
+                        with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
                             fh.close()
-                    
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions.md --output Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions_mind_map.html" % (device.alias,device.alias))
 
-                    parsed_output_netjson_json = learned_dot1x_sessions_netjson_json_template.render(to_parse_dot1x=self.learned_dot1x,device_alias = device.alias)
-                    parsed_output_netjson_html = learned_dot1x_sessions_netjson_html_template.render(device_alias = device.alias)
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_dot1x_sessions_template.render(to_parse_dot1x=self.learned_dot1x,filetype_loop_jinja2=filetype)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()
+                            with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions.%s" % (device.alias,filetype), "w") as fh:
+                                fh.write(parsed_output_type)
+                                fh.close()
+                        
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions.md --output Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions_mind_map.html" % (device.alias,device.alias))
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
+                        parsed_output_netjson_json = learned_dot1x_sessions_netjson_json_template.render(to_parse_dot1x=self.learned_dot1x,device_alias = device.alias)
+                        parsed_output_netjson_html = learned_dot1x_sessions_netjson_html_template.render(device_alias = device.alias)
 
-                    # ----------------
-                    # Store dot1X in Device Table in Database
-                    # ----------------
+                        with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()
 
-                    table.insert(self.learned_dot1x)
+                        with open("Camelot/Cisco/IOS_XE/Learned_Dot1X/%s_learned_dot1x_sessions_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
+
+                        # ----------------
+                        # Store dot1X in Device Table in Database
+                        # ----------------
+
+                        table.insert(self.learned_dot1x)
+                    except:
+                        pass
 
                 # Learned Interface
                 if self.learned_interface is not None:
-                    learned_interface_template = env.get_template('learned_interface.j2')
-                    learned_interface_netjson_json_template = env.get_template('learned_interface_netjson_json.j2')
-                    learned_interface_netjson_html_template = env.get_template('learned_interface_netjson_html.j2')
-                    learned_interface_enable_netjson_json_template = env.get_template('learned_interface_enabled_netjson_json.j2')
-                    learned_interface_enable_netjson_html_template = env.get_template('learned_interface_enabled_netjson_html.j2')
-                    directory_names = "Learned_Interface"
-                    file_names = "learned_interface" 
+                    try:
+                        learned_interface_template = env.get_template('learned_interface.j2')
+                        learned_interface_netjson_json_template = env.get_template('learned_interface_netjson_json.j2')
+                        learned_interface_netjson_html_template = env.get_template('learned_interface_netjson_html.j2')
+                        learned_interface_enable_netjson_json_template = env.get_template('learned_interface_enabled_netjson_json.j2')
+                        learned_interface_enable_netjson_html_template = env.get_template('learned_interface_enabled_netjson_html.j2')
+                        directory_names = "Learned_Interface"
+                        file_names = "learned_interface" 
 
-                    self.save_to_json_file(device, directory_names, file_names, self.learned_interface)
-                    self.save_to_yaml_file(device, directory_names, file_names, self.learned_interface)
+                        self.save_to_json_file(device, directory_names, file_names, self.learned_interface)
+                        self.save_to_yaml_file(device, directory_names, file_names, self.learned_interface)
 
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_interface_template.render(to_parse_interface=self.learned_interface,filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_interface_template.render(to_parse_interface=self.learned_interface,filetype_loop_jinja2=filetype)
 
-                        with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface.%s" % (device.alias,filetype), "w") as fh:
-                            fh.write(parsed_output_type)
+                            with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface.%s" % (device.alias,filetype), "w") as fh:
+                                fh.write(parsed_output_type)
+                                fh.close()
+                        
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface.md --output Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_mind_map.html" % (device.alias,device.alias))
+
+                        parsed_output_netjson_json = learned_interface_netjson_json_template.render(to_parse_interface=self.learned_interface,device_alias = device.alias)
+                        parsed_output_netjson_html = learned_interface_netjson_html_template.render(device_alias = device.alias)
+
+                        with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()               
+
+                        with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
                             fh.close()
-                    
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface.md --output Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_mind_map.html" % (device.alias,device.alias))
 
-                    parsed_output_netjson_json = learned_interface_netjson_json_template.render(to_parse_interface=self.learned_interface,device_alias = device.alias)
-                    parsed_output_netjson_html = learned_interface_netjson_html_template.render(device_alias = device.alias)
+                        parsed_output_netjson_json = learned_interface_enable_netjson_json_template.render(to_parse_interface=self.learned_interface,device_alias = device.alias)
+                        parsed_output_netjson_html = learned_interface_enable_netjson_html_template.render(device_alias = device.alias)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()               
+                        with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_enabled_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()               
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
+                        with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_enabled_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
 
-                    parsed_output_netjson_json = learned_interface_enable_netjson_json_template.render(to_parse_interface=self.learned_interface,device_alias = device.alias)
-                    parsed_output_netjson_html = learned_interface_enable_netjson_html_template.render(device_alias = device.alias)
+                        # ----------------
+                        # Store Interface in Device Table in Database
+                        # ----------------
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_enabled_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()               
-
-                    with open("Camelot/Cisco/IOS_XE/Learned_Interface/%s_learned_interface_enabled_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
-
-                    # ----------------
-                    # Store Interface in Device Table in Database
-                    # ----------------
-
-                    table.insert(self.learned_interface)
+                        table.insert(self.learned_interface)
+                    except:
+                        pass
 
                 # Learned LLDP
                 if self.learned_lldp is not None:
-                    learned_lldp_template = env.get_template('learned_lldp.j2')
-                    learned_lldp_netjson_json_template = env.get_template('learned_lldp_netjson_json.j2')
-                    learned_lldp_netjson_html_template = env.get_template('learned_lldp_netjson_html.j2')
-                    learned_lldp_interfaces_template = env.get_template('learned_lldp_interfaces.j2')
-                    learned_lldp_interfaces_netjson_json_template = env.get_template('learned_lldp_interfaces_netjson_json.j2')
-                    learned_lldp_interfaces_netjson_html_template = env.get_template('learned_lldp_interfaces_netjson_html.j2')
-                    directory_names = "Learned_LLDP"
-                    file_names = "learned_lldp" 
+                    try:
+                        learned_lldp_template = env.get_template('learned_lldp.j2')
+                        learned_lldp_netjson_json_template = env.get_template('learned_lldp_netjson_json.j2')
+                        learned_lldp_netjson_html_template = env.get_template('learned_lldp_netjson_html.j2')
+                        learned_lldp_interfaces_template = env.get_template('learned_lldp_interfaces.j2')
+                        learned_lldp_interfaces_netjson_json_template = env.get_template('learned_lldp_interfaces_netjson_json.j2')
+                        learned_lldp_interfaces_netjson_html_template = env.get_template('learned_lldp_interfaces_netjson_html.j2')
+                        directory_names = "Learned_LLDP"
+                        file_names = "learned_lldp" 
 
-                    self.save_to_json_file(device, directory_names, file_names, self.learned_lldp)
-                    self.save_to_yaml_file(device, directory_names, file_names, self.learned_lldp)               
+                        self.save_to_json_file(device, directory_names, file_names, self.learned_lldp)
+                        self.save_to_yaml_file(device, directory_names, file_names, self.learned_lldp)               
 
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_lldp_template.render(to_parse_lldp=self.learned_lldp,filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_lldp_template.render(to_parse_lldp=self.learned_lldp,filetype_loop_jinja2=filetype)
 
-                        self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
-                    
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp.md --output Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_mind_map.html" % (device.alias,device.alias))
+                            self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
+                        
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp.md --output Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_mind_map.html" % (device.alias,device.alias))
 
-                    parsed_output_netjson_json = learned_lldp_netjson_json_template.render(to_parse_lldp=self.learned_lldp,device_alias = device.alias)
-                    parsed_output_netjson_html = learned_lldp_netjson_html_template.render(device_alias = device.alias)
+                        parsed_output_netjson_json = learned_lldp_netjson_json_template.render(to_parse_lldp=self.learned_lldp,device_alias = device.alias)
+                        parsed_output_netjson_html = learned_lldp_netjson_html_template.render(device_alias = device.alias)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()               
+                        with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()               
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
+                        with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
 
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_lldp_interfaces_template.render(to_parse_lldp=self.learned_lldp['interfaces'],filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_lldp_interfaces_template.render(to_parse_lldp=self.learned_lldp['interfaces'],filetype_loop_jinja2=filetype)
 
-                        with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces.%s" % (device.alias,filetype), "w") as fh:
-                            fh.write(parsed_output_type)
-                            fh.close() 
-                    
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces.md --output Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces_mind_map.html" % (device.alias,device.alias))
+                            with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces.%s" % (device.alias,filetype), "w") as fh:
+                                fh.write(parsed_output_type)
+                                fh.close() 
+                        
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces.md --output Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces_mind_map.html" % (device.alias,device.alias))
 
-                    parsed_output_netjson_json = learned_lldp_interfaces_netjson_json_template.render(to_parse_lldp=self.learned_lldp['interfaces'],device_alias = device.alias)
-                    parsed_output_netjson_html = learned_lldp_interfaces_netjson_html_template.render(device_alias = device.alias)
+                        parsed_output_netjson_json = learned_lldp_interfaces_netjson_json_template.render(to_parse_lldp=self.learned_lldp['interfaces'],device_alias = device.alias)
+                        parsed_output_netjson_html = learned_lldp_interfaces_netjson_html_template.render(device_alias = device.alias)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()               
+                        with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()               
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
+                        with open("Camelot/Cisco/IOS_XE/Learned_LLDP/%s_learned_lldp_interfaces_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
 
-                    # ----------------
-                    # Store LLDP in Device Table in Database
-                    # ----------------
+                        # ----------------
+                        # Store LLDP in Device Table in Database
+                        # ----------------
 
-                    table.insert(self.learned_lldp)
+                        table.insert(self.learned_lldp)
+                    except:
+                        pass
 
                 # Learned NTP
                 if self.learned_ntp is not None:
@@ -640,63 +655,66 @@ class Collect_Information(aetest.Testcase):
 
                 # Learned STP
                 if self.learned_stp is not None:
-                    learned_stp_template = env.get_template('learned_stp.j2')
-                    learned_stp_netjson_json_template = env.get_template('learned_stp_netjson_json.j2')
-                    learned_stp_netjson_html_template = env.get_template('learned_stp_netjson_html.j2')
-                    learned_stp_rpvst_template = env.get_template('learned_stp_rpvst.j2')
-                    learned_stp_rpvst_netjson_json_template = env.get_template('learned_stp_rpvst_netjson_json.j2')
-                    learned_stp_rpvst_netjson_html_template = env.get_template('learned_stp_rpvst_netjson_html.j2')
-                    directory_names = "Learned_STP"
-                    file_names = "learned_stp" 
+                    try:
+                        learned_stp_template = env.get_template('learned_stp.j2')
+                        learned_stp_netjson_json_template = env.get_template('learned_stp_netjson_json.j2')
+                        learned_stp_netjson_html_template = env.get_template('learned_stp_netjson_html.j2')
+                        learned_stp_rpvst_template = env.get_template('learned_stp_rpvst.j2')
+                        learned_stp_rpvst_netjson_json_template = env.get_template('learned_stp_rpvst_netjson_json.j2')
+                        learned_stp_rpvst_netjson_html_template = env.get_template('learned_stp_rpvst_netjson_html.j2')
+                        directory_names = "Learned_STP"
+                        file_names = "learned_stp" 
 
-                    self.save_to_json_file(device, directory_names, file_names, self.learned_stp)
-                    self.save_to_yaml_file(device, directory_names, file_names, self.learned_stp)               
+                        self.save_to_json_file(device, directory_names, file_names, self.learned_stp)
+                        self.save_to_yaml_file(device, directory_names, file_names, self.learned_stp)               
 
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_stp_template.render(to_parse_stp=self.learned_stp['global'],filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_stp_template.render(to_parse_stp=self.learned_stp['global'],filetype_loop_jinja2=filetype)
 
-                        self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype) 
-                    
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp.md --output Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_mind_map.html" % (device.alias,device.alias))
+                            self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype) 
+                        
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp.md --output Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_mind_map.html" % (device.alias,device.alias))
 
-                    parsed_output_netjson_json = learned_stp_netjson_json_template.render(to_parse_stp=self.learned_stp['global'],device_alias = device.alias)
-                    parsed_output_netjson_html = learned_stp_netjson_html_template.render(device_alias = device.alias)
+                        parsed_output_netjson_json = learned_stp_netjson_json_template.render(to_parse_stp=self.learned_stp['global'],device_alias = device.alias)
+                        parsed_output_netjson_html = learned_stp_netjson_html_template.render(device_alias = device.alias)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()               
+                        with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()               
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
+                        with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
 
-                    for filetype in filetype_loop:
-                        parsed_output_type = learned_stp_rpvst_template.render(to_parse_stp=self.learned_stp['rapid_pvst'],filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:
+                            parsed_output_type = learned_stp_rpvst_template.render(to_parse_stp=self.learned_stp['rapid_pvst'],filetype_loop_jinja2=filetype)
 
-                        with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst.%s" % (device.alias,filetype), "w") as fh:
-                            fh.write(parsed_output_type)
-                            fh.close() 
-                    
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst.md --output Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst_mind_map.html" % (device.alias,device.alias))
+                            with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst.%s" % (device.alias,filetype), "w") as fh:
+                                fh.write(parsed_output_type)
+                                fh.close() 
+                        
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst.md --output Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst_mind_map.html" % (device.alias,device.alias))
 
-                    parsed_output_netjson_json = learned_stp_rpvst_netjson_json_template.render(to_parse_stp=self.learned_stp['rapid_pvst'],device_alias = device.alias)
-                    parsed_output_netjson_html = learned_stp_rpvst_netjson_html_template.render(device_alias = device.alias)
+                        parsed_output_netjson_json = learned_stp_rpvst_netjson_json_template.render(to_parse_stp=self.learned_stp['rapid_pvst'],device_alias = device.alias)
+                        parsed_output_netjson_html = learned_stp_rpvst_netjson_html_template.render(device_alias = device.alias)
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst_netgraph.json" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_json)
-                        fh.close()               
+                        with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst_netgraph.json" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_json)
+                            fh.close()               
 
-                    with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst_netgraph.html" % device.alias, "w") as fh:
-                        fh.write(parsed_output_netjson_html)
-                        fh.close()
+                        with open("Camelot/Cisco/IOS_XE/Learned_STP/%s_learned_stp_rpvst_netgraph.html" % device.alias, "w") as fh:
+                            fh.write(parsed_output_netjson_html)
+                            fh.close()
 
-                    # ----------------
-                    # Store STP in Device Table in Database
-                    # ----------------
+                        # ----------------
+                        # Store STP in Device Table in Database
+                        # ----------------
 
-                    table.insert(self.learned_stp)
+                        table.insert(self.learned_stp)
+                    except:
+                        pass
 
                 # Learned VLAN
                 if self.learned_vlan is not None:
@@ -1359,26 +1377,30 @@ class Collect_Information(aetest.Testcase):
 
                 # Show IP OSPF Interface
                 if self.parsed_show_ip_ospf_interface is not None:
-                    sh_ip_ospf_interface_template = env.get_template('show_ip_ospf_interface.j2')
-                    directory_names = "Show_IP_OSPF_Interface"
-                    file_names = "show_ip_ospf_interface"                    
-                    
-                    self.save_to_json_file(device, directory_names, file_names, self.parsed_show_ip_ospf_interface)
-                    self.save_to_yaml_file(device, directory_names, file_names, self.parsed_show_ip_ospf_interface)
+                    try:
+                        sh_ip_ospf_interface_template = env.get_template('show_ip_ospf_interface.j2')
+                        directory_names = "Show_IP_OSPF_Interface"
+                        file_names = "show_ip_ospf_interface"                    
+                        
+                        self.save_to_json_file(device, directory_names, file_names, self.parsed_show_ip_ospf_interface)
+                        self.save_to_yaml_file(device, directory_names, file_names, self.parsed_show_ip_ospf_interface)
 
-                    for filetype in filetype_loop:
-                        parsed_output_type = sh_ip_ospf_interface_template.render(to_parse_ip_ospf_interface=self.parsed_show_ip_ospf_interface['vrf'],filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:
+                            parsed_output_type = sh_ip_ospf_interface_template.render(to_parse_ip_ospf_interface=self.parsed_show_ip_ospf_interface['vrf'],filetype_loop_jinja2=filetype)
 
-                        self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
+                            self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
 
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Show_IP_OSPF_Interface/%s_show_ip_ospf_interface.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Show_IP_OSPF_Interface/%s_show_ip_ospf_interface.md --output Camelot/Cisco/IOS_XE/Show_IP_OSPF_Interface/%s_show_ip_ospf_interface_mind_map.html" % (device.alias,device.alias))
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Show_IP_OSPF_Interface/%s_show_ip_ospf_interface.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Show_IP_OSPF_Interface/%s_show_ip_ospf_interface.md --output Camelot/Cisco/IOS_XE/Show_IP_OSPF_Interface/%s_show_ip_ospf_interface_mind_map.html" % (device.alias,device.alias))
 
-                    # ----------------
-                    # Store IP OSPF Interface in Device Table in Database
-                    # ----------------
+                        # ----------------
+                        # Store IP OSPF Interface in Device Table in Database
+                        # ----------------
 
-                    table.insert(self.parsed_show_ip_ospf_interface)
+                        table.insert(self.parsed_show_ip_ospf_interface)
+
+                    except:
+                        pass
 
                 # Show IP OSPF Neighbor
                 if self.parsed_show_ip_ospf_neighbor is not None:
@@ -1620,98 +1642,101 @@ class Collect_Information(aetest.Testcase):
 
                 # Show vrf
                 if self.parsed_show_vrf is not None:
-                    sh_vrf_template = env.get_template('show_vrf.j2')
-                    sh_ip_arp_vrf_template = env.get_template('show_ip_arp.j2')
-                    sh_ip_route_template = env.get_template('show_ip_route.j2')
-                    directory_names = "Show_VRF"
-                    file_names = "show_vrf"  
+                    try:
+                        sh_vrf_template = env.get_template('show_vrf.j2')
+                        sh_ip_arp_vrf_template = env.get_template('show_ip_arp.j2')
+                        sh_ip_route_template = env.get_template('show_ip_route.j2')
+                        directory_names = "Show_VRF"
+                        file_names = "show_vrf"  
 
-                    self.save_to_json_file(device, directory_names, file_names, self.parsed_show_vrf)
-                    self.save_to_yaml_file(device, directory_names, file_names, self.parsed_show_vrf)
+                        self.save_to_json_file(device, directory_names, file_names, self.parsed_show_vrf)
+                        self.save_to_yaml_file(device, directory_names, file_names, self.parsed_show_vrf)
 
-                    for filetype in filetype_loop:      
-                        parsed_output_type = sh_vrf_template.render(to_parse_vrf=self.parsed_show_vrf['vrf'],filetype_loop_jinja2=filetype)
+                        for filetype in filetype_loop:      
+                            parsed_output_type = sh_vrf_template.render(to_parse_vrf=self.parsed_show_vrf['vrf'],filetype_loop_jinja2=filetype)
 
-                        self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
+                            self.save_to_specified_file_type(device, directory_names, file_names, parsed_output_type, filetype)
 
-                    if os.path.exists("Camelot/Cisco/IOS_XE/Show_VRF/%s_show_vrf.md" % device.alias):
-                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Show_VRF/%s_show_vrf.md --output Camelot/Cisco/IOS_XE/Show_VRF/%s_show_vrf_mind_map.html" % (device.alias,device.alias))
+                        if os.path.exists("Camelot/Cisco/IOS_XE/Show_VRF/%s_show_vrf.md" % device.alias):
+                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Show_VRF/%s_show_vrf.md --output Camelot/Cisco/IOS_XE/Show_VRF/%s_show_vrf_mind_map.html" % (device.alias,device.alias))
 
-                    # ----------------
-                    # Store VRF in Device Table in Database
-                    # ----------------
+                        # ----------------
+                        # Store VRF in Device Table in Database
+                        # ----------------
 
-                    table.insert(self.parsed_show_vrf)
+                        table.insert(self.parsed_show_vrf)
 
-                    # For Each VRF
-                    for vrf in self.parsed_show_vrf['vrf']:
-                      
-                        # Show IP ARP VRF <VRF> 
-                        with steps.start('Parsing ip arp vrf',continue_=True) as step:
-                            try:
-                                self.parsed_show_ip_arp_vrf = device.parse("show ip arp vrf %s" % vrf)
-                            except Exception as e:
-                                step.failed('Could not parse it correctly\n{e}'.format(e=e))
-                        if hasattr(Collect_Information, 'self.parsed_show_ip_arp_vrf'):
-                            with steps.start('Store data',continue_=True) as step:
+                        # For Each VRF
+                        for vrf in self.parsed_show_vrf['vrf']:
+                        
+                            # Show IP ARP VRF <VRF> 
+                            with steps.start('Parsing ip arp vrf',continue_=True) as step:
+                                try:
+                                    self.parsed_show_ip_arp_vrf = device.parse("show ip arp vrf %s" % vrf)
+                                except Exception as e:
+                                    step.failed('Could not parse it correctly\n{e}'.format(e=e))
+                            if hasattr(Collect_Information, 'self.parsed_show_ip_arp_vrf'):
+                                with steps.start('Store data',continue_=True) as step:
 
-                                with open("Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.json" % (device.alias,vrf), "w") as fid:
-                                    json.dump(self.parsed_show_ip_arp_vrf, fid, indent=4, sort_keys=True)
-                                    fid.close()
+                                    with open("Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.json" % (device.alias,vrf), "w") as fid:
+                                        json.dump(self.parsed_show_ip_arp_vrf, fid, indent=4, sort_keys=True)
+                                        fid.close()
 
-                                with open("Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.yaml" % (device.alias,vrf), "w") as yml:
-                                    yaml.dump(self.parsed_show_ip_arp_vrf, yml, allow_unicode=True)
-                                    yml.close()
+                                    with open("Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.yaml" % (device.alias,vrf), "w") as yml:
+                                        yaml.dump(self.parsed_show_ip_arp_vrf, yml, allow_unicode=True)
+                                        yml.close()
 
-                                for filetype in filetype_loop:
-                                    parsed_output_type = sh_ip_arp_vrf_template.render(to_parse_ip_arp=self.parsed_show_ip_arp_vrf['interfaces'],filetype_loop_jinja2=filetype)
+                                    for filetype in filetype_loop:
+                                        parsed_output_type = sh_ip_arp_vrf_template.render(to_parse_ip_arp=self.parsed_show_ip_arp_vrf['interfaces'],filetype_loop_jinja2=filetype)
 
-                                    with open("Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.%s" % (device.alias,vrf,filetype), "w") as fh:
-                                        fh.write(parsed_output_type)
-                                        fh.close()
+                                        with open("Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.%s" % (device.alias,vrf,filetype), "w") as fh:
+                                            fh.write(parsed_output_type)
+                                            fh.close()
 
-                                if os.path.exists("Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.md" % (device.alias,vrf)):
-                                    os.system("markmap --no-open Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.md --output Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s_mind_map.html" % (device.alias,vrf,device.alias,vrf))
+                                    if os.path.exists("Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.md" % (device.alias,vrf)):
+                                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s.md --output Camelot/Cisco/IOS_XE/Show_IP_ARP_VRF/%s_show_ip_arp_vrf_%s_mind_map.html" % (device.alias,vrf,device.alias,vrf))
 
-                                # ----------------
-                                # Store IP ARP VRF in Device Table in Database
-                                # ----------------
+                                    # ----------------
+                                    # Store IP ARP VRF in Device Table in Database
+                                    # ----------------
 
-                                table.insert(self.parsed_show_ip_arp_vrf)
+                                    table.insert(self.parsed_show_ip_arp_vrf)
 
-                        # Show IP ROUTE VRF <VRF>
-                        with steps.start('Parsing ip route vrf',continue_=True) as step:
-                            try:
-                                self.parsed_show_ip_route_vrf = device.parse("show ip route vrf %s" % vrf)
-                            except Exception as e:
-                                step.failed('Could not parse it correctly\n{e}'.format(e=e))
+                            # Show IP ROUTE VRF <VRF>
+                            with steps.start('Parsing ip route vrf',continue_=True) as step:
+                                try:
+                                    self.parsed_show_ip_route_vrf = device.parse("show ip route vrf %s" % vrf)
+                                except Exception as e:
+                                    step.failed('Could not parse it correctly\n{e}'.format(e=e))
 
-                        if hasattr(Collect_Information, 'self.parsed_show_ip_route_vrf'):
-                            with steps.start('Store data',continue_=True) as step:
+                            if hasattr(Collect_Information, 'self.parsed_show_ip_route_vrf'):
+                                with steps.start('Store data',continue_=True) as step:
 
-                                with open("Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.json" % (device.alias,vrf), "w") as fid:
-                                    json.dump(self.parsed_show_ip_route_vrf, fid, indent=4, sort_keys=True)
-                                    fid.close()
+                                    with open("Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.json" % (device.alias,vrf), "w") as fid:
+                                        json.dump(self.parsed_show_ip_route_vrf, fid, indent=4, sort_keys=True)
+                                        fid.close()
 
-                                with open("Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.yaml" % (device.alias,vrf), "w") as yml:
-                                    yaml.dump(self.parsed_show_ip_route_vrf, yml, allow_unicode=True)
-                                    yml.close()
-                         
-                                for filetype in filetype_loop:
-                                    parsed_output_type = sh_ip_route_template.render(to_parse_ip_route=self.parsed_show_ip_route_vrf['vrf'],filetype_loop_jinja2=filetype)
+                                    with open("Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.yaml" % (device.alias,vrf), "w") as yml:
+                                        yaml.dump(self.parsed_show_ip_route_vrf, yml, allow_unicode=True)
+                                        yml.close()
+                            
+                                    for filetype in filetype_loop:
+                                        parsed_output_type = sh_ip_route_template.render(to_parse_ip_route=self.parsed_show_ip_route_vrf['vrf'],filetype_loop_jinja2=filetype)
 
-                                    with open("Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.%s" % (device.alias,vrf,filetype), "w") as fh:
-                                        fh.write(parsed_output_type)
-                                        fh.close()
+                                        with open("Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.%s" % (device.alias,vrf,filetype), "w") as fh:
+                                            fh.write(parsed_output_type)
+                                            fh.close()
 
-                                if os.path.exists("Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.md" % (device.alias,vrf)):
-                                        os.system("markmap --no-open Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.md --output Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s_mind_map.html" % (device.alias,vrf,device.alias,vrf))
+                                    if os.path.exists("Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.md" % (device.alias,vrf)):
+                                            os.system("markmap --no-open Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s.md --output Camelot/Cisco/IOS_XE/Show_IP_Route_VRF/%s_show_ip_route_vrf_%s_mind_map.html" % (device.alias,vrf,device.alias,vrf))
 
-                                # ----------------
-                                # Store IP Route VRF in Device Table in Database
-                                # ----------------
+                                    # ----------------
+                                    # Store IP Route VRF in Device Table in Database
+                                    # ----------------
 
-                                table.insert(self.parsed_show_ip_route_vrf)
+                                    table.insert(self.parsed_show_ip_route_vrf)
+                    except:
+                        pass
 
         db.close()
         # Goodbye Banner

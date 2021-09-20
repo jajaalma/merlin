@@ -1,0 +1,26 @@
+
+# Learn LLDP Interfaces
+| Interface | LLDP | Neighbor | Neighbor Port | Neighbor Port Description | Capabilities | Chassis ID | Management Address | System Description |
+| --------- | ---- | -------- | ------------- | ------------------------- | ------------ | ---------- | ------------------ | ------------------ |
+| GigabitEthernet0/0/0/6 | True | CSR16 | GigabitEthernet6 | GigabitEthernet6 | router | 001e.bde0.6a00 | 10.16.99.16 | Cisco IOS Software [Amsterdam]  Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M)  Version 17.2.1r  RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems  Inc.
+Compiled Thu 09-Apr-20 23:22 |
+| GigabitEthernet0/0/0/5 | True | XRv15 | GigabitEthernet0/0/0/5 | not advertised | router | 029b.6d58.a406 | 10.15.99.15 | Cisco IOS XR Software  Version 6.1.3[Default]
+Copyright (c) 2017 by Cisco Systems  Inc.  IOS XRv Series
+ |
+| GigabitEthernet0/0/0/4 | True | CSR14 | GigabitEthernet4 | GigabitEthernet4 | router | 001e.bd48.2000 | 10.14.99.14 | Cisco IOS Software [Amsterdam]  Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M)  Version 17.2.1r  RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems  Inc.
+Compiled Thu 09-Apr-20 23:22 |
+| GigabitEthernet0/0/0/3 | True | CSR13 | GigabitEthernet3 | GigabitEthernet3 | router | 001e.e631.4500 | 10.13.99.13 | Cisco IOS Software [Amsterdam]  Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M)  Version 17.2.1r  RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems  Inc.
+Compiled Thu 09-Apr-20 23:22 |
+| GigabitEthernet0/0/0/2 | True | XRv12 | GigabitEthernet0/0/0/2 | not advertised | router | 025a.065a.a406 | 10.12.99.12 | Cisco IOS XR Software  Version 6.1.3[Default]
+Copyright (c) 2017 by Cisco Systems  Inc.  IOS XRv Series
+ |
+| GigabitEthernet0/0/0/1 | True | CSR11 | GigabitEthernet1 | GigabitEthernet1 | router | 001e.e69a.3d00 | 10.11.99.11 | Cisco IOS Software [Amsterdam]  Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M)  Version 17.2.1r  RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems  Inc.
+Compiled Thu 09-Apr-20 23:22 |

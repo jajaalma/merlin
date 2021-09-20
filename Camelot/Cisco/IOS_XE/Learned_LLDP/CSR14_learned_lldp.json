@@ -1,0 +1,130 @@
+{
+    "counters": {
+        "entries_aged_out": 0,
+        "frame_discard": 0,
+        "frame_error_in": 0,
+        "frame_in": 946,
+        "frame_out": 3824,
+        "tlv_discard": 0,
+        "tlv_unknown": 0
+    },
+    "enabled": true,
+    "hello_timer": 30,
+    "hold_timer": 120,
+    "interfaces": {
+        "GigabitEthernet1": {
+            "enabled": true
+        },
+        "GigabitEthernet10": {
+            "enabled": true
+        },
+        "GigabitEthernet11": {
+            "enabled": true,
+            "if_name": "GigabitEthernet11",
+            "port_id": {
+                "GigabitEthernet0/0/0/11": {
+                    "neighbors": {
+                        "XRv15": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true,
+                                    "name": "router"
+                                }
+                            },
+                            "chassis_id": "029b.6d58.a406",
+                            "management_address": "10.14.15.15",
+                            "neighbor_id": "XRv15",
+                            "port_id": "GigabitEthernet0/0/0/11",
+                            "system_description": "Copyright (c) 2017 by Cisco Systems, Inc., IOS XRv Series\n",
+                            "system_name": "XRv15"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet12": {
+            "enabled": true
+        },
+        "GigabitEthernet13": {
+            "enabled": true
+        },
+        "GigabitEthernet14": {
+            "enabled": true
+        },
+        "GigabitEthernet15": {
+            "enabled": true
+        },
+        "GigabitEthernet16": {
+            "enabled": true
+        },
+        "GigabitEthernet17": {
+            "enabled": true
+        },
+        "GigabitEthernet18": {
+            "enabled": true
+        },
+        "GigabitEthernet19": {
+            "enabled": true
+        },
+        "GigabitEthernet2": {
+            "enabled": true
+        },
+        "GigabitEthernet20": {
+            "enabled": true
+        },
+        "GigabitEthernet21": {
+            "enabled": true
+        },
+        "GigabitEthernet22": {
+            "enabled": true
+        },
+        "GigabitEthernet23": {
+            "enabled": true
+        },
+        "GigabitEthernet24": {
+            "enabled": true
+        },
+        "GigabitEthernet3": {
+            "enabled": true
+        },
+        "GigabitEthernet4": {
+            "enabled": true,
+            "if_name": "GigabitEthernet4",
+            "port_id": {
+                "GigabitEthernet0/0/0/4": {
+                    "neighbors": {
+                        "XRv99": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true,
+                                    "name": "router"
+                                }
+                            },
+                            "chassis_id": "0232.06be.0c06",
+                            "management_address": "10.14.99.99",
+                            "neighbor_id": "XRv99",
+                            "port_id": "GigabitEthernet0/0/0/4",
+                            "system_description": "Copyright (c) 2017 by Cisco Systems, Inc., IOS XRv Series\n",
+                            "system_name": "XRv99"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet5": {
+            "enabled": true
+        },
+        "GigabitEthernet6": {
+            "enabled": true
+        },
+        "GigabitEthernet7": {
+            "enabled": true
+        },
+        "GigabitEthernet8": {
+            "enabled": true
+        },
+        "GigabitEthernet9": {
+            "enabled": true
+        }
+    }
+}

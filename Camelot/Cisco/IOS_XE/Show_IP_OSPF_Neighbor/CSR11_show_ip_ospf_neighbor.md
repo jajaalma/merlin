@@ -1,0 +1,6 @@
+
+# Show IP OPSF Neighbor
+| Interface | Neighbor | Address | Dead Time | Priority | State |
+| --------- | -------- | ------- | --------- | ---------| ----- |
+| GigabitEthernet10 | 10.255.255.12 | 10.11.12.12 | 00:00:35 | 1 | FULL/BDR |
+| GigabitEthernet1 | 10.255.255.99 | 10.11.99.99 | 00:00:38 | 1 | FULL/BDR |

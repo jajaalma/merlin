@@ -1,0 +1,22 @@
+{
+    "cdp": {
+        "index": {
+            "1": {
+                "capability": "R",
+                "device_id": "XRv99",
+                "hold_time": 154,
+                "local_interface": "GigabitEthernet1",
+                "platform": "",
+                "port_id": "IOSXRvSGig0/0/0/1"
+            },
+            "2": {
+                "capability": "R",
+                "device_id": "XRv12",
+                "hold_time": 175,
+                "local_interface": "GigabitEthernet10",
+                "platform": "",
+                "port_id": "IOSXRvSGig0/0/0/10"
+            }
+        }
+    }
+}

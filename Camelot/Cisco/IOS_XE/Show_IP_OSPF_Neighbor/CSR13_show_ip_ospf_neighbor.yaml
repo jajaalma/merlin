@@ -1,0 +1,17 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  interfaces:
+    GigabitEthernet11:
+      neighbors:
+        10.255.255.12:
+          address: 10.12.13.12
+          dead_time: 00:00:37
+          priority: 1
+          state: FULL/DR
+    GigabitEthernet3:
+      neighbors:
+        10.255.255.99:
+          address: 10.13.99.99
+          dead_time: 00:00:38
+          priority: 1
+          state: FULL/BDR

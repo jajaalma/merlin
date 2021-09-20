@@ -1,0 +1,94 @@
+{
+    "type": "NetworkGraph",
+    "label": "Learn LLDP Counters",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "XRv12"
+        },
+        { 
+            "id": "Enabled: True"
+        },    
+        { 
+            "id": "Hello Timer: 30"
+        },
+        { 
+            "id": "Hold Timer: 120"
+        },
+        { 
+            "id": "Aged Out Entries: 0"
+        },
+        { 
+            "id": "Frame Discards: 0"
+        },
+        { 
+            "id": "Frame Input Errors: 0"
+        },
+        { 
+            "id": "Input Frames: 3463"
+        },
+        { 
+            "id": "Output Frames: 18710"
+        },
+        { 
+            "id": "TLV Discards: 0"
+        },
+        { 
+            "id": "TLV Unknown: 0"
+        }
+    ],
+    "links": [
+        { 
+            "source": "XRv12",
+            "target": "Enabled: True",
+            "cost": 1
+        },    
+        { 
+            "source": "XRv12",
+            "target": "Hello Timer: 30",
+            "cost": 1
+        },
+        { 
+            "source": "XRv12",
+            "target": "Hold Timer: 120",
+            "cost": 1
+        },
+        { 
+            "source": "XRv12",
+            "target": "Aged Out Entries: 0",
+            "cost": 1
+        },
+        { 
+            "source": "XRv12",
+            "target": "Frame Discards: 0",
+            "cost": 1
+        },
+        { 
+            "source": "XRv12",
+            "target": "Frame Input Errors: 0",
+            "cost": 1
+        },
+        { 
+            "source": "XRv12",
+            "target": "Input Frames: 3463",
+            "cost": 1
+        },
+        { 
+            "source": "XRv12",
+            "target": "Output Frames: 18710",
+            "cost": 1
+        },
+        { 
+            "source": "XRv12",
+            "target": "TLV Discards: 0",
+            "cost": 1
+        },
+        { 
+            "source": "XRv12",
+            "target": "TLV Unknown: 0",
+            "cost": 1            
+        }        
+    ]
+}

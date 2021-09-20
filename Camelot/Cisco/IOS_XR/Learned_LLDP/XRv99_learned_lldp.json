@@ -1,0 +1,148 @@
+{
+    "counters": {
+        "entries_aged_out": 0,
+        "frame_discard": 0,
+        "frame_error_in": 0,
+        "frame_in": 4702,
+        "frame_out": 4728,
+        "tlv_discard": 0,
+        "tlv_unknown": 0
+    },
+    "enabled": true,
+    "hello_timer": 30,
+    "hold_timer": 120,
+    "interfaces": {
+        "GigabitEthernet0/0/0/1": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet1": {
+                    "neighbors": {
+                        "CSR11": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "001e.e69a.3d00",
+                            "management_address": "10.11.99.11",
+                            "neighbor_id": "CSR11",
+                            "port_description": "GigabitEthernet1",
+                            "system_description": "Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 17.2.1r, RELEASE SOFTWARE (fc2)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2020 by Cisco Systems, Inc.\nCompiled Thu 09-Apr-20 23:22",
+                            "system_name": "CSR11"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet0/0/0/2": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet0/0/0/2": {
+                    "neighbors": {
+                        "XRv12": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "025a.065a.a406",
+                            "management_address": "10.12.99.12",
+                            "neighbor_id": "XRv12",
+                            "port_description": "not advertised",
+                            "system_description": "Cisco IOS XR Software, Version 6.1.3[Default]\nCopyright (c) 2017 by Cisco Systems, Inc., IOS XRv Series\n",
+                            "system_name": "XRv12"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet0/0/0/3": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet3": {
+                    "neighbors": {
+                        "CSR13": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "001e.e631.4500",
+                            "management_address": "10.13.99.13",
+                            "neighbor_id": "CSR13",
+                            "port_description": "GigabitEthernet3",
+                            "system_description": "Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 17.2.1r, RELEASE SOFTWARE (fc2)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2020 by Cisco Systems, Inc.\nCompiled Thu 09-Apr-20 23:22",
+                            "system_name": "CSR13"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet0/0/0/4": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet4": {
+                    "neighbors": {
+                        "CSR14": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "001e.bd48.2000",
+                            "management_address": "10.14.99.14",
+                            "neighbor_id": "CSR14",
+                            "port_description": "GigabitEthernet4",
+                            "system_description": "Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 17.2.1r, RELEASE SOFTWARE (fc2)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2020 by Cisco Systems, Inc.\nCompiled Thu 09-Apr-20 23:22",
+                            "system_name": "CSR14"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet0/0/0/5": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet0/0/0/5": {
+                    "neighbors": {
+                        "XRv15": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "029b.6d58.a406",
+                            "management_address": "10.15.99.15",
+                            "neighbor_id": "XRv15",
+                            "port_description": "not advertised",
+                            "system_description": "Cisco IOS XR Software, Version 6.1.3[Default]\nCopyright (c) 2017 by Cisco Systems, Inc., IOS XRv Series\n",
+                            "system_name": "XRv15"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet0/0/0/6": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet6": {
+                    "neighbors": {
+                        "CSR16": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "001e.bde0.6a00",
+                            "management_address": "10.16.99.16",
+                            "neighbor_id": "CSR16",
+                            "port_description": "GigabitEthernet6",
+                            "system_description": "Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 17.2.1r, RELEASE SOFTWARE (fc2)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2020 by Cisco Systems, Inc.\nCompiled Thu 09-Apr-20 23:22",
+                            "system_name": "CSR16"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

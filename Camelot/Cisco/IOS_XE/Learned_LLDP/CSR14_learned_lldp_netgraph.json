@@ -1,0 +1,94 @@
+{
+    "type": "NetworkGraph",
+    "label": "Learn LLDP Counters",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR14"
+        },
+        { 
+            "id": "Enabled: True"
+        },    
+        { 
+            "id": "Hello Timer: 30"
+        },
+        { 
+            "id": "Hold Timer: 120"
+        },
+        { 
+            "id": "Aged Out Entries: 0"
+        },
+        { 
+            "id": "Frame Discards: 0"
+        },
+        { 
+            "id": "Frame Input Errors: 0"
+        },
+        { 
+            "id": "Input Frames: 946"
+        },
+        { 
+            "id": "Output Frames: 3824"
+        },
+        { 
+            "id": "TLV Discards: 0"
+        },
+        { 
+            "id": "TLV Unknown: 0"
+        }
+    ],
+    "links": [
+        { 
+            "source": "CSR14",
+            "target": "Enabled: True",
+            "cost": 1
+        },    
+        { 
+            "source": "CSR14",
+            "target": "Hello Timer: 30",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "Hold Timer: 120",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "Aged Out Entries: 0",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "Frame Discards: 0",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "Frame Input Errors: 0",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "Input Frames: 946",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "Output Frames: 3824",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "TLV Discards: 0",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "TLV Unknown: 0",
+            "cost": 1            
+        }        
+    ]
+}

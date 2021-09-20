@@ -1,0 +1,6 @@
+
+# Show CDP Neighbors Details
+| Local Interface | Device ID | Remote Interface | IP Address | Platform | Native VLAN | Hold Time | Duplex | Capaibilities | Software Version |
+| --------------- | --------- | ---------------- | ---------- | -------- | ----------- | --------- | ------ | ------------- | ---------------- |
+| GigabitEthernet14 | XRv15 | GigabitEthernet0/0/0/14 | 10.15.16.15 | cisco IOS XRv Series |  | 179 | full | Router | Cisco IOS XR Software  Version 6.1.3[Default] Copyright (c) 2017 by Cisco Systems  Inc. |
+| GigabitEthernet6 | XRv99 | GigabitEthernet0/0/0/6 | 10.16.99.99 | cisco IOS XRv Series |  | 136 | full | Router | Cisco IOS XR Software  Version 6.1.3[Default] Copyright (c) 2017 by Cisco Systems  Inc. |

@@ -1,0 +1,166 @@
+{
+    "vrf": {
+        "CustB": {
+            "address_family": {
+                "ipv4": {
+                    "instance": {
+                        "2": {
+                            "areas": {
+                                "0.0.0.0": {
+                                    "interfaces": {
+                                        "GigabitEthernet8": {
+                                            "attached": "network statement",
+                                            "bfd": {
+                                                "enable": false
+                                            },
+                                            "cost": 1,
+                                            "dead_interval": 40,
+                                            "demand_circuit": false,
+                                            "dr_ip_addr": "172.17.3.16",
+                                            "dr_router_id": "10.2.255.16",
+                                            "enable": true,
+                                            "flood_queue_length": 0,
+                                            "graceful_restart": {
+                                                "cisco": {
+                                                    "helper": true,
+                                                    "type": "cisco"
+                                                },
+                                                "ietf": {
+                                                    "helper": true,
+                                                    "type": "ietf"
+                                                }
+                                            },
+                                            "hello_interval": 10,
+                                            "hello_timer": "00:00:08",
+                                            "index": "1/1/1",
+                                            "interface_id": 14,
+                                            "interface_type": "broadcast",
+                                            "ip_address": "172.17.3.16/24",
+                                            "ipfrr_candidate": true,
+                                            "ipfrr_protected": true,
+                                            "last_flood_scan_length": 0,
+                                            "last_flood_scan_time_msec": 0,
+                                            "line_protocol": true,
+                                            "lls": true,
+                                            "max_flood_scan_length": 0,
+                                            "max_flood_scan_time_msec": 0,
+                                            "name": "GigabitEthernet8",
+                                            "next": "0x0(0)/0x0(0)/0x0(0)",
+                                            "oob_resync_timeout": 40,
+                                            "passive": false,
+                                            "priority": 1,
+                                            "retransmit_interval": 5,
+                                            "router_id": "10.2.255.16",
+                                            "state": "dr",
+                                            "statistics": {
+                                                "adj_nbr_count": 0,
+                                                "nbr_count": 0,
+                                                "num_nbrs_suppress_hello": 0
+                                            },
+                                            "ti_lfa_protected": false,
+                                            "topology": {
+                                                "0": {
+                                                    "cost": 1,
+                                                    "disabled": false,
+                                                    "name": "Base",
+                                                    "shutdown": false
+                                                }
+                                            },
+                                            "transmit_delay": 1,
+                                            "wait_interval": 40
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "default": {
+            "address_family": {
+                "ipv4": {
+                    "instance": {
+                        "1": {
+                            "areas": {
+                                "0.0.0.0": {
+                                    "interfaces": {
+                                        "GigabitEthernet6": {
+                                            "attached": "interface enable",
+                                            "bdr_ip_addr": "10.16.99.16",
+                                            "bdr_router_id": "10.255.255.16",
+                                            "bfd": {
+                                                "enable": false
+                                            },
+                                            "cost": 1,
+                                            "dead_interval": 40,
+                                            "demand_circuit": false,
+                                            "dr_ip_addr": "10.16.99.99",
+                                            "dr_router_id": "10.255.255.99",
+                                            "enable": true,
+                                            "flood_queue_length": 0,
+                                            "graceful_restart": {
+                                                "cisco": {
+                                                    "helper": true,
+                                                    "type": "cisco"
+                                                },
+                                                "ietf": {
+                                                    "helper": true,
+                                                    "type": "ietf"
+                                                }
+                                            },
+                                            "hello_interval": 10,
+                                            "hello_timer": "00:00:04",
+                                            "if_cfg": true,
+                                            "index": "1/1/1",
+                                            "interface_id": 12,
+                                            "interface_type": "broadcast",
+                                            "ip_address": "10.16.99.16/24",
+                                            "ipfrr_candidate": true,
+                                            "ipfrr_protected": true,
+                                            "last_flood_scan_length": 1,
+                                            "last_flood_scan_time_msec": 0,
+                                            "line_protocol": true,
+                                            "lls": true,
+                                            "max_flood_scan_length": 1,
+                                            "max_flood_scan_time_msec": 0,
+                                            "name": "GigabitEthernet6",
+                                            "neighbors": {
+                                                "10.255.255.99": {
+                                                    "dr_router_id": "10.255.255.99"
+                                                }
+                                            },
+                                            "next": "0x0(0)/0x0(0)/0x0(0)",
+                                            "oob_resync_timeout": 40,
+                                            "passive": false,
+                                            "priority": 1,
+                                            "retransmit_interval": 5,
+                                            "router_id": "10.255.255.16",
+                                            "state": "bdr",
+                                            "statistics": {
+                                                "adj_nbr_count": 1,
+                                                "nbr_count": 1,
+                                                "num_nbrs_suppress_hello": 0
+                                            },
+                                            "ti_lfa_protected": false,
+                                            "topology": {
+                                                "0": {
+                                                    "cost": 1,
+                                                    "disabled": false,
+                                                    "name": "Base",
+                                                    "shutdown": false
+                                                }
+                                            },
+                                            "transmit_delay": 1,
+                                            "wait_interval": 40
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

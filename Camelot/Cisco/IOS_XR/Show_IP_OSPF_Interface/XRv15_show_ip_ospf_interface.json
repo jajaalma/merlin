@@ -1,0 +1,156 @@
+{
+    "vrf": {
+        "default": {
+            "address_family": {
+                "ipv4": {
+                    "instance": {
+                        "1": {
+                            "interfaces": {
+                                "GigabitEthernet0/0/0/11": {
+                                    "area": "0",
+                                    "bfd": {
+                                        "enable": false
+                                    },
+                                    "cost": 1,
+                                    "dead_interval": 40,
+                                    "demand_circuit": false,
+                                    "dr_ip_addr": "10.14.15.14",
+                                    "dr_router_id": "10.255.255.14",
+                                    "enable": true,
+                                    "flood_queue_length": 0,
+                                    "hello_interval": 10,
+                                    "hello_timer": "00:00:08:423",
+                                    "high_water_mark": 15,
+                                    "index": "2/2",
+                                    "interface_type": "BROADCAST",
+                                    "ip_address": "10.14.15.15/24",
+                                    "last_flood_scan_length": 1,
+                                    "last_flood_scan_time_msec": 0,
+                                    "line_protocol": true,
+                                    "ls_ack_list": "current",
+                                    "ls_ack_list_length": 0,
+                                    "max_flood_scan_length": 2,
+                                    "max_flood_scan_time_msec": 0,
+                                    "max_pkt_sz": 1500,
+                                    "mtu": 1500,
+                                    "name": "GigabitEthernet0/0/0/11",
+                                    "neighbors": {
+                                        "10.255.255.14": {
+                                            "dr_router_id": "10.255.255.14"
+                                        }
+                                    },
+                                    "next": "0(0)/0(0)",
+                                    "priority": 1,
+                                    "process_id": "1",
+                                    "retransmit_interval": 5,
+                                    "router_id": "10.255.255.15",
+                                    "state": "BDR",
+                                    "statistics": {
+                                        "adj_nbr_count": 1,
+                                        "multi_area_intf_count": 0,
+                                        "nbr_count": 1,
+                                        "num_nbrs_suppress_hello": 0
+                                    },
+                                    "transmit_delay": 1,
+                                    "wait_interval": 40
+                                },
+                                "GigabitEthernet0/0/0/14": {
+                                    "area": "0",
+                                    "bfd": {
+                                        "enable": false
+                                    },
+                                    "cost": 1,
+                                    "dead_interval": 40,
+                                    "demand_circuit": false,
+                                    "dr_ip_addr": "10.15.16.15",
+                                    "dr_router_id": "10.255.255.15",
+                                    "enable": true,
+                                    "flood_queue_length": 0,
+                                    "hello_interval": 10,
+                                    "hello_timer": "00:00:05:525",
+                                    "high_water_mark": 0,
+                                    "index": "3/3",
+                                    "interface_type": "BROADCAST",
+                                    "ip_address": "10.15.16.15/24",
+                                    "last_flood_scan_length": 0,
+                                    "last_flood_scan_time_msec": 0,
+                                    "line_protocol": true,
+                                    "ls_ack_list": "current",
+                                    "ls_ack_list_length": 0,
+                                    "max_flood_scan_length": 0,
+                                    "max_flood_scan_time_msec": 0,
+                                    "max_pkt_sz": 1500,
+                                    "mtu": 1500,
+                                    "name": "GigabitEthernet0/0/0/14",
+                                    "neighbors": {},
+                                    "next": "0(0)/0(0)",
+                                    "priority": 1,
+                                    "process_id": "1",
+                                    "retransmit_interval": 5,
+                                    "router_id": "10.255.255.15",
+                                    "state": "DR",
+                                    "statistics": {
+                                        "adj_nbr_count": 0,
+                                        "multi_area_intf_count": 0,
+                                        "nbr_count": 0,
+                                        "num_nbrs_suppress_hello": 0
+                                    },
+                                    "transmit_delay": 1,
+                                    "wait_interval": 40
+                                },
+                                "GigabitEthernet0/0/0/5": {
+                                    "area": "0",
+                                    "bfd": {
+                                        "enable": false
+                                    },
+                                    "cost": 1,
+                                    "dead_interval": 40,
+                                    "demand_circuit": false,
+                                    "dr_ip_addr": "10.15.99.99",
+                                    "dr_router_id": "10.255.255.99",
+                                    "enable": true,
+                                    "flood_queue_length": 0,
+                                    "hello_interval": 10,
+                                    "hello_timer": "00:00:09:582",
+                                    "high_water_mark": 4,
+                                    "index": "1/1",
+                                    "interface_type": "BROADCAST",
+                                    "ip_address": "10.15.99.15/24",
+                                    "last_flood_scan_length": 1,
+                                    "last_flood_scan_time_msec": 0,
+                                    "line_protocol": true,
+                                    "ls_ack_list": "current",
+                                    "ls_ack_list_length": 0,
+                                    "max_flood_scan_length": 2,
+                                    "max_flood_scan_time_msec": 0,
+                                    "max_pkt_sz": 1500,
+                                    "mtu": 1500,
+                                    "name": "GigabitEthernet0/0/0/5",
+                                    "neighbors": {
+                                        "10.255.255.99": {
+                                            "dr_router_id": "10.255.255.99"
+                                        }
+                                    },
+                                    "next": "0(0)/0(0)",
+                                    "priority": 1,
+                                    "process_id": "1",
+                                    "retransmit_interval": 5,
+                                    "router_id": "10.255.255.15",
+                                    "state": "BDR",
+                                    "statistics": {
+                                        "adj_nbr_count": 1,
+                                        "multi_area_intf_count": 0,
+                                        "nbr_count": 1,
+                                        "num_nbrs_suppress_hello": 0
+                                    },
+                                    "transmit_delay": 1,
+                                    "wait_interval": 40
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

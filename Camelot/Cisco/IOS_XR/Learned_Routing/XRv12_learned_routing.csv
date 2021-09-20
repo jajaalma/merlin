@@ -1,0 +1,51 @@
+VRF,Address Family,Route,Active,Metric,Next Hop Index,Next Hop,Outgoing Interface,Route Preference,Source Protocol,Source Protocol Code
+default,ipv4,10.255.255.99/32,True,10,1,10.12.99.99,N/A,115,isis,i L2
+default,ipv4,10.255.255.16/32,True,20,1,10.12.99.99,N/A,115,isis,i L2
+default,ipv4,10.255.255.15/32,True,20,1,10.12.99.99,N/A,115,isis,i L2
+default,ipv4,10.255.255.14/32,True,20,1,10.12.99.99,N/A,115,isis,i L2
+default,ipv4,10.255.255.13/32,True,10,1,10.12.13.13,N/A,115,isis,i L2
+default,ipv4,10.255.255.12/32,True,N/A,N/A,N/A,Loopback0,N/A,local,L
+default,ipv4,10.255.255.11/32,True,10,1,10.11.12.11,N/A,115,isis,i L2
+default,ipv4,10.16.99.0/24,True,2,1,10.12.99.99,N/A,110,ospf,O
+default,ipv4,10.15.99.0/24,True,2,1,10.12.99.99,N/A,110,ospf,O
+default,ipv4,10.15.16.0/24,True,3,1,10.12.99.99,N/A,110,ospf,O
+default,ipv4,10.14.99.0/24,True,2,1,10.12.99.99,N/A,110,ospf,O
+default,ipv4,10.14.15.0/24,True,3,1,10.12.99.99,N/A,110,ospf,O
+default,ipv4,10.13.99.0/24,True,2,2,10.12.13.13,N/A,110,ospf,O
+default,ipv4,10.13.99.0/24,True,2,1,10.12.99.99,N/A,110,ospf,O
+default,ipv4,10.12.99.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/2,N/A,local,L
+default,ipv4,10.12.99.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/2,N/A,connected,C
+default,ipv4,10.12.13.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/11,N/A,local,L
+default,ipv4,10.12.13.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/11,N/A,connected,C
+default,ipv4,10.11.99.0/24,True,2,2,10.11.12.11,N/A,110,ospf,O
+default,ipv4,10.11.99.0/24,True,2,1,10.12.99.99,N/A,110,ospf,O
+default,ipv4,10.11.12.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/10,N/A,local,L
+default,ipv4,10.11.12.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/10,N/A,connected,C
+CustD,ipv4,172.19.3.0/24,True,110,1,10.255.255.15,N/A,200,bgp,B
+CustD,ipv4,172.19.2.0/24,True,110,1,10.255.255.15,N/A,200,bgp,B
+CustD,ipv4,172.19.1.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/9,N/A,local,L
+CustD,ipv4,172.19.1.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/9,N/A,connected,C
+CustD,ipv4,10.4.255.3/32,True,110,1,10.255.255.15,N/A,200,bgp,B
+CustD,ipv4,10.4.255.2/32,True,110,1,10.255.255.15,N/A,200,bgp,B
+CustD,ipv4,10.4.255.1/32,True,0,1,172.19.1.1,N/A,1,static,S
+CustC,ipv4,172.18.3.0/24,True,0,1,10.255.255.14,N/A,200,bgp,B
+CustC,ipv4,172.18.2.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/8,N/A,local,L
+CustC,ipv4,172.18.2.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/8,N/A,connected,C
+CustC,ipv4,172.18.1.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/7,N/A,local,L
+CustC,ipv4,172.18.1.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/7,N/A,connected,C
+CustC,ipv4,10.3.255.2/32,True,10880,1,172.18.2.2,N/A,90,eigrp,D
+CustC,ipv4,10.3.255.1/32,True,10880,1,172.18.1.1,N/A,90,eigrp,D
+CustB,ipv4,172.17.2.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/6,N/A,local,L
+CustB,ipv4,172.17.2.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/6,N/A,connected,C
+CustB,ipv4,172.17.1.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/5,N/A,local,L
+CustB,ipv4,172.17.1.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/5,N/A,connected,C
+CustB,ipv4,10.2.255.2/32,True,2,1,172.17.2.2,N/A,110,ospf,O
+CustB,ipv4,10.2.255.1/32,True,2,1,172.17.1.1,N/A,110,ospf,O
+CustA,ipv4,172.16.2.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/4,N/A,local,L
+CustA,ipv4,172.16.2.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/4,N/A,connected,C
+CustA,ipv4,172.16.1.12/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/3,N/A,local,L
+CustA,ipv4,172.16.1.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/3,N/A,connected,C
+CustA,ipv4,10.1.255.2/32,True,0,1,172.16.1.1,N/A,20,bgp,B
+CustA,ipv4,10.1.255.1/32,True,0,1,172.16.1.1,N/A,20,bgp,B
+**nVSatellite,ipv4,10.0.0.2/32,True,N/A,N/A,N/A,nV-Loopback1,N/A,local,L
+**nVSatellite,ipv4,10.0.0.1/32,True,N/A,N/A,N/A,nV-Loopback0,N/A,local,L

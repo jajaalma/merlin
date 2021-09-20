@@ -1,0 +1,76 @@
+{
+    "vrfs": {
+        "CustA": {
+            "address_family": {
+                "ipv4 unicast": {
+                    "route_targets": {
+                        "10.255.255.12:1": {
+                            "route_target": "10.255.255.12:1",
+                            "rt_type": "export"
+                        },
+                        "10.255.255.15:1": {
+                            "route_target": "10.255.255.15:1",
+                            "rt_type": "import"
+                        }
+                    }
+                }
+            },
+            "description": "not set",
+            "route_distinguisher": "20000:1"
+        },
+        "CustB": {
+            "address_family": {
+                "ipv4 unicast": {
+                    "route_targets": {
+                        "10.255.255.12:2": {
+                            "route_target": "10.255.255.12:2",
+                            "rt_type": "export"
+                        },
+                        "10.255.255.16:2": {
+                            "route_target": "10.255.255.16:2",
+                            "rt_type": "import"
+                        }
+                    }
+                }
+            },
+            "description": "not set",
+            "route_distinguisher": "20000:2"
+        },
+        "CustC": {
+            "address_family": {
+                "ipv4 unicast": {
+                    "route_targets": {
+                        "10.255.255.12:3": {
+                            "route_target": "10.255.255.12:3",
+                            "rt_type": "export"
+                        },
+                        "10.255.255.14:3": {
+                            "route_target": "10.255.255.14:3",
+                            "rt_type": "import"
+                        }
+                    }
+                }
+            },
+            "description": "not set",
+            "route_distinguisher": "20000:3"
+        },
+        "CustD": {
+            "address_family": {
+                "ipv4 unicast": {
+                    "route_targets": {
+                        "10.255.255.12:4": {
+                            "route_target": "10.255.255.12:4",
+                            "rt_type": "export"
+                        },
+                        "10.255.255.15:4": {
+                            "route_target": "10.255.255.15:4",
+                            "rt_type": "import"
+                        }
+                    }
+                }
+            },
+            "description": "not set",
+            "route_distinguisher": "20000:4"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+
+# Show IP OPSF 
+| VRF | Address Family | Instance | Router ID | Area | Area Transit | Area Type | Summary | NSSA | Enabled | Interface Count | SPF Last Executed | Total SPF | Area LSA Count | Auto Cost Enable | Reference Bandwidth | BFD Enabled | Elapsed Time | Event Log Enabled | Graceful Restart Type | Graceful Restart Enabled | LLS | NSR Enable | External LSA | Total Areas | Total Normal Areas | Total NSSA Areas | Total Stub Areas |
+| --- | -------------- | -------- | --------- | ---- | ------------ | --------- | ------- | ---- | ------- | --------------- | ----------------- | --------- | -------------- | ---------------- | ------------------- | ----------- | ------------ | ----------------- | --------------------- | ------------------------ | --- | ---------- | ------------ | ----------- | ------------------ | ---------------- | ---------------- |
+| default | ipv4 | 1 | 10.255.255.13 | 0.0.0.0 | True | normal |  | True | True | 2 | 03:51:32.877 | 21 | 16 | False | 100 | False | 04:02:57.043 | YES | ietf | False | True | False | 0 | 1 | 1 | 0 | 0 |
+| default | ipv4 | 1 | 10.255.255.13 | 0.0.0.0 | True | normal |  | True | True | 2 | 03:51:32.877 | 21 | 16 | False | 100 | False | 04:02:57.043 | YES | cisco | False | True | False | 0 | 1 | 1 | 0 | 0 |

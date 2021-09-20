@@ -1,0 +1,44 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  vrfs: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      CustC: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          address_family: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ipv4 unicast: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  route_targets: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      10.255.255.12:3: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.12:3
+                          rt_type: import
+                        state:
+                          leaf_dict:
+                            route_target: &id001 !!python/name:genie.libs.parser.iosxe.show_vrf.ShowVrfDetail ''
+                            rt_type: *id001
+                      10.255.255.14:3: !!python/object/new:genie.ops.base.maker.CmdDict
+                        dictitems:
+                          route_target: 10.255.255.14:3
+                          rt_type: export
+                        state:
+                          leaf_dict:
+                            route_target: *id001
+                            rt_type: *id001
+                    state:
+                      leaf_dict: {}
+                  table_id: '0x1'
+                state:
+                  leaf_dict:
+                    table_id: *id001
+            state:
+              leaf_dict: {}
+          route_distinguisher: '20000:3'
+        state:
+          leaf_dict:
+            route_distinguisher: *id001
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict: {}

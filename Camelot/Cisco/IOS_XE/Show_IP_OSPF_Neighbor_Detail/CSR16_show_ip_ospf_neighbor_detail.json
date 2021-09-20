@@ -1,0 +1,47 @@
+{
+    "vrf": {
+        "default": {
+            "address_family": {
+                "ipv4": {
+                    "instance": {
+                        "1": {
+                            "areas": {
+                                "0.0.0.0": {
+                                    "interfaces": {
+                                        "GigabitEthernet6": {
+                                            "neighbors": {
+                                                "10.255.255.99": {
+                                                    "address": "10.16.99.99",
+                                                    "bdr_ip_addr": "10.16.99.16",
+                                                    "dead_timer": "00:00:38",
+                                                    "dr_ip_addr": "10.16.99.99",
+                                                    "first": "0x0(0)/0x0(0)/0x0(0)",
+                                                    "index": "1/1/1,",
+                                                    "interface": "GigabitEthernet6",
+                                                    "neighbor_router_id": "10.255.255.99",
+                                                    "next": "0x0(0)/0x0(0)/0x0(0)",
+                                                    "priority": 1,
+                                                    "state": "full",
+                                                    "statistics": {
+                                                        "last_retrans_max_scan_length": 1,
+                                                        "last_retrans_max_scan_time_msec": 0,
+                                                        "last_retrans_scan_length": 1,
+                                                        "last_retrans_scan_time_msec": 0,
+                                                        "nbr_event_count": 6,
+                                                        "nbr_retrans_qlen": 0,
+                                                        "total_retransmission": 1
+                                                    },
+                                                    "uptime": "04:01:27"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

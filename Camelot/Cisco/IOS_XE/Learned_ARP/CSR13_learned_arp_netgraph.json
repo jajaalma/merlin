@@ -1,0 +1,110 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show Interface Status",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR13"
+        },
+        {
+            "id": "GigabitEthernet3"
+        },
+        {
+            "id": "Neighbor IP: 10.13.99.99"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0009.0004"
+        },
+        {
+            "id": "GigabitEthernet3"
+        },
+        {
+            "id": "Neighbor IP: 10.13.99.13"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0002.0002"
+        },
+        {
+            "id": "GigabitEthernet11"
+        },
+        {
+            "id": "Neighbor IP: 10.12.13.13"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0002.000a"
+        },
+        {
+            "id": "GigabitEthernet11"
+        },
+        {
+            "id": "Neighbor IP: 10.12.13.12"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0008.000c"
+        },
+    ],
+    "links": [
+        {
+            "source": "CSR13",
+            "target": "GigabitEthernet3",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet3",
+            "target": "Neighbor IP: 10.13.99.99",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 10.13.99.99",
+            "target": "Neighbor MAC: 5006.0009.0004",
+            "cost": 2
+        },
+        {
+            "source": "CSR13",
+            "target": "GigabitEthernet3",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet3",
+            "target": "Neighbor IP: 10.13.99.13",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 10.13.99.13",
+            "target": "Neighbor MAC: 5006.0002.0002",
+            "cost": 2
+        },
+        {
+            "source": "CSR13",
+            "target": "GigabitEthernet11",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet11",
+            "target": "Neighbor IP: 10.12.13.13",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 10.12.13.13",
+            "target": "Neighbor MAC: 5006.0002.000a",
+            "cost": 2
+        },
+        {
+            "source": "CSR13",
+            "target": "GigabitEthernet11",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet11",
+            "target": "Neighbor IP: 10.12.13.12",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 10.12.13.12",
+            "target": "Neighbor MAC: 5006.0008.000c",
+            "cost": 2
+        },
+    ]
+}

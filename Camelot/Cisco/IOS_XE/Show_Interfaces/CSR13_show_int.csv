@@ -1,0 +1,27 @@
+Interface,Description,Type,Connected,Enabled,Bandwidth,Port Speed,Port Duplex,IPv4 Address,Line Protocol,Operational Status,MAC Address,Media Type,Delay,Encapsulation,Keepalive,MTU,Port Channel Member,Port Channel Member Interface,Input CRC Errors,Input Errors,Output Errors,Input Packets,Output Packets,QoS Strategy,Input Queue Drops,Total Output Drops
+GigabitEthernet1,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0000,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet2,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0001,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet3,No Description,CSR vNIC,Not Connected,True,1000000,1000mbps,full,No IP Address,up,up,5006.0002.0002,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,53821,38882,fifo,0,0
+GigabitEthernet4,No Description,CSR vNIC,Not Connected,True,1000000,1000mbps,full,No IP Address,up,up,5006.0002.0003,Virtual,10,arpa,N/A,1500,False,Stand Alone Port,0,0,0,0,490,fifo,0,0
+GigabitEthernet5,No Description,CSR vNIC,Not Connected,True,1000000,1000mbps,full,No IP Address,up,up,001e.e631.45c5,Virtual,10,arpa,N/A,1500,False,Stand Alone Port,0,0,0,0,490,fifo,0,0
+GigabitEthernet6,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0005,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet7,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0006,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet8,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0007,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet9,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0008,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet10,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0009,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet11,No Description,CSR vNIC,Not Connected,True,1000000,1000mbps,full,No IP Address,up,up,5006.0002.000a,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,65064,15781,fifo,0,0
+GigabitEthernet12,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.000b,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet13,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.000c,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet14,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.000d,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet15,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.000e,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet16,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.000f,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet17,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0010,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet18,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0011,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet19,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0012,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet20,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0013,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet21,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0014,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet22,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0015,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet23,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0016,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+GigabitEthernet24,No Description,CSR vNIC,Not Connected,False,1000000,1000mbps,full,No IP Address,down,down,5006.0002.0017,Virtual,10,arpa,10,1500,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+Loopback0,No Description,Loopback,Not Connected,True,8000000,N/A,N/A,No IP Address,up,up,,N/A,5000,loopback,10,1514,False,Stand Alone Port,0,0,0,0,0,fifo,0,0
+Port-channel6,No Description,GEChannel,Not Connected,True,1000000,N/A,N/A,No IP Address,up,up,001e.e631.45c5,N/A,10,mpls,10,1500,True,GigabitEthernet5,0,0,0,0,0,fifo,0,0

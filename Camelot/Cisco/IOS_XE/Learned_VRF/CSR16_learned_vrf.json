@@ -1,0 +1,22 @@
+{
+    "vrfs": {
+        "CustB": {
+            "address_family": {
+                "ipv4 unicast": {
+                    "route_targets": {
+                        "10.255.255.12:2": {
+                            "route_target": "10.255.255.12:2",
+                            "rt_type": "import"
+                        },
+                        "10.255.255.15:20004": {
+                            "route_target": "10.255.255.15:20004",
+                            "rt_type": "import"
+                        }
+                    },
+                    "table_id": "0x1"
+                }
+            },
+            "route_distinguisher": "20000:2"
+        }
+    }
+}

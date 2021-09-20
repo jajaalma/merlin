@@ -1,0 +1,5 @@
+
+# Show Version
+| Hostname | Platform | Chassis | Version | Image ID | OS | Uptime | Last Reload | Last Reload Reason | Interfaces | Total Memory | Used Memeory | Serial Number | License Type |
+| -------- | -------- | ------- | ------- | -------- | -- | ------ | ----------- | ------------------ | ---------- | ------------ | ------------ | ------------- | ------------ |
+| CSR14 | Virtual XE | CSR1000V | 17.2.1r | X86_64_LINUX_IOSD-UNIVERSALK9-M | IOS-XE | 1 day  29 minutes |  | Unknown reason | 'Gigabit Ethernet': '24' | 718868 | 'non-volatile configuration': '32768'  'physical': '3978248' | 9M937V5MLY2 | N/A(Smart License Enabled) |

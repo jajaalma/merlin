@@ -1,0 +1,29 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  global: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      bpdu_filter: false
+      bpdu_guard: false
+      etherchannel_misconfig_guard: true
+      loop_guard: false
+    state:
+      leaf_dict:
+        bpdu_filter: &id001 !!python/name:genie.libs.parser.iosxe.show_spanning_tree.ShowSpanningTreeSummary ''
+        bpdu_guard: *id001
+        etherchannel_misconfig_guard: *id001
+        loop_guard: *id001
+  mstp: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      default: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          domain: default
+          name: ''
+          revision: 0
+        state:
+          leaf_dict:
+            name: &id002 !!python/name:genie.libs.parser.iosxe.show_spanning_tree.ShowSpanningTreeMstConfiguration ''
+            revision: *id002
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict: {}

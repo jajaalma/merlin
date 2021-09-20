@@ -1,0 +1,3 @@
+Local Interface,Device ID,Remote Interface,IP Address,Platform,Native VLAN,Hold Time,Duplex,Capaibilities,Software Version
+GigabitEthernet11,XRv15,GigabitEthernet0/0/0/11,10.14.15.15,cisco IOS XRv Series,,148,full,Router,Cisco IOS XR Software  Version 6.1.3[Default] Copyright (c) 2017 by Cisco Systems  Inc.
+GigabitEthernet4,XRv99,GigabitEthernet0/0/0/4,10.14.99.99,cisco IOS XRv Series,,162,full,Router,Cisco IOS XR Software  Version 6.1.3[Default] Copyright (c) 2017 by Cisco Systems  Inc.

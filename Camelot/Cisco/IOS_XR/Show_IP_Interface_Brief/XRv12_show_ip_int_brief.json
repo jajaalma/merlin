@@ -1,0 +1,160 @@
+{
+    "interface": {
+        "Bundle-Ether1": {
+            "interface_status": "Down",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/0": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/1": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/10": {
+            "interface_status": "Up",
+            "ip_address": "10.11.12.12",
+            "protocol_status": "Up",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/11": {
+            "interface_status": "Up",
+            "ip_address": "10.12.13.12",
+            "protocol_status": "Up",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/12": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/13": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/14": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/15": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/16": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/17": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/18": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/19": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/2": {
+            "interface_status": "Up",
+            "ip_address": "10.12.99.12",
+            "protocol_status": "Up",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/20": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/21": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/22": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        },
+        "GigabitEthernet0/0/0/3": {
+            "interface_status": "Up",
+            "ip_address": "172.16.1.12",
+            "protocol_status": "Up",
+            "vrf_name": "CustA"
+        },
+        "GigabitEthernet0/0/0/4": {
+            "interface_status": "Up",
+            "ip_address": "172.16.2.12",
+            "protocol_status": "Up",
+            "vrf_name": "CustA"
+        },
+        "GigabitEthernet0/0/0/5": {
+            "interface_status": "Up",
+            "ip_address": "172.17.1.12",
+            "protocol_status": "Up",
+            "vrf_name": "CustB"
+        },
+        "GigabitEthernet0/0/0/6": {
+            "interface_status": "Up",
+            "ip_address": "172.17.2.12",
+            "protocol_status": "Up",
+            "vrf_name": "CustB"
+        },
+        "GigabitEthernet0/0/0/7": {
+            "interface_status": "Up",
+            "ip_address": "172.18.1.12",
+            "protocol_status": "Up",
+            "vrf_name": "CustC"
+        },
+        "GigabitEthernet0/0/0/8": {
+            "interface_status": "Up",
+            "ip_address": "172.18.2.12",
+            "protocol_status": "Up",
+            "vrf_name": "CustC"
+        },
+        "GigabitEthernet0/0/0/9": {
+            "interface_status": "Up",
+            "ip_address": "172.19.1.12",
+            "protocol_status": "Up",
+            "vrf_name": "CustD"
+        },
+        "Loopback0": {
+            "interface_status": "Up",
+            "ip_address": "10.255.255.12",
+            "protocol_status": "Up",
+            "vrf_name": "default"
+        },
+        "MgmtEth0/0/CPU0/0": {
+            "interface_status": "Shutdown",
+            "ip_address": "unassigned",
+            "protocol_status": "Down",
+            "vrf_name": "default"
+        }
+    }
+}

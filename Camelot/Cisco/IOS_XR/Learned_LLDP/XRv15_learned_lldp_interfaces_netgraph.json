@@ -1,0 +1,190 @@
+{
+    "type": "NetworkGraph",
+    "label": "Learn LLDP Interfaces",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "XRv15"
+        },
+        { 
+            "id": "GigabitEthernet0/0/0/14"
+        },
+        { 
+            "id": "Neighbor: CSR16"
+        },
+        { 
+            "id": "Port: GigabitEthernet14"
+        },
+        { 
+            "id": "Description: GigabitEthernet14"
+        },
+        { 
+            "id": "Capability: router"
+        },   
+        { 
+            "id": "Management Address: 10.15.16.16"
+        },
+        { 
+            "id": "GigabitEthernet0/0/0/11"
+        },
+        { 
+            "id": "Neighbor: CSR14"
+        },
+        { 
+            "id": "Port: GigabitEthernet11"
+        },
+        { 
+            "id": "Description: GigabitEthernet11"
+        },
+        { 
+            "id": "Capability: router"
+        },   
+        { 
+            "id": "Management Address: 10.14.15.14"
+        },
+        { 
+            "id": "GigabitEthernet0/0/0/5"
+        },
+        { 
+            "id": "Neighbor: XRv99"
+        },
+        { 
+            "id": "Port: GigabitEthernet0/0/0/5"
+        },
+        { 
+            "id": "Description: not advertised"
+        },
+        { 
+            "id": "Capability: router"
+        },   
+        { 
+            "id": "Management Address: 10.15.99.99"
+        },
+        { 
+            "id": "GigabitEthernet0/0/0/9"
+        },
+        { 
+            "id": "GigabitEthernet0/0/0/8"
+        },
+        { 
+            "id": "GigabitEthernet0/0/0/7"
+        },
+        { 
+            "id": "GigabitEthernet0/0/0/6"
+        }     
+    ],
+    "links": [
+        { 
+            "source": "XRv15",
+            "target": "GigabitEthernet0/0/0/14",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet0/0/0/14",
+            "target": "Neighbor: CSR16",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: CSR16",
+            "target": "Port: GigabitEthernet14",
+            "cost": 1
+        },
+        { 
+            "source": "Port: GigabitEthernet14",
+            "target": "Description: GigabitEthernet14",
+            "cost": 2
+        },
+        { 
+            "source": "Port: GigabitEthernet14",
+            "target": "Capability: router",
+            "cost": 2
+        },   
+        { 
+            "source": "Neighbor: CSR16",
+            "target": "Management Address: 10.15.16.16",
+            "cost": 2
+        },
+        { 
+            "source": "XRv15",
+            "target": "GigabitEthernet0/0/0/11",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet0/0/0/11",
+            "target": "Neighbor: CSR14",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: CSR14",
+            "target": "Port: GigabitEthernet11",
+            "cost": 1
+        },
+        { 
+            "source": "Port: GigabitEthernet11",
+            "target": "Description: GigabitEthernet11",
+            "cost": 2
+        },
+        { 
+            "source": "Port: GigabitEthernet11",
+            "target": "Capability: router",
+            "cost": 2
+        },   
+        { 
+            "source": "Neighbor: CSR14",
+            "target": "Management Address: 10.14.15.14",
+            "cost": 2
+        },
+        { 
+            "source": "XRv15",
+            "target": "GigabitEthernet0/0/0/5",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet0/0/0/5",
+            "target": "Neighbor: XRv99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: XRv99",
+            "target": "Port: GigabitEthernet0/0/0/5",
+            "cost": 1
+        },
+        { 
+            "source": "Port: GigabitEthernet0/0/0/5",
+            "target": "Description: not advertised",
+            "cost": 2
+        },
+        { 
+            "source": "Port: GigabitEthernet0/0/0/5",
+            "target": "Capability: router",
+            "cost": 2
+        },   
+        { 
+            "source": "Neighbor: XRv99",
+            "target": "Management Address: 10.15.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "XRv15",
+            "target": "GigabitEthernet0/0/0/9",
+            "cost": 1
+        },
+        { 
+            "source": "XRv15",
+            "target": "GigabitEthernet0/0/0/8",
+            "cost": 1
+        },
+        { 
+            "source": "XRv15",
+            "target": "GigabitEthernet0/0/0/7",
+            "cost": 1
+        },
+        { 
+            "source": "XRv15",
+            "target": "GigabitEthernet0/0/0/6",
+            "cost": 1
+        }   
+    ]
+}

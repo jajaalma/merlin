@@ -1,0 +1,52 @@
+devices:
+    XRv99:
+      alias: 'XRv99'
+      type: 'router'
+      os: 'iosxr'
+      credentials:
+        default:
+          username: cisco123
+          password: cisco123
+      connections:  
+        defaults:
+          class: unicon.Unicon      
+        cli:
+          protocol: telnet
+          ip: ccie.selfip.com
+          port: 33545
+          arguments:
+            connection_timeout: 360  
+    XRv15:
+      alias: 'XRv15'
+      type: 'router'
+      os: 'iosxr'
+      credentials:
+        default:
+          username: cisco123
+          password: cisco123
+      connections:  
+        defaults:
+          class: unicon.Unicon      
+        cli:
+          protocol: telnet
+          ip: ccie.selfip.com
+          port: 33543
+          arguments:
+            connection_timeout: 360  
+    XRv12:
+      alias: 'XRv12'
+      type: 'router'
+      os: 'iosxr'
+      credentials:
+        default:
+          username: cisco123
+          password: cisco123
+      connections:  
+        defaults:
+          class: unicon.Unicon      
+        cli:
+          protocol: telnet
+          ip: ccie.selfip.com
+          port: 33544
+          arguments:
+            connection_timeout: 360  

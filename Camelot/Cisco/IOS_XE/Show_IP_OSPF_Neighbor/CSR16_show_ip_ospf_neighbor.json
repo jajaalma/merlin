@@ -1,0 +1,14 @@
+{
+    "interfaces": {
+        "GigabitEthernet6": {
+            "neighbors": {
+                "10.255.255.99": {
+                    "address": "10.16.99.99",
+                    "dead_time": "00:00:39",
+                    "priority": 1,
+                    "state": "FULL/DR"
+                }
+            }
+        }
+    }
+}

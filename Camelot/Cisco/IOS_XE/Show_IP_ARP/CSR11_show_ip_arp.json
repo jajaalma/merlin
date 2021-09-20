@@ -1,0 +1,48 @@
+{
+    "interfaces": {
+        "GigabitEthernet1": {
+            "ipv4": {
+                "neighbors": {
+                    "10.11.99.11": {
+                        "age": "-",
+                        "ip": "10.11.99.11",
+                        "link_layer_address": "5006.0001.0000",
+                        "origin": "static",
+                        "protocol": "Internet",
+                        "type": "ARPA"
+                    },
+                    "10.11.99.99": {
+                        "age": "89",
+                        "ip": "10.11.99.99",
+                        "link_layer_address": "5006.0009.0002",
+                        "origin": "dynamic",
+                        "protocol": "Internet",
+                        "type": "ARPA"
+                    }
+                }
+            }
+        },
+        "GigabitEthernet10": {
+            "ipv4": {
+                "neighbors": {
+                    "10.11.12.11": {
+                        "age": "-",
+                        "ip": "10.11.12.11",
+                        "link_layer_address": "5006.0001.0009",
+                        "origin": "static",
+                        "protocol": "Internet",
+                        "type": "ARPA"
+                    },
+                    "10.11.12.12": {
+                        "age": "99",
+                        "ip": "10.11.12.12",
+                        "link_layer_address": "5006.0008.000b",
+                        "origin": "dynamic",
+                        "protocol": "Internet",
+                        "type": "ARPA"
+                    }
+                }
+            }
+        }
+    }
+}

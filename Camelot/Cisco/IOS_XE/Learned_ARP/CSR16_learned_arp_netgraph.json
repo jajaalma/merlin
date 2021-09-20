@@ -1,0 +1,134 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show Interface Status",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR16"
+        },
+        {
+            "id": "GigabitEthernet6"
+        },
+        {
+            "id": "Neighbor IP: 10.16.99.99"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0009.0007"
+        },
+        {
+            "id": "GigabitEthernet6"
+        },
+        {
+            "id": "Neighbor IP: 10.16.99.16"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0004.0005"
+        },
+        {
+            "id": "GigabitEthernet14"
+        },
+        {
+            "id": "Neighbor IP: 10.15.16.16"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0004.000d"
+        },
+        {
+            "id": "GigabitEthernet14"
+        },
+        {
+            "id": "Neighbor IP: 10.15.16.15"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0007.000f"
+        },
+        {
+            "id": "GigabitEthernet8"
+        },
+        {
+            "id": "Neighbor IP: 172.17.3.16"
+        },
+        {
+            "id": "Neighbor MAC: 5006.0004.0007"
+        },
+    ],
+    "links": [
+        {
+            "source": "CSR16",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet6",
+            "target": "Neighbor IP: 10.16.99.99",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 10.16.99.99",
+            "target": "Neighbor MAC: 5006.0009.0007",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet6",
+            "target": "Neighbor IP: 10.16.99.16",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 10.16.99.16",
+            "target": "Neighbor MAC: 5006.0004.0005",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "GigabitEthernet14",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet14",
+            "target": "Neighbor IP: 10.15.16.16",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 10.15.16.16",
+            "target": "Neighbor MAC: 5006.0004.000d",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "GigabitEthernet14",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet14",
+            "target": "Neighbor IP: 10.15.16.15",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 10.15.16.15",
+            "target": "Neighbor MAC: 5006.0007.000f",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "GigabitEthernet8",
+            "cost": 1
+        },
+        {
+            "source": "GigabitEthernet8",
+            "target": "Neighbor IP: 172.17.3.16",
+            "cost": 2
+        },
+        {
+            "source": "Neighbor IP: 172.17.3.16",
+            "target": "Neighbor MAC: 5006.0004.0007",
+            "cost": 2
+        },
+    ]
+}

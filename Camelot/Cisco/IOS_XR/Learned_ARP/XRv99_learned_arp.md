@@ -1,0 +1,9 @@
+
+# Learn ARP
+| Interface | Neighbor IP Address | Neighbor MAC Address | Origin | ARP Dynamic Learning Local Proxy Enabled | ARP Dynamic Learning Proxy Enable |
+| --------- | ------------------- | -------------------- | ------ | ---------------------------------------- | --------------------------------- |
+| GigabitEthernet0/0/0/6 | N/A | N/A | N/A |  | False |
+| GigabitEthernet0/0/0/5 | N/A | N/A | N/A |  | False |
+| GigabitEthernet0/0/0/4 | N/A | N/A | N/A |  | False |
+| GigabitEthernet0/0/0/1 | N/A | N/A | N/A |  | False |
+| Loopback0 | N/A | N/A | N/A |  | False |

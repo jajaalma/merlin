@@ -1,0 +1,446 @@
+{
+    "type": "NetworkGraph",
+    "label": "Learn Interfaces",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR14"
+        },
+        { 
+            "id": "Port-channel6"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 001e.bd48.20c5"
+        },  
+        { 
+            "id": "Port Channel Member: GigabitEthernet5"
+        },
+        { 
+            "id": "Loopback0"
+        },
+        { 
+            "id": "IP Address: 10.255.255.14/32"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        },
+        { 
+            "id": "GigabitEthernet11"
+        },
+        { 
+            "id": "IP Address: 10.14.15.14/24"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 5006.0003.000a"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        },
+        { 
+            "id": "GigabitEthernet10"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 5006.0003.0009"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        },
+        { 
+            "id": "GigabitEthernet9"
+        },
+        { 
+            "id": "IP Address: 172.18.3.14/24"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 5006.0003.0008"
+        },
+        { 
+            "id": "VRF: CustC"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        },
+        { 
+            "id": "GigabitEthernet8"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 5006.0003.0007"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        },
+        { 
+            "id": "GigabitEthernet7"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 5006.0003.0006"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        },
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 5006.0003.0005"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        },
+        { 
+            "id": "GigabitEthernet5"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 001e.bd48.20c5"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        },
+        { 
+            "id": "GigabitEthernet4"
+        },
+        { 
+            "id": "IP Address: 10.14.99.14/24"
+        },
+        { 
+            "id": "Enabled: True"
+        },        
+        { 
+            "id": "Operational Status: up"
+        },
+        { 
+            "id": "MAC Address: 5006.0003.0003"
+        },
+        { 
+            "id": "Port Channel Member: False"
+        }
+    ],
+    "links": [
+        { 
+            "source": "CSR14",
+            "target": "Port-channel6",
+            "cost": 2            
+        },
+        { 
+            "source": "Port-channel6",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "Port-channel6",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "Port-channel6",
+            "target": "MAC Address: 001e.bd48.20c5",
+            "cost": 2
+        },  
+        { 
+            "source": "Port-channel6",
+            "target": "Port Channel Member: GigabitEthernet5",
+            "cost": 2
+        },
+        { 
+            "source": "CSR14",
+            "target": "Loopback0",
+            "cost": 2
+        },
+        { 
+            "source": "Loopback0",
+            "target": "IP Address: 10.255.255.14/32",
+            "cost": 2
+        },
+        { 
+            "source": "Loopback0",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "Loopback0",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "Loopback0",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet11",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet11",
+            "target": "IP Address: 10.14.15.14/24",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet11",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "GigabitEthernet11",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet11",
+            "target": "MAC Address: 5006.0003.000a",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet11",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        },
+        {
+            "source": "CSR14",
+            "target": "GigabitEthernet10",
+            "cost": 2             
+        },
+        { 
+            "source": "GigabitEthernet10",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "GigabitEthernet10",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet10",
+            "target": "MAC Address: 5006.0003.0009",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet10",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet9",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet9",
+            "target": "IP Address: 172.18.3.14/24",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet9",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "GigabitEthernet9",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet9",
+            "target": "MAC Address: 5006.0003.0008",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet9",
+            "target": "VRF: CustC",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet9",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        },
+        {
+            "source": "CSR14",
+            "target": "GigabitEthernet8",
+            "cost": 2             
+        },
+        { 
+            "source": "GigabitEthernet8",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "GigabitEthernet8",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet8",
+            "target": "MAC Address: 5006.0003.0007",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet8",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        },
+        {
+            "source": "CSR14",
+            "target": "GigabitEthernet7",
+            "cost": 2             
+        },
+        { 
+            "source": "GigabitEthernet7",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "GigabitEthernet7",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet7",
+            "target": "MAC Address: 5006.0003.0006",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet7",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        },
+        {
+            "source": "CSR14",
+            "target": "GigabitEthernet6",
+            "cost": 2             
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "MAC Address: 5006.0003.0005",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        },
+        {
+            "source": "CSR14",
+            "target": "GigabitEthernet5",
+            "cost": 2             
+        },
+        { 
+            "source": "GigabitEthernet5",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "GigabitEthernet5",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet5",
+            "target": "MAC Address: 001e.bd48.20c5",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet5",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        },
+        { 
+            "source": "CSR14",
+            "target": "GigabitEthernet4",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet4",
+            "target": "IP Address: 10.14.99.14/24",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet4",
+            "target": "Enabled: True",
+            "cost": 2
+        },        
+        { 
+            "source": "GigabitEthernet4",
+            "target": "Operational Status: up",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet4",
+            "target": "MAC Address: 5006.0003.0003",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet4",
+            "target": "Port Channel Member: False",
+            "cost": 2
+        }
+    ]
+}

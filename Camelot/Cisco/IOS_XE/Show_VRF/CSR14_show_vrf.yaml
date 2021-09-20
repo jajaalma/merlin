@@ -1,0 +1,9 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  vrf:
+    CustC:
+      interfaces:
+      - GigabitEthernet9
+      protocols:
+      - ipv4
+      route_distinguisher: '20000:3'

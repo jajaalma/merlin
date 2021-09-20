@@ -1,0 +1,54 @@
+{
+    "type": "NetworkGraph",
+    "label": "Learn STP Global",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR14"
+        },
+        { 
+            "id": "BPDU Filter: False"
+        },
+        { 
+            "id": "BPDU Guard: False"
+        },
+        { 
+            "id": "BPDU Timeout Recovery: "
+        },
+        { 
+            "id": "EtherChannel Misconfig Guard: True"
+        },        
+        { 
+            "id": "Loop Guard: False"
+        }        
+    ],
+    "links": [
+        { 
+            "source": "CSR14",
+            "target": "BPDU Filter: False",
+            "cost": 1
+        },
+        { 
+            "source": "CSR14",
+            "target": "BPDU Guard: False",
+            "cost": 1
+        },
+        { 
+            "source": "BPDU Guard: False",
+            "target": "BPDU Timeout Recovery: ",
+            "cost": 1                        
+        },
+        { 
+            "source": "CSR14",
+            "target": "EtherChannel Misconfig Guard: True",
+            "cost": 1
+        },        
+        { 
+            "source": "CSR14",
+            "target": "Loop Guard: False",
+            "cost": 1            
+        }        
+    ]
+}

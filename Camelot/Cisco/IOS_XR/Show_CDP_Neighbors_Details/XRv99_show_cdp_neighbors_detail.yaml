@@ -1,0 +1,120 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  index:
+    1:
+      advertisement_ver: 2
+      capabilities: Router IGMP
+      device_id: CSR11
+      duplex_mode: full
+      entry_addresses:
+        10.11.99.11: {}
+      hold_time: 152
+      local_interface: GigabitEthernet0/0/0/1
+      native_vlan: ''
+      platform: cisco CSR1000V
+      port_id: GigabitEthernet1
+      software_version: 'Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),
+        Version 17.2.1r, RELEASE SOFTWARE (fc2)
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2020 by Cisco Systems, Inc.
+
+        Compiled Thu 09-Apr-20 23:22 by mcpre'
+      system_name: ''
+    2:
+      advertisement_ver: 2
+      capabilities: Router
+      device_id: XRv12
+      duplex_mode: full
+      entry_addresses:
+        10.12.99.12: {}
+      hold_time: 175
+      local_interface: GigabitEthernet0/0/0/2
+      native_vlan: ''
+      platform: cisco IOS XRv Series
+      port_id: GigabitEthernet0/0/0/2
+      software_version: 'Cisco IOS XR Software, Version 6.1.3[Default]
+
+        Copyright (c) 2017 by Cisco Systems, Inc.'
+      system_name: XRv12
+    3:
+      advertisement_ver: 2
+      capabilities: Router IGMP
+      device_id: CSR13
+      duplex_mode: full
+      entry_addresses:
+        10.13.99.13: {}
+      hold_time: 170
+      local_interface: GigabitEthernet0/0/0/3
+      native_vlan: ''
+      platform: cisco CSR1000V
+      port_id: GigabitEthernet3
+      software_version: 'Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),
+        Version 17.2.1r, RELEASE SOFTWARE (fc2)
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2020 by Cisco Systems, Inc.
+
+        Compiled Thu 09-Apr-20 23:22 by mcpre'
+      system_name: ''
+    4:
+      advertisement_ver: 2
+      capabilities: Router IGMP
+      device_id: CSR14
+      duplex_mode: full
+      entry_addresses:
+        10.14.99.14: {}
+      hold_time: 164
+      local_interface: GigabitEthernet0/0/0/4
+      native_vlan: ''
+      platform: cisco CSR1000V
+      port_id: GigabitEthernet4
+      software_version: 'Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),
+        Version 17.2.1r, RELEASE SOFTWARE (fc2)
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2020 by Cisco Systems, Inc.
+
+        Compiled Thu 09-Apr-20 23:22 by mcpre'
+      system_name: ''
+    5:
+      advertisement_ver: 2
+      capabilities: Router
+      device_id: XRv15
+      duplex_mode: full
+      entry_addresses:
+        10.15.99.15: {}
+      hold_time: 136
+      local_interface: GigabitEthernet0/0/0/5
+      native_vlan: ''
+      platform: cisco IOS XRv Series
+      port_id: GigabitEthernet0/0/0/5
+      software_version: 'Cisco IOS XR Software, Version 6.1.3[Default]
+
+        Copyright (c) 2017 by Cisco Systems, Inc.'
+      system_name: XRv15
+    6:
+      advertisement_ver: 2
+      capabilities: Router IGMP
+      device_id: CSR16
+      duplex_mode: full
+      entry_addresses:
+        10.16.99.16: {}
+      hold_time: 154
+      local_interface: GigabitEthernet0/0/0/6
+      native_vlan: ''
+      platform: cisco CSR1000V
+      port_id: GigabitEthernet6
+      software_version: 'Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),
+        Version 17.2.1r, RELEASE SOFTWARE (fc2)
+
+        Technical Support: http://www.cisco.com/techsupport
+
+        Copyright (c) 1986-2020 by Cisco Systems, Inc.
+
+        Compiled Thu 09-Apr-20 23:22 by mcpre'
+      system_name: ''
+  total_entries_displayed: 6

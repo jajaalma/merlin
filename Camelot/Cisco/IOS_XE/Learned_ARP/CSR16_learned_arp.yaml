@@ -1,0 +1,148 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  interfaces: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      GigabitEthernet14: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              local_proxy_enable: false
+              proxy_enable: true
+            state:
+              leaf_dict:
+                local_proxy_enable: &id001 !!python/name:genie.libs.parser.iosxe.show_interface.ShowIpInterface ''
+                proxy_enable: *id001
+          ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  10.15.16.15: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      ip: 10.15.16.15
+                      link_layer_address: 5006.0007.000f
+                      origin: dynamic
+                    state:
+                      leaf_dict:
+                        ip: &id002 !!python/name:genie.libs.parser.iosxe.show_arp.ShowIpArp ''
+                        link_layer_address: *id002
+                        origin: *id002
+                  10.15.16.16: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      ip: 10.15.16.16
+                      link_layer_address: 5006.0004.000d
+                      origin: static
+                    state:
+                      leaf_dict:
+                        ip: *id002
+                        link_layer_address: *id002
+                        origin: *id002
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict: {}
+      GigabitEthernet6: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              local_proxy_enable: false
+              proxy_enable: true
+            state:
+              leaf_dict:
+                local_proxy_enable: *id001
+                proxy_enable: *id001
+          ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  10.16.99.16: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      ip: 10.16.99.16
+                      link_layer_address: 5006.0004.0005
+                      origin: static
+                    state:
+                      leaf_dict:
+                        ip: *id002
+                        link_layer_address: *id002
+                        origin: *id002
+                  10.16.99.99: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      ip: 10.16.99.99
+                      link_layer_address: 5006.0009.0007
+                      origin: dynamic
+                    state:
+                      leaf_dict:
+                        ip: *id002
+                        link_layer_address: *id002
+                        origin: *id002
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict: {}
+      GigabitEthernet8: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              local_proxy_enable: false
+              proxy_enable: true
+            state:
+              leaf_dict:
+                local_proxy_enable: *id001
+                proxy_enable: *id001
+          ipv4: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              neighbors: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  172.17.3.16: !!python/object/new:genie.ops.base.maker.CmdDict
+                    dictitems:
+                      ip: 172.17.3.16
+                      link_layer_address: 5006.0004.0007
+                      origin: static
+                    state:
+                      leaf_dict:
+                        ip: *id002
+                        link_layer_address: *id002
+                        origin: *id002
+                state:
+                  leaf_dict: {}
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict: {}
+      Loopback0: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          arp_dynamic_learning: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              local_proxy_enable: false
+              proxy_enable: true
+            state:
+              leaf_dict:
+                local_proxy_enable: *id001
+                proxy_enable: *id001
+        state:
+          leaf_dict: {}
+    state:
+      leaf_dict: {}
+  statistics: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      entries_total: 5
+      in_drops: 0
+      in_replies_pkts: 5
+      in_requests_pkts: 10
+      incomplete_total: 0
+      out_replies_pkts: 18
+      out_requests_pkts: 3
+    state:
+      leaf_dict:
+        entries_total: &id004 !!python/name:genie.libs.parser.iosxe.show_arp.ShowIpArpSummary ''
+        in_drops: &id003 !!python/name:genie.libs.parser.iosxe.show_arp.ShowIpTraffic ''
+        in_replies_pkts: *id003
+        in_requests_pkts: *id003
+        incomplete_total: *id004
+        out_replies_pkts: *id003
+        out_requests_pkts: *id003
+state:
+  leaf_dict: {}

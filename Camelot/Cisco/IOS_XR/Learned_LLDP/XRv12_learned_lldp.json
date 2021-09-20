@@ -1,0 +1,103 @@
+{
+    "counters": {
+        "entries_aged_out": 0,
+        "frame_discard": 0,
+        "frame_error_in": 0,
+        "frame_in": 3463,
+        "frame_out": 18710,
+        "tlv_discard": 0,
+        "tlv_unknown": 0
+    },
+    "enabled": true,
+    "hello_timer": 30,
+    "hold_timer": 120,
+    "interfaces": {
+        "GigabitEthernet0/0/0/10": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet10": {
+                    "neighbors": {
+                        "CSR11": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "001e.e69a.3d00",
+                            "management_address": "10.11.12.11",
+                            "neighbor_id": "CSR11",
+                            "port_description": "GigabitEthernet10",
+                            "system_description": "Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 17.2.1r, RELEASE SOFTWARE (fc2)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2020 by Cisco Systems, Inc.\nCompiled Thu 09-Apr-20 23:22",
+                            "system_name": "CSR11"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet0/0/0/11": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet11": {
+                    "neighbors": {
+                        "CSR13": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "001e.e631.4500",
+                            "management_address": "10.12.13.13",
+                            "neighbor_id": "CSR13",
+                            "port_description": "GigabitEthernet11",
+                            "system_description": "Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 17.2.1r, RELEASE SOFTWARE (fc2)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2020 by Cisco Systems, Inc.\nCompiled Thu 09-Apr-20 23:22",
+                            "system_name": "CSR13"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet0/0/0/2": {
+            "enabled": true,
+            "port_id": {
+                "GigabitEthernet0/0/0/2": {
+                    "neighbors": {
+                        "XRv99": {
+                            "capabilities": {
+                                "router": {
+                                    "enabled": true
+                                }
+                            },
+                            "chassis_id": "0232.06be.0c06",
+                            "management_address": "10.12.99.99",
+                            "neighbor_id": "XRv99",
+                            "port_description": "not advertised",
+                            "system_description": "Cisco IOS XR Software, Version 6.1.3[Default]\nCopyright (c) 2017 by Cisco Systems, Inc., IOS XRv Series\n",
+                            "system_name": "XRv99"
+                        }
+                    }
+                }
+            }
+        },
+        "GigabitEthernet0/0/0/3": {
+            "enabled": true
+        },
+        "GigabitEthernet0/0/0/4": {
+            "enabled": true
+        },
+        "GigabitEthernet0/0/0/5": {
+            "enabled": true
+        },
+        "GigabitEthernet0/0/0/6": {
+            "enabled": true
+        },
+        "GigabitEthernet0/0/0/7": {
+            "enabled": true
+        },
+        "GigabitEthernet0/0/0/8": {
+            "enabled": true
+        },
+        "GigabitEthernet0/0/0/9": {
+            "enabled": true
+        }
+    }
+}

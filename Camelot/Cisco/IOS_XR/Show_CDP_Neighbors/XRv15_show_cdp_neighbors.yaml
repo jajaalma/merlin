@@ -1,0 +1,25 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  cdp:
+    index:
+      1:
+        capability: R
+        device_id: XRv99
+        hold_time: 174
+        local_interface: GigabitEthernet0/0/0/5
+        platform: ''
+        port_id: IOSXRvSGi0/0/0/5
+      2:
+        capability: R I
+        device_id: CSR14
+        hold_time: 163
+        local_interface: GigabitEthernet0/0/0/11
+        platform: CSR1000V
+        port_id: GigabitEthernet11
+      3:
+        capability: R I
+        device_id: CSR16
+        hold_time: 151
+        local_interface: GigabitEthernet0/0/0/14
+        platform: CSR1000V
+        port_id: GigabitEthernet14

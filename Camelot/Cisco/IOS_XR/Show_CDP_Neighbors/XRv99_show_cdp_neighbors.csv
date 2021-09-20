@@ -1,0 +1,12 @@
+Neighbor,Platform,Local Interface,Remote Interface,Capability,Hold Time
+CSR11,CSR1000V,GigabitEthernet0/0/0/1,GigabitEthernet1,R I,154
+
+XRv12,,GigabitEthernet0/0/0/2,IOSXRvSGi0/0/0/2,R,176
+
+CSR13,CSR1000V,GigabitEthernet0/0/0/3,GigabitEthernet3,R I,171
+
+CSR14,CSR1000V,GigabitEthernet0/0/0/4,GigabitEthernet4,R I,165
+
+XRv15,,GigabitEthernet0/0/0/5,IOSXRvSGi0/0/0/5,R,137
+
+CSR16,CSR1000V,GigabitEthernet0/0/0/6,GigabitEthernet6,R I,155

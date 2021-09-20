@@ -1,0 +1,9 @@
+VRF,Address Family,Route,Active,Metric,Next Hop Index,Next Hop,Outgoing Interface,Route Preference,Source Protocol,Source Protocol Code
+CustB,ipv4,172.17.3.16/32,True,N/A,N/A,N/A,GigabitEthernet8,N/A,local,L
+CustB,ipv4,172.17.3.0/24,True,N/A,N/A,N/A,GigabitEthernet8,N/A,connected,C
+CustB,ipv4,172.17.2.0/24,True,0,1,10.255.255.12,N/A,200,bgp,B
+CustB,ipv4,172.17.1.0/24,True,0,1,10.255.255.12,N/A,200,bgp,B
+CustB,ipv4,10.4.255.3/32,True,110,1,10.255.255.15,N/A,200,bgp,B
+CustB,ipv4,10.4.255.2/32,True,110,1,10.255.255.15,N/A,200,bgp,B
+CustB,ipv4,10.2.255.2/32,True,2,1,10.255.255.12,N/A,200,bgp,B
+CustB,ipv4,10.2.255.1/32,True,2,1,10.255.255.12,N/A,200,bgp,B

@@ -1,0 +1,29 @@
+VRF,Address Family,Route,Active,Metric,Next Hop Index,Next Hop,Outgoing Interface,Route Preference,Source Protocol,Source Protocol Code
+default,ipv4,10.255.255.99/32,True,N/A,N/A,N/A,Loopback0,N/A,local,L
+default,ipv4,10.255.255.16/32,True,10,1,10.16.99.16,N/A,115,isis,i L2
+default,ipv4,10.255.255.15/32,True,10,1,10.15.99.15,N/A,115,isis,i L2
+default,ipv4,10.255.255.14/32,True,10,1,10.14.99.14,N/A,115,isis,i L2
+default,ipv4,10.255.255.13/32,True,10,1,10.13.99.13,N/A,115,isis,i L2
+default,ipv4,10.255.255.12/32,True,10,1,10.12.99.12,N/A,115,isis,i L2
+default,ipv4,10.255.255.11/32,True,10,1,10.11.99.11,N/A,115,isis,i L2
+default,ipv4,10.16.99.99/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/6,N/A,local,L
+default,ipv4,10.16.99.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/6,N/A,connected,C
+default,ipv4,10.15.99.99/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/5,N/A,local,L
+default,ipv4,10.15.99.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/5,N/A,connected,C
+default,ipv4,10.15.16.0/24,True,2,1,10.15.99.15,N/A,110,ospf,O
+default,ipv4,10.14.99.99/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/4,N/A,local,L
+default,ipv4,10.14.99.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/4,N/A,connected,C
+default,ipv4,10.14.15.0/24,True,2,2,10.15.99.15,N/A,110,ospf,O
+default,ipv4,10.14.15.0/24,True,2,1,10.14.99.14,N/A,110,ospf,O
+default,ipv4,10.13.99.99/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/3,N/A,local,L
+default,ipv4,10.13.99.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/3,N/A,connected,C
+default,ipv4,10.12.99.99/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/2,N/A,local,L
+default,ipv4,10.12.99.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/2,N/A,connected,C
+default,ipv4,10.12.13.0/24,True,2,2,10.13.99.13,N/A,110,ospf,O
+default,ipv4,10.12.13.0/24,True,2,1,10.12.99.12,N/A,110,ospf,O
+default,ipv4,10.11.99.99/32,True,N/A,N/A,N/A,GigabitEthernet0/0/0/1,N/A,local,L
+default,ipv4,10.11.99.0/24,True,N/A,N/A,N/A,GigabitEthernet0/0/0/1,N/A,connected,C
+default,ipv4,10.11.12.0/24,True,2,2,10.12.99.12,N/A,110,ospf,O
+default,ipv4,10.11.12.0/24,True,2,1,10.11.99.11,N/A,110,ospf,O
+**nVSatellite,ipv4,10.0.0.2/32,True,N/A,N/A,N/A,nV-Loopback1,N/A,local,L
+**nVSatellite,ipv4,10.0.0.1/32,True,N/A,N/A,N/A,nV-Loopback0,N/A,local,L

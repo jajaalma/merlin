@@ -1,0 +1,3722 @@
+{
+    "type": "NetworkGraph",
+    "label": "Learn Interfaces",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR16"
+        },  
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 2"
+        },
+        { 
+            "id": "Router ID: 10.2.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 3"
+        },                
+        { 
+            "id": "Advertising Router: 10.2.255.16"
+        },      
+        { 
+            "id": "LSA ID: 172.17.2.0"
+        },
+        { 
+            "id": "Topology: 0"
+        },  
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 2"
+        },
+        { 
+            "id": "Router ID: 10.2.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 3"
+        },                
+        { 
+            "id": "Advertising Router: 10.2.255.16"
+        },      
+        { 
+            "id": "LSA ID: 172.17.1.0"
+        },
+        { 
+            "id": "Topology: 0"
+        },  
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 2"
+        },
+        { 
+            "id": "Router ID: 10.2.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 3"
+        },                
+        { 
+            "id": "Advertising Router: 10.2.255.16"
+        },      
+        { 
+            "id": "LSA ID: 10.2.255.2"
+        },
+        { 
+            "id": "Topology: 0"
+        },  
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 2"
+        },
+        { 
+            "id": "Router ID: 10.2.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 3"
+        },                
+        { 
+            "id": "Advertising Router: 10.2.255.16"
+        },      
+        { 
+            "id": "LSA ID: 10.2.255.1"
+        },
+        { 
+            "id": "Topology: 0"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.99"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.99"
+        },
+        { 
+            "id": "Link: 10.16.99.99"
+        },           
+        { 
+            "id": "Link ID: 10.16.99.99"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.99"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.99"
+        },
+        { 
+            "id": "Link: 10.15.99.99"
+        },           
+        { 
+            "id": "Link ID: 10.15.99.99"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.99"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.99"
+        },
+        { 
+            "id": "Link: 10.14.99.99"
+        },           
+        { 
+            "id": "Link ID: 10.14.99.99"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.99"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.99"
+        },
+        { 
+            "id": "Link: 10.13.99.13"
+        },           
+        { 
+            "id": "Link ID: 10.13.99.13"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.99"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.99"
+        },
+        { 
+            "id": "Link: 10.12.99.12"
+        },           
+        { 
+            "id": "Link ID: 10.12.99.12"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.99"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.99"
+        },
+        { 
+            "id": "Link: 10.11.99.11"
+        },           
+        { 
+            "id": "Link ID: 10.11.99.11"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.16"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.16"
+        },
+        { 
+            "id": "Link: 10.16.99.99"
+        },           
+        { 
+            "id": "Link ID: 10.16.99.99"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.15"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.15"
+        },
+        { 
+            "id": "Link: 10.15.16.0"
+        },           
+        { 
+            "id": "Link ID: 10.15.16.0"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.15"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.15"
+        },
+        { 
+            "id": "Link: 10.14.15.14"
+        },           
+        { 
+            "id": "Link ID: 10.14.15.14"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.15"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.15"
+        },
+        { 
+            "id": "Link: 10.15.99.99"
+        },           
+        { 
+            "id": "Link ID: 10.15.99.99"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.14"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.14"
+        },
+        { 
+            "id": "Link: 10.14.99.99"
+        },           
+        { 
+            "id": "Link ID: 10.14.99.99"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.14"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.14"
+        },
+        { 
+            "id": "Link: 10.14.15.14"
+        },           
+        { 
+            "id": "Link ID: 10.14.15.14"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.13"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.13"
+        },
+        { 
+            "id": "Link: 10.13.99.13"
+        },           
+        { 
+            "id": "Link ID: 10.13.99.13"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.13"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.13"
+        },
+        { 
+            "id": "Link: 10.12.13.12"
+        },           
+        { 
+            "id": "Link ID: 10.12.13.12"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.12"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.12"
+        },
+        { 
+            "id": "Link: 10.12.13.12"
+        },           
+        { 
+            "id": "Link ID: 10.12.13.12"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.12"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.12"
+        },
+        { 
+            "id": "Link: 10.11.12.11"
+        },           
+        { 
+            "id": "Link ID: 10.11.12.11"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.12"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.12"
+        },
+        { 
+            "id": "Link: 10.12.99.12"
+        },           
+        { 
+            "id": "Link ID: 10.12.99.12"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.11"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.11"
+        },
+        { 
+            "id": "Link: 10.11.99.11"
+        },           
+        { 
+            "id": "Link ID: 10.11.99.11"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: default"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 1"
+        },
+        { 
+            "id": "Router ID: 10.255.255.16"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "Area Type: normal"
+        }, 
+        { 
+            "id": "LSA Type: 1"
+        },               
+        { 
+            "id": "Advertising Router: 10.255.255.11"
+        },      
+        { 
+            "id": "LSA ID: 10.255.255.11"
+        },
+        { 
+            "id": "Link: 10.11.12.11"
+        },           
+        { 
+            "id": "Link ID: 10.11.12.11"
+        },            
+        { 
+            "id": "Topology: 0"
+        },      
+        { 
+            "id": "GigabitEthernet6"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: bdr"
+        },
+        { 
+            "id": "Neighbor: 10.255.255.99"
+        },
+        { 
+            "id": "Address: 10.16.99.99"
+        },
+        { 
+            "id": "BDR IP: 10.16.99.16"
+        },
+        { 
+            "id": "DR IP: 10.16.99.99"
+        },
+        { 
+            "id": "Router ID: 10.255.255.99"
+        },
+        { 
+            "id": "State: full"
+        },
+        { 
+            "id": "VRF: CustB"
+        },
+        { 
+            "id": "ipv4"
+        },
+        { 
+            "id": "OSPF Instance: 2"
+        },
+        { 
+            "id": "Area: 0.0.0.0"
+        },
+        { 
+            "id": "GigabitEthernet8"
+        },
+        { 
+            "id": "Enabled: True"
+        },
+        { 
+            "id": "Passive: False"
+        },
+        { 
+            "id": "State: dr"
+        }
+    ],
+    "links": [  
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 2",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Router ID: 10.2.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 3",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 3",
+            "target": "LSA ID: 172.17.2.0",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 172.17.2.0",
+            "target": "Advertising Router: 10.2.255.16",
+            "cost": 2
+        },  
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 2",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Router ID: 10.2.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 3",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 3",
+            "target": "LSA ID: 172.17.1.0",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 172.17.1.0",
+            "target": "Advertising Router: 10.2.255.16",
+            "cost": 2
+        },  
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 2",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Router ID: 10.2.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 3",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 3",
+            "target": "LSA ID: 10.2.255.2",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.2.255.2",
+            "target": "Advertising Router: 10.2.255.16",
+            "cost": 2
+        },  
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 2",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Router ID: 10.2.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 3",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 3",
+            "target": "LSA ID: 10.2.255.1",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.2.255.1",
+            "target": "Advertising Router: 10.2.255.16",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.99",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Advertising Router: 10.255.255.99",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Link: 10.16.99.99",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.16.99.99",
+            "target": "Link ID: 10.16.99.99",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.16.99.99",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.99",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Advertising Router: 10.255.255.99",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Link: 10.15.99.99",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.15.99.99",
+            "target": "Link ID: 10.15.99.99",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.15.99.99",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.99",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Advertising Router: 10.255.255.99",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Link: 10.14.99.99",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.14.99.99",
+            "target": "Link ID: 10.14.99.99",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.14.99.99",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.99",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Advertising Router: 10.255.255.99",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Link: 10.13.99.13",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.13.99.13",
+            "target": "Link ID: 10.13.99.13",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.13.99.13",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.99",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Advertising Router: 10.255.255.99",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Link: 10.12.99.12",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.12.99.12",
+            "target": "Link ID: 10.12.99.12",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.12.99.12",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.99",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Advertising Router: 10.255.255.99",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.99",
+            "target": "Link: 10.11.99.11",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.11.99.11",
+            "target": "Link ID: 10.11.99.11",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.11.99.11",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.16",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.16",
+            "target": "Advertising Router: 10.255.255.16",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.16",
+            "target": "Link: 10.16.99.99",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.16.99.99",
+            "target": "Link ID: 10.16.99.99",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.16.99.99",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.15",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.15",
+            "target": "Advertising Router: 10.255.255.15",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.15",
+            "target": "Link: 10.15.16.0",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.15.16.0",
+            "target": "Link ID: 10.15.16.0",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.15.16.0",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.15",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.15",
+            "target": "Advertising Router: 10.255.255.15",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.15",
+            "target": "Link: 10.14.15.14",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.14.15.14",
+            "target": "Link ID: 10.14.15.14",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.14.15.14",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.15",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.15",
+            "target": "Advertising Router: 10.255.255.15",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.15",
+            "target": "Link: 10.15.99.99",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.15.99.99",
+            "target": "Link ID: 10.15.99.99",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.15.99.99",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.14",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.14",
+            "target": "Advertising Router: 10.255.255.14",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.14",
+            "target": "Link: 10.14.99.99",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.14.99.99",
+            "target": "Link ID: 10.14.99.99",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.14.99.99",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.14",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.14",
+            "target": "Advertising Router: 10.255.255.14",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.14",
+            "target": "Link: 10.14.15.14",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.14.15.14",
+            "target": "Link ID: 10.14.15.14",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.14.15.14",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.13",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.13",
+            "target": "Advertising Router: 10.255.255.13",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.13",
+            "target": "Link: 10.13.99.13",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.13.99.13",
+            "target": "Link ID: 10.13.99.13",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.13.99.13",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.13",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.13",
+            "target": "Advertising Router: 10.255.255.13",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.13",
+            "target": "Link: 10.12.13.12",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.12.13.12",
+            "target": "Link ID: 10.12.13.12",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.12.13.12",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.12",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.12",
+            "target": "Advertising Router: 10.255.255.12",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.12",
+            "target": "Link: 10.12.13.12",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.12.13.12",
+            "target": "Link ID: 10.12.13.12",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.12.13.12",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.12",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.12",
+            "target": "Advertising Router: 10.255.255.12",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.12",
+            "target": "Link: 10.11.12.11",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.11.12.11",
+            "target": "Link ID: 10.11.12.11",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.11.12.11",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.12",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.12",
+            "target": "Advertising Router: 10.255.255.12",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.12",
+            "target": "Link: 10.12.99.12",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.12.99.12",
+            "target": "Link ID: 10.12.99.12",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.12.99.12",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.11",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.11",
+            "target": "Advertising Router: 10.255.255.11",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.11",
+            "target": "Link: 10.11.99.11",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.11.99.11",
+            "target": "Link ID: 10.11.99.11",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.11.99.11",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: default",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: default",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 1",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Router ID: 10.255.255.16",
+            "cost": 2            
+        },
+        { 
+            "source": "OSPF Instance: 1",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "Area Type: normal",
+            "cost": 2
+        }, 
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "LSA Type: 1",
+            "cost": 1
+        },               
+        { 
+            "source": "LSA Type: 1",
+            "target": "LSA ID: 10.255.255.11",
+            "cost": 1                        
+        },
+        { 
+            "source": "LSA ID: 10.255.255.11",
+            "target": "Advertising Router: 10.255.255.11",
+            "cost": 2            
+        },      
+        { 
+            "source": "LSA ID: 10.255.255.11",
+            "target": "Link: 10.11.12.11",
+            "cost": 1
+        },           
+        { 
+            "source": "Link: 10.11.12.11",
+            "target": "Link ID: 10.11.12.11",
+            "cost": 2
+        },            
+        { 
+            "source": "Link: 10.11.12.11",
+            "target": "Topology: 0",
+            "cost": 1         
+        },      
+        { 
+            "source": "Topology: 0",
+            "target": "GigabitEthernet6",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Enabled: True",
+            "cost": 2           
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Passive: False",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "State: bdr",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet6",
+            "target": "Neighbor: 10.255.255.99",
+            "cost": 1
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Address: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "BDR IP: 10.16.99.16",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "DR IP: 10.16.99.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "Router ID: 10.255.255.99",
+            "cost": 2
+        },
+        { 
+            "source": "Neighbor: 10.255.255.99",
+            "target": "State: full",
+            "cost": 2
+        },
+        {
+            "source": "CSR16",
+            "target": "VRF: CustB",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustB",
+            "target": "ipv4",
+            "cost": 1
+        },
+        { 
+            "source": "ipv4",
+            "target": "OSPF Instance: 2",
+            "cost": 1
+        },
+        { 
+            "source": "OSPF Instance: 2",
+            "target": "Area: 0.0.0.0",
+            "cost": 1
+        },
+        { 
+            "source": "Area: 0.0.0.0",
+            "target": "GigabitEthernet8",
+            "cost": 1
+        },
+        { 
+            "source": "GigabitEthernet8",
+            "target": "Enabled: True",
+            "cost": 2
+        },
+        { 
+            "source": "GigabitEthernet8",
+            "target": "Passive: False",
+            "cost": 2  
+        },
+        { 
+            "source": "GigabitEthernet8",
+            "target": "State: dr",
+            "cost": 2 
+        }
+    ]
+}

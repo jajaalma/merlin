@@ -1,0 +1,22 @@
+!!python/object/new:genie.ops.base.maker.CmdDict
+dictitems:
+  vrfs: !!python/object/new:genie.ops.base.maker.CmdDict
+    dictitems:
+      red: !!python/object/new:genie.ops.base.maker.CmdDict
+        dictitems:
+          address_family: !!python/object/new:genie.ops.base.maker.CmdDict
+            dictitems:
+              ipv4 unicast: !!python/object/new:genie.ops.base.maker.CmdDict
+                dictitems:
+                  table_id: '0x1'
+                state:
+                  leaf_dict:
+                    table_id: !!python/name:genie.libs.parser.iosxe.show_vrf.ShowVrfDetail ''
+            state:
+              leaf_dict: {}
+        state:
+          leaf_dict: {}
+    state:
+      leaf_dict: {}
+state:
+  leaf_dict: {}

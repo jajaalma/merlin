@@ -1,0 +1,29 @@
+{
+    "interfaces": {
+        "GigabitEthernet0/0/0/1": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/4": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/5": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "GigabitEthernet0/0/0/6": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        },
+        "Loopback0": {
+            "arp_dynamic_learning": {
+                "proxy_enable": false
+            }
+        }
+    }
+}

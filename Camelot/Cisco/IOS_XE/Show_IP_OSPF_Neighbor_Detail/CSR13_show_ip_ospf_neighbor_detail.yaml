@@ -1,0 +1,57 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  vrf:
+    default:
+      address_family:
+        ipv4:
+          instance:
+            '1':
+              areas:
+                0.0.0.0:
+                  interfaces:
+                    GigabitEthernet11:
+                      neighbors:
+                        10.255.255.12:
+                          address: 10.12.13.12
+                          bdr_ip_addr: 10.12.13.13
+                          dead_timer: 00:00:36
+                          dr_ip_addr: 10.12.13.12
+                          first: 0x0(0)/0x0(0)/0x0(0)
+                          index: 1/1/1,
+                          interface: GigabitEthernet11
+                          neighbor_router_id: 10.255.255.12
+                          next: 0x0(0)/0x0(0)/0x0(0)
+                          priority: 1
+                          state: full
+                          statistics:
+                            last_retrans_max_scan_length: 1
+                            last_retrans_max_scan_time_msec: 0
+                            last_retrans_scan_length: 1
+                            last_retrans_scan_time_msec: 0
+                            nbr_event_count: 6
+                            nbr_retrans_qlen: 0
+                            total_retransmission: 1
+                          uptime: 04:02:23
+                    GigabitEthernet3:
+                      neighbors:
+                        10.255.255.99:
+                          address: 10.13.99.99
+                          bdr_ip_addr: 10.13.99.99
+                          dead_timer: 00:00:37
+                          dr_ip_addr: 10.13.99.13
+                          first: 0x0(0)/0x0(0)/0x0(0)
+                          index: 1/2/2,
+                          interface: GigabitEthernet3
+                          neighbor_router_id: 10.255.255.99
+                          next: 0x0(0)/0x0(0)/0x0(0)
+                          priority: 1
+                          state: full
+                          statistics:
+                            last_retrans_max_scan_length: 0
+                            last_retrans_max_scan_time_msec: 0
+                            last_retrans_scan_length: 0
+                            last_retrans_scan_time_msec: 0
+                            nbr_event_count: 6
+                            nbr_retrans_qlen: 0
+                            total_retransmission: 0
+                          uptime: 03:59:42

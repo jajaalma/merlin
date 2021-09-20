@@ -1,0 +1,58 @@
+{
+    "process_name": "1",
+    "vrfs": {
+        "default": {
+            "neighbors": {
+                "10.255.255.11": {
+                    "address": "10.11.99.11",
+                    "dead_time": "00:00:37",
+                    "interface": "GigabitEthernet0/0/0/1",
+                    "priority": "1",
+                    "state": "FULL/DR",
+                    "up_time": "06:31:55"
+                },
+                "10.255.255.12": {
+                    "address": "10.12.99.12",
+                    "dead_time": "00:00:37",
+                    "interface": "GigabitEthernet0/0/0/2",
+                    "priority": "1",
+                    "state": "FULL/DR",
+                    "up_time": "06:31:51"
+                },
+                "10.255.255.13": {
+                    "address": "10.13.99.13",
+                    "dead_time": "00:00:37",
+                    "interface": "GigabitEthernet0/0/0/3",
+                    "priority": "1",
+                    "state": "FULL/DR",
+                    "up_time": "06:31:55"
+                },
+                "10.255.255.14": {
+                    "address": "10.14.99.14",
+                    "dead_time": "00:00:31",
+                    "interface": "GigabitEthernet0/0/0/4",
+                    "priority": "1",
+                    "state": "FULL/BDR",
+                    "up_time": "06:28:54"
+                },
+                "10.255.255.15": {
+                    "address": "10.15.99.15",
+                    "dead_time": "00:00:38",
+                    "interface": "GigabitEthernet0/0/0/5",
+                    "priority": "1",
+                    "state": "FULL/BDR",
+                    "up_time": "06:23:51"
+                },
+                "10.255.255.16": {
+                    "address": "10.16.99.16",
+                    "dead_time": "00:00:31",
+                    "interface": "GigabitEthernet0/0/0/6",
+                    "priority": "1",
+                    "state": "FULL/BDR",
+                    "up_time": "06:30:30"
+                }
+            },
+            "total_neighbor_count": 6
+        }
+    }
+}

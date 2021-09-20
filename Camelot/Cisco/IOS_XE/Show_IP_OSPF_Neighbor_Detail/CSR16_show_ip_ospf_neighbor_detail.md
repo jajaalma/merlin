@@ -1,0 +1,5 @@
+
+# Show IP OPSF Neighbor Detail
+| VRF | Instance | Area | Interface | Neighbor | Neighbor Address | Neighbor Router ID | Index | Priority | State | Dead Time | Total Retransmissions | Uptime |
+| --- | -------- | ---- | --------- | -------- | ---------------- | ------------------ | ----- | -------- | ----- | --------- | --------------------- | ------ |
+| default | 1 | 0.0.0.0 | GigabitEthernet6 | 10.255.255.99 | 10.16.99.99 | 10.255.255.99 | 1/1/1 | 1 | full | 00:00:38 | 1 | 04:01:27 |

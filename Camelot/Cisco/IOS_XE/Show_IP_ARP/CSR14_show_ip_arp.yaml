@@ -1,0 +1,37 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  interfaces:
+    GigabitEthernet11:
+      ipv4:
+        neighbors:
+          10.14.15.14:
+            age: '-'
+            ip: 10.14.15.14
+            link_layer_address: 5006.0003.000a
+            origin: static
+            protocol: Internet
+            type: ARPA
+          10.14.15.15:
+            age: '128'
+            ip: 10.14.15.15
+            link_layer_address: 5006.0007.000c
+            origin: dynamic
+            protocol: Internet
+            type: ARPA
+    GigabitEthernet4:
+      ipv4:
+        neighbors:
+          10.14.99.14:
+            age: '-'
+            ip: 10.14.99.14
+            link_layer_address: 5006.0003.0003
+            origin: static
+            protocol: Internet
+            type: ARPA
+          10.14.99.99:
+            age: '104'
+            ip: 10.14.99.99
+            link_layer_address: 5006.0009.0005
+            origin: dynamic
+            protocol: Internet
+            type: ARPA

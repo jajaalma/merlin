@@ -1,0 +1,102 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show Interface Status",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR16"
+        },
+        {
+            "id": "Total Entries: 5"
+        },
+        {
+            "id": "Input Drops: 0"
+        },
+        {
+            "id": "Input Replies: 5"
+        },
+        { 
+            "id": "Input Requests: 10"
+        },
+        {
+            "id": "Input Total: "
+        },
+        {
+            "id": "Incomplete Total: 0"
+        },
+        {
+            "id": "Output Drops: "
+        },
+        { 
+            "id": "Output Gratuitous: "
+        },
+        {
+            "id": "Output Replies: 18"
+        },
+        {
+            "id": "Output Requests: 3"
+        },
+        {
+            "id": "Output Total: "
+        }       
+    ],
+    "links": [
+        {
+            "source": "CSR16",
+            "target": "Total Entries: 5",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Input Drops: 0",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Input Replies: 5",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Input Requests: 10",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Input Total: ",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Incomplete Total: 0",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Output Drops: ",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Output Gratuitous: ",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Output Replies: 18",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Output Requests: 3",
+            "cost": 1
+        },
+        {
+            "source": "CSR16",
+            "target": "Output Total: ",
+            "cost": 1
+        }      
+    ]
+}

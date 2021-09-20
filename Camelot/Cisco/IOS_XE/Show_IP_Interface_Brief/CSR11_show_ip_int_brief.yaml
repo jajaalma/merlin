@@ -1,0 +1,159 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  interface:
+    GigabitEthernet1:
+      interface_is_ok: 'YES'
+      ip_address: 10.11.99.11
+      method: TFTP
+      protocol: up
+      status: up
+    GigabitEthernet10:
+      interface_is_ok: 'YES'
+      ip_address: 10.11.12.11
+      method: TFTP
+      protocol: up
+      status: up
+    GigabitEthernet11:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet12:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet13:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet14:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet15:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet16:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet17:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet18:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet19:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet2:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: up
+      status: up
+    GigabitEthernet20:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet21:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet22:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet23:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet24:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet3:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: up
+      status: up
+    GigabitEthernet4:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: up
+      status: up
+    GigabitEthernet5:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet6:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet7:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet8:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet9:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    Loopback0:
+      interface_is_ok: 'YES'
+      ip_address: 10.255.255.11
+      method: TFTP
+      protocol: up
+      status: up
+    Port-channel6:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: up
+      status: up

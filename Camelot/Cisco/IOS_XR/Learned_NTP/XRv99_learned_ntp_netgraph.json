@@ -1,0 +1,94 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show NTP Clock State",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "XRv99"
+        },
+        { 
+            "id": "Association Address: "
+        },
+        { 
+            "id": "Local Mode: "
+        },
+        { 
+            "id": "Clock Offset: "
+        },
+        { 
+            "id": "Clock Precision: 2**10"
+        },
+        { 
+            "id": "Clock Reference ID: "
+        },
+        { 
+            "id": "Clock State: "
+        },
+        { 
+            "id": "Clock Stratum: "
+        },
+        { 
+            "id": "Reference Time: 00000000.00000000 (00:00:00.000 UTC Thu Jan  1 1970)"
+        },
+        { 
+            "id": "Root Delay: "
+        },        
+        { 
+            "id": "Root Dispersion: 1428.99"
+        }
+    ],
+    "links": [
+        { 
+            "source": "XRv99",
+            "target": "Association Address: ",
+            "cost": 1
+        },
+        { 
+            "source": "XRv99",
+            "target": "Local Mode: ",
+            "cost": 1
+        },
+        { 
+            "source": "XRv99",
+            "target": "Clock Offset: ",
+            "cost": 1
+        },
+        { 
+            "source": "XRv99",
+            "target": "Clock Precision: 2**10",
+            "cost": 1            
+        },
+        { 
+            "source": "XRv99",
+            "target": "Clock Reference ID: ",
+            "cost": 1
+        },
+        { 
+            "source": "XRv99",
+            "target": "Clock State: ",
+            "cost": 1
+        },
+        { 
+            "source": "XRv99",
+            "target": "Clock Stratum: ",
+            "cost": 1
+        },
+        { 
+            "source": "XRv99",
+            "target": "Reference Time: 00000000.00000000 (00:00:00.000 UTC Thu Jan  1 1970)",
+            "cost": 1
+        },
+        { 
+            "source": "XRv99",
+            "target": "Root Delay: ",
+            "cost": 1
+        },        
+        { 
+            "source": "XRv99",
+            "target": "Root Dispersion: 1428.99",
+            "cost": 1            
+        }        
+    ]
+}

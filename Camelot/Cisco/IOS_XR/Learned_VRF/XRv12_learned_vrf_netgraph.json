@@ -1,0 +1,110 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show VRF",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "XRv12"
+        },
+        { 
+            "id": "VRF: CustD"
+        },  
+        { 
+            "id": "Address Family: ipv4 unicast"
+        },
+        { 
+            "id": "RD: 20000:4"
+        },
+        { 
+            "id": "VRF: CustC"
+        },  
+        { 
+            "id": "Address Family: ipv4 unicast"
+        },
+        { 
+            "id": "RD: 20000:3"
+        },
+        { 
+            "id": "VRF: CustB"
+        },  
+        { 
+            "id": "Address Family: ipv4 unicast"
+        },
+        { 
+            "id": "RD: 20000:2"
+        },
+        { 
+            "id": "VRF: CustA"
+        },  
+        { 
+            "id": "Address Family: ipv4 unicast"
+        },
+        { 
+            "id": "RD: 20000:1"
+        }              
+    ],
+    "links": [ 
+        { 
+            "source": "XRv12",
+            "target": "VRF: CustD",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustD",
+            "target": "Address Family: ipv4 unicast",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustD",
+            "target": "RD: 20000:4",
+            "cost": 1
+        }, 
+        { 
+            "source": "XRv12",
+            "target": "VRF: CustC",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustC",
+            "target": "Address Family: ipv4 unicast",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustC",
+            "target": "RD: 20000:3",
+            "cost": 1
+        }, 
+        { 
+            "source": "XRv12",
+            "target": "VRF: CustB",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustB",
+            "target": "Address Family: ipv4 unicast",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustB",
+            "target": "RD: 20000:2",
+            "cost": 1
+        }, 
+        { 
+            "source": "XRv12",
+            "target": "VRF: CustA",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustA",
+            "target": "Address Family: ipv4 unicast",
+            "cost": 1            
+        },
+        { 
+            "source": "VRF: CustA",
+            "target": "RD: 20000:1",
+            "cost": 1
+        }                     
+    ]
+}

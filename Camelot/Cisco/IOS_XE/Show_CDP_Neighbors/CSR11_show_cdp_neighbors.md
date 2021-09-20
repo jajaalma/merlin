@@ -1,0 +1,6 @@
+
+# Show CDP Neighbors
+| Neighbor | Platform | Local Interface | Remote Interface | Capability | Hold Time |
+| -------- | -------- | --------------- | ---------------- | ---------- | --------- |
+| XRv99 |  | GigabitEthernet1 | IOSXRvSGig0/0/0/1 | R | 154 |
+| XRv12 |  | GigabitEthernet10 | IOSXRvSGig0/0/0/10 | R | 175 |

@@ -1,0 +1,31 @@
+{
+    "type": "NetworkGraph",
+    "label": "Show CDP Neighbor",
+    "protocol": "OLSR",
+    "version": "0.6.6.2",
+    "metric": "ETX",
+    "nodes": [
+        { 
+            "id": "CSR11"
+        },
+        
+        {
+            "id": "XRv99"
+        },
+        {
+            "id": "XRv12"
+        }
+    ],
+    "links": [
+        {
+            "source": "CSR11",
+            "target": "XRv99",
+            "cost": 1
+        },
+        {
+            "source": "CSR11",
+            "target": "XRv12",
+            "cost": 1
+        }
+    ]
+}
